@@ -1,0 +1,892 @@
+id_inv,keyword_original,calificacion,keyword_sugerida
+1,co-teaching,A,
+1,argumentation,S,argumentation orchestration
+1,mathematics education,A,
+1,special education,A,
+1,teacher professional development,A,
+2,mathematical problem solving,A,
+2,mathematical representation,A,
+2,math anxiety,A,
+2,elementary school teachers,A,
+2,multiple linear regression,A,
+3,computational thinking,A,
+3,design-based learning,A,
+3,preservice teachers,A,
+3,mathematics education,A,
+3,teacher training,S,teacher education
+4,mathematics education,A,
+4,gamification,A,
+4,primary education,A,
+4,academic performance,A,
+4,student motivation,A,
+5,mathematics education,A,
+5,written feedback,A,
+5,higher education,A,
+5,pedagogical strategy,A,
+5,mathematical focus,A,
+6,mathematics education,A,
+6,phenomenological philosophy,A,
+6,mathematical environment,S,innecesaria
+6,philosophical study,S,innecesaria
+6,calculus of variations,S,innecesaria
+7,covariational reasoning,A,
+7,geogebra,S,innecesaria
+7,functional relationships,A,
+7,container filling,S,innecesaria
+7,simulations,S,innecesaria
+8,metacognition,S,innecesaria
+8,mathematical modeling,A,
+8,primary school students,A,
+8,socio-emotional experiences,A,
+8,collaborative group work,A,
+9,blended learning,S,Research on blanded learning
+9,mathematics education,A,
+9,research trends,A,
+9,knowledge mapping,A,
+9,educational technology,S,PRISMA
+10,mathematics education,A,
+10,hybrid education,A,
+10,problem solving,A,
+10,university students,A,
+10,learning outcomes,A,
+11,mathematics education,A,
+11,secondary education,A,
+11,mathematical competence,S,mathematical competence predictors
+11,socio-economic background,A,
+11,mathematics anxiety,A,
+12,mathematics education,A,
+12,digital platforms,S,Bettermarks digital platform
+12,secondary school students,A,
+12,covid-19 pandemic,A,
+12,statistical analysis,S,quantitative statistical analysis
+13,mathematics education,A,
+13,logistic equation,A,
+13,qualitative analysis,A,
+13,mathematical modeling,S,systematic review
+13,educational contexts,A,
+14,mathematical thinking,S,mathematical education
+14,educational apps,A,
+14,early childhood education,A,
+14,mathematical learning,A,
+14,cognitive fundamentals,S,comparative analysis
+16,mental objects,A,
+16,improper fraction,A,
+16,realistic mathematics education,A,
+16,design experiment,A,
+16,mathematization,A,
+17,mathematics education,A,
+17,responsibility,A,
+17,dialogism,A,
+17,biodiversity,A,
+17,ethics,A,
+18,mathematics education,A,
+18,cartography,A,
+18,research group,A,
+18,hip hop culture,A,
+18,fieldwork,A,
+19,globalisation,A,
+19,ghettoisation,A,
+19,immigrant students,A,
+19,mathematics education,A,
+19,racism,A,
+20,mathematics education,A,
+20,sustainable development goals,A,
+20,rural school,A,
+20,ethnomathematics,A,
+20,bibliographic survey,A,
+21,racism,A,
+21,mathematics education,A,
+21,urban classroom,S,Urban Mathematics
+21,black students,A,
+21,racial identity,A,
+22,climate change,A,
+22,mathematics education,A,
+22,teacher education,S,Teacher Training
+22,critical thinking,S,Active Network Theory
+22,statistics course,A,
+23,feminist literature review,A,
+23,mathematics education,A,
+23,literature review methodologies,S,Systematic Literature Review
+23,situated knowledge,A,
+23,feminist perspective,S,Feminist Theory
+24,mathematics education,A,
+24,geopolitical south,A,
+24,knowledge making,S,Place-based Thinking
+24,language migrant,A,
+24,place-based thinking,A,
+25,mathematics education,A,
+25,technology integration,A,
+25,bibliometric study,A,
+25,teacher knowledge,S,TPACK Model
+25,educational technology,S,DMKC Framework
+26,mathematics education,A,
+26,chatbots,A,
+26,student learning,A,
+26,evaluation design,A,
+26,artificial intelligence,A,
+27,mathematics education,A,
+27,vulnerability,A,
+27,literature review,A,
+27,population groups,A,
+27,inclusive education,A,
+28,mathematics education,A,
+28,early childhood,A,
+28,teacher training,A,
+28,rubric,A,
+28,video analysis,A,
+29,mathematics education,A,
+29,teacher self-efficacy,A,
+29,secondary education,A,
+29,teacher training,A,
+29,content analysis,A,
+30,educational process,S,Pedagogical Experiment
+30,problem solving skills,S,Analytical Thinking
+30,mathematical competencies,A,
+31,mathematics achievement,A,
+31,self-regulation,A,
+31,motivation,A,
+31,socioeconomic status,S,Economic and social background
+31,educational intervention,A,
+32,mathematics education,A,
+32,augmented reality,A,
+32,virtual reality,A,
+32,academic achievement,A,
+32,inclusive education,A,
+33,mathematics education,A,
+33,teacher professional development,A,
+33,student learning,A,
+33,literature review,S,systematic literature review
+33,research instruments,S,research trends
+34,mathematics education,A,
+34,pedagogical strategies,A,
+34,case study,A,
+34,semiotic mediation,A,
+34,math teacher,S,mathematics teacher
+35,mathematics education,A,
+35,pre-service teachers,A,
+35,emerging technological environment,S,emerging learning environments
+35,didactic suitability,A,
+35,qualitative research,S,exploratory qualitative research
+36,mathematics education,A,
+36,statistical accessibility,A,
+36,educational sciences,S,Education
+36,data analysis,A,
+36,statistical methods,S,No word
+37,artificial intelligence,A,
+37,mathematics education,A,
+37,systematic review,A,
+37,research applications,S,No word
+37,teaching learning processes,S,No word
+38,math anxiety,A,
+38,math teaching anxiety,A,
+38,academic performance,A,
+38,self-confidence,A,
+38,general anxiety,S,math anxiety
+39,mathematics education,A,
+39,dialogic perspective,A,
+39,youth education,S,No word
+39,pedagogical concept,A,
+39,freirean dialogicity,S,No word
+40,mathematics education,A,
+40,teacher educators,A,
+40,communicative approaches,A,
+40,pedagogical interactions,A,
+40,student teachers,A,
+41,ethnomathematical articulation,A,
+41,mathematics education,A,
+41,culturally diverse classrooms,A,
+41,problem-solving,A,
+41,teacher training,A,
+42,sustainable development,A,
+42,statistics education,A,
+42,probability education,A,
+42,primary education,S,basic education
+42,cognitive demand,A,
+43,mathematics education,A,
+43,historical evolution,S,course of history
+43,research discipline,A,
+43,italian university,A,
+43,academic levels,A,
+44,mathematical contextualization,A,
+44,problem solving,A,
+44,mathematical competence,A,
+44,pedagogical innovation,A,
+44,teacher training,A,
+45,artificial intelligence,A,
+45,mathematics education,A,
+45,chatbots,A,
+45,satisfaction,A,
+45,digital competence,A,
+46,mathematics education,S,qualitative methodology
+46,ethnomathematics,A,
+46,rice pie,S,categorical analysis
+46,measurement processes,A,
+46,school mathematics,A,
+47,mathematical modelling,A,
+47,teacher education,A,
+47,primary school,A,
+47,anthropological theory,S,anthropological theory of the didactic
+47,didactics,S,Study and Research Path
+48,mathematics education,A,
+48,postgraduate studies,A,
+48,venezuela,A,
+48,latin america,S,multiple case study
+48,thesis,A,
+49,mathematics education,S,mathematics education in context
+49,primary education,A,
+49,teachers conceptions,A,
+49,teaching context,S,questionnaire
+49,mathematical skills,S,exploratory analysis
+50,mathematics education,S,digital technology
+50,critical thinking,A,
+50,computational thinking,A,
+50,secondary education,A,
+50,learning outcomes,S,mixed method
+51,mathematics education,A,
+51,distance learning,A,
+51,pandemic,A,
+51,teacher training,S,teacher practice
+51,mathematical contents,S,Curriculum decisions
+52,mathematics education,A,
+52,value judgement,A,
+52,praxeology,A,
+52,didactic paradigm,A,
+52,anthropological theory,A,
+53,mathematics education,A,
+53,secondary education,A,
+53,didactic resources,A,
+53,systematic review,A,
+53,textbook,A,
+54,mathematics education,A,
+54,virtual reality,A,
+54,children learning,A,
+54,basic mathematics,A,
+54,multidisciplinary group,A,
+55,mathematics education,A,
+55,research groups,A,
+55,state of art,A,
+55,methodological approaches,A,
+55,scientific production,A,
+56,mathematical identity,S,Mathematical comprehension
+56,higher education,A,
+56,virtual contexts,A,
+56,mathematics course,A,
+56,covid-19 pandemic,A,
+57,mathematics instructional practices,A,
+57,primary education,A,
+57,teacher role adoption,A,
+57,school experience,A,
+57,beliefs about mathematics,A,
+58,mathematics education,A,
+58,doctoral theses,A,
+58,scientific impact,A,
+58,evaluation criteria,A,
+58,university research,A,
+59,mathematics education,A,
+59,value judgements,A,
+59,didactics,A,
+59,anthropological theory,A,
+59,ontosemiotic approach,A,
+60,participatory research,A,
+60,mathematics education,A,
+60,critical pedagogy,A,
+60,high school students,A,
+60,action research,A,
+61,black african immigrants,A,
+61,mathematics education,A,
+61,race and racism,A,
+61,social justice,A,
+61,duoethnography,A,
+62,mathematics education,A,
+62,knowledge production,S,knowledge reproduction
+62,aesthetic issues,A,
+62,violence in education,A,
+62,epistemological anarchism,A,
+63,pedagogical residency,S,debates or students' engagement
+64,mathematics education,A,
+64,heteronormativity,S,not necessary
+64,social justice,A,
+64,lgbtqiap+,S,not necessary
+64,mathematical knowledge,A,
+65,mathematics education,A,
+65,students perspectives,A,
+65,relevance of math,S,It is not necessary
+65,critical mathematics education,A,
+65,mathematical skills,A,
+66,human rights,A,
+66,critical mathematics education,A,
+66,pedagogical action,A,
+66,political decisions,A,
+66,social transformation,A,
+67,critical mathematics education,A,
+67,teacher empowerment,A,
+67,liberating education,A,
+67,dialogical analysis,A,
+67,bureaucratization,A,
+68,mathematics education,A,
+68,educational experience,A,
+68,purpose,A,
+68,john dewey,A,
+68,constructionism,A,
+69,critical mathematics education,A,
+69,mathematics teaching,S,Mathematics Instruction
+69,students' perspectives,A,
+69,classroom setting,S,K-12 Education
+69,instructional approach,S,Teacher-Centered vs Student-Centered
+69,student perspectives,S,Critical Consciousness
+69,classroom instruction,S,Empirical Study
+69,critical consciousness,A,
+70,mathematics education,A,
+70,labor,A,
+70,rural school,A,
+70,undergraduate student,A,
+70,marxist framework,A,
+71,gifted students,A,
+71,mathematics education,A,
+71,critical education,A,
+71,discrimination,S,Educational discrimination
+71,inclusion,S,Educational inclusion
+72,amazon forest,A,
+72,mathematics education,A,
+72,yanomami people,A,
+72,decolonial ways,A,
+72,social justice,A,
+73,mathematics education,A,
+73,decolonizing,A,
+73,western mathematics,A,
+73,indigenous mental powers,S,Indigenous cognitive capacities in mathematics
+73,pedagogical approach,A,
+74,mathematics education,A,
+74,teacher training,A,
+74,ethnic-racial relations,A,
+74,brazilian education,A,
+74,curriculum design,A,
+75,white supremacy,A,
+75,settler colonialism,S,Settler colonialism in education
+75,mathematics education,A,
+75,social justice,S,Social justice in mathematics education
+75,equity,S,Equity in mathematics education
+76,mathematics education,S,Critical Mathematics Education
+76,socio-political approach,A,
+76,colombia,A,
+76,critical mathematics education,A,
+76,social justice,S,Diversity
+77,mathematics education,S,Critical Mathematics Education
+77,critical mathematics,A,
+77,ethnomathematics,A,
+77,political subject,A,
+77,biographical-narrative research,A,
+78,mathematical programming,A,
+78,education,S,Digital Mathematical Education
+78,gender equality,A,
+78,primary education,A,
+78,educational technology,A,
+79,mathematics education,A,
+79,secondary education,A,
+79,lego,S,Lego and Fischer Technik
+79,robotics,S,Robot Construction
+79,constructivist teaching,A,
+80,mathematics education,A,
+80,primary education,A,
+80,virtual simulation,A,
+80,mathematical competence,A,
+80,quantity problems,S,Quiantity Problema Solving
+81,mathematics education,S,inclusive mathematics education
+81,disability,S,students with disabilities
+81,inclusive education,A,
+81,teaching methods,A,
+81,special education,A,
+82,ideb algorithm,A,
+82,brazilian education,A,
+82,statistical-mathematical analysis,A,
+82,quality education,A,
+82,mec/inep professionals,A,
+83,mathematical competence,S,mathematical skills in primary school students
+83,primary school,A,
+83,physical education,A,
+83,mathematics education,S,primary mathematics education
+83,case study,A,
+84,mathematical competence,S,mathematical competence for math teacher
+84,university students,S,students for math teacher
+84,education degrees,S,skills required for a mathematics teacher
+84,math education,S,mathematics teachers in training
+84,self-perception,A,
+85,mathematics education,A,
+85,olympiad,A,
+85,competition,S,students in math olympiads
+85,community,S,mathematics olympiads
+85,education,S,regional olympiads in Ibero-America
+86,mathematics education,A,
+86,social inequality,S,social inequality approach
+86,curriculum,S,curricular analysis
+86,diversity,A,
+86,social subjectivities,A,
+87,mathematics education,S,critical mathematics education
+87,social studies,A,
+87,marxist theory,A,
+87,poststructuralists,A,
+87,power dynamics,A,
+88,critical mathematics education,A,
+88,ethnomathematics,A,
+88,social justice,A,
+88,mathematics education,A,
+88,socio-political structuring,S,educational structure
+89,mathematics education,A,
+89,educational policies,A,
+89,diversity,A,
+89,normal student,S,normality
+89,hegemony,S,hegemonic rationalities
+90,mathematics education,A,
+90,rural secondary education,S,rural education
+90,flexible teaching,A,
+90,covid-19 pandemic,A,
+90,learning achievement,A,
+91,mathematics education,A,
+91,decolonial movements,A,
+91,african knowledge,A,
+91,epistemology,S,social practice
+91,dialogues,A,
+92,mathematics education,A,
+92,autism spectrum disorder,A,
+92,inclusive education,A,
+92,dialogical communicative acts,A,
+92,case study,A,
+93,digital skills,A,
+93,mathematics education,A,
+93,higher education,A,
+93,teaching competence,A,
+93,problem solving,A,
+94,mathematics education,A,
+94,teacher training,S,initial teacher training
+94,epistemology,S,development of epistemological knowledge
+94,scientific research,S,research teachers
+94,pedagogy,A,
+95,mathematics education,A,
+95,school environment,A,
+95,evaluation program,A,
+95,teaching practices,A,
+95,teacher autonomy,A,
+96,math anxiety,A,
+96,primary education,A,
+96,covid-19,A,
+96,gender,A,
+96,age,S,Educational level
+97,mathematics education,A,
+97,decolonial,A,
+97,transcomplex,A,
+97,sentipensante,A,
+97,transphilosophy,A,
+98,mathematics education,A,
+98,primary education,A,
+98,multibase material,S,Multibase Blocks
+98,ontosemiotic analysis,A,
+98,numerical concepts,S,"""numerical concepts"" and "" textbooks"""
+99,mathematics education,A,
+99,didactic suitability,S,didactical suitability
+99,virtual education,S,rural virtual education
+99,ontosemiotic approach,A,
+99,collegial collaboration,S,collaboration
+100,mathematics education,A,
+100,gamification,A,
+100,teaching methods,A,
+100,student learning,A,
+100,educational technology,A,
+101,numerical ability,A,
+101,cognitive psychology,A,
+101,mathematics education,A,
+101,early development,S,early childhood development
+101,numerical cognition,S,numerical cognitive processes
+102,mathematics education,A,
+102,piagetian psychology,A,
+102,basic higher education,A,
+102,quantitative approach,A,
+102,mathematics area,A,
+103,statistical education,A,
+103,critical mathematics education,A,
+103,literacy,A,
+103,reasoning,A,
+103,participatory citizens,A,
+104,mathematics education,S,Mathematics as a male domain
+104,gender bias,A,
+104,costa rican education,S,Costa Rican secondary education
+104,secondary education,A,
+104,perception of mathematics,A,
+105,mathematics education,A,
+105,argumentation,S,argumentative situation
+105,childhood,A,
+105,mathematics classroom,A,
+105,argumentative situation,A,
+106,mathematical education,A,
+106,preservice teachers,A,
+106,primary education,A,
+106,mathematical knowledge,S,knowledge of mathematical content
+106,pedagogical content,S,knowledge of pedagogical content
+107,higher education,A,
+107,operational research,A,
+107,performance measurement,S,university retention
+107,capacity planning,S,teaching capacity planning
+107,system dynamics,A,
+108,mathematics education,A,
+108,microbiology,S,Industrial Microbiology
+108,covid-19 pandemic,A,
+108,technology tools,S,Educational technology tools
+108,sts approach,S,STS approach
+109,inclusive mathematics education,A,
+109,master's program,A,
+109,boyaca colombia,S,Boyacá (Colombia)
+109,mathematics teachers,A,
+109,inclusive education,A,
+110,mathematics education,A,
+110,decolonial,S,Decolonial transcomplex
+110,freirian,S,freirian liberation
+110,liberation,S,freirian liberation
+110,transcomplex,S,Decolonial transcomplex
+111,mathematics education,A,
+111,teacher diary,A,
+111,specialized knowledge,S,Specialized didactic knowledge
+111,mathematical knowledge,A,
+111,school planning,A,
+112,mathematics education,A,
+112,secondary school,S,secondary education
+112,sao tome and principe,A,
+112,educational system,A,
+112,curricula,S,mathematics curricula
+113,mathematical modeling,A,
+113,elementary education,S,elementary school
+113,interdisciplinary learning,A,
+113,hydraulic arm,A,
+113,linear variation,A,
+114,mathematical knowledge,A,
+114,teacher education,A,
+114,early childhood,A,
+114,pedagogical knowledge,A,
+114,teaching practice,A,
+115,mathematics education,A,
+115,serious games,A,
+115,primary education,A,
+115,mathematics fluency,A,
+115,gamification,A,
+116,mathematics education,A,
+116,spanish-speaking countries,A,
+116,open access documentation,A,
+116,educational levels,A,
+116,pedagogical notions,A,
+117,mathematics education,A,
+117,decroly method,A,
+117,educational games,A,
+117,school supplies,A,
+117,mathematical content,A,
+118,mathematics education,A,
+118,colombian community,A,
+118,research innovation,A,
+118,mathematics topics,A,
+118,educational level,A,
+119,mathematical competence,A,
+119,problem based learning,A,
+119,primary education,A,
+119,curricular content,A,
+119,case study method,A,
+120,education for sustainable development,A,
+120,math classes,A,
+120,future teachers,A,
+120,teacher training,A,
+120,mathematical education,A,
+121,game-based learning,A,
+121,mathematics education,A,
+121,higher education,A,
+121,systematic review,A,
+121,bibliometric analysis,A,
+122,mathematics education,A,
+122,intellectual divides,A,
+122,research teaching,S,research vs teaching
+122,quality equity,A,
+122,collaborative approach,A,
+123,mathematical literacy,A,
+123,physical education,A,
+123,mathematization,S,facilitate mathematization
+123,problem situations,A,
+123,educational potential,A,
+124,mathematics education,A,
+124,pedagogical resource,A,
+124,basic education,S,primary level
+124,quasi-experimental design,A,
+124,statistical significance,A,
+125,haitian migrant workers,S,migrant workers
+125,stem skills,A,
+125,ethno modeling,A,
+125,multicultural classroom,A,
+125,quantitative methodology,A,
+126,stereotype threat,A,
+126,latent profiles,A,
+126,social identities,A,
+126,mathematics education,A,
+126,gender differences,A,
+127,mathematics education,A,
+127,co-authorship network,A,
+127,delphi method,A,
+127,bibliometric methods,A,
+127,scientific productivity,A,
+128,math anxiety,A,
+128,working memory,A,
+128,arithmetic skills,A,
+128,elementary education,A,
+128,preservice teachers,A,
+129,mathematics education,A,
+129,primary school,A,
+129,teacher training,A,
+129,brazil,A,
+129,pedagogy,A,
+130,mathematics education,A,
+130,digital humanities,A,
+130,textual analysis,A,
+130,knowledge production,A,
+130,research agendas,A,
+131,decolonial education,A,
+131,mathematical education,A,
+131,anthropolitics,A,
+131,transcomplexity,A,
+131,cognitive-affective systematizations,S,Cognitive-Affective Processes
+132,mathematical education,A,
+132,history of education,A,
+132,didactics,S,History of Mathematical Education
+132,university of murcia,A,
+132,research programme,S,Educational Memory
+133,mathematics education,A,
+133,ibero american heritage,A,
+133,mathematical knowledge,S,History of Science
+133,scientific development,A,
+133,educational activity,S,Scientific Diffusion
+134,mathematics education,A,
+134,internationalization,A,
+134,influence,S,Scientific Influence
+134,formative,S,Qualitative Transitions
+134,research community,A,
+135,mathematical self-confidence,A,
+135,costa rica,A,
+135,high school students,A,
+135,gender differences,A,
+135,educational level,A,
+136,environmental education,A,
+136,mathematics education,A,
+136,physics education,S,Science education
+136,teacher training,A,
+136,integrative approach,A,
+137,mathematics education,A,
+137,social decision making,A,
+137,competence,A,
+137,lesson study,A,
+137,automatic external defibrillators,A,
+138,mathematics education,A,
+138,primary education,A,
+138,universal design,S,Universal Design for Learning
+138,information access,S,Mathematics textbooks
+138,quantitative analysis,S,Quantitative analysis
+139,mathematics education,A,
+139,mathematical proficiency,A,
+139,case model,A,
+139,intermediate class,S,Intermediate education
+139,statistical analysis,A,
+140,mathematics education,A,
+140,middle school,A,
+140,documentary production,A,
+140,probability,S,Mathematics topics
+140,algebra,S,Mathematics topics
+141,creative thinking,A,
+141,mathematical creativity,A,
+141,cooperative learning,A,
+141,higher education,A,
+141,creativity test,A,
+142,digital education,A,
+142,pedagogics,A,
+142,mathematical statistics,S,Quantitative methods
+142,teacher training,A,
+142,regional development,A,
+143,artificial intelligence,A,
+143,teacher training,A,
+143,educational environment,A,
+143,adaptive training,A,
+143,pedagogical experiment,A,
+144,mathematics education,S,Pedagogy in mathematics
+144,complex thought,A,
+144,emotional configuration,A,
+144,experiential complexity,A,
+144,affective domain,A,
+145,socioeconomic background,A,
+145,educational offering,A,
+145,school grades,A,
+145,multivariate analysis,A,
+145,socioeconomic inequalities,A,
+146,mathematical task,A,
+146,primary education,S,pre-service primary teachers
+146,pedagogy students,S,pre-service teachers
+146,latent class analysis,A,
+147,statistical graphs,A,
+147,mathematical textbooks,S,school math books
+147,primary education,A,
+147,curricular guidelines,A,
+147,bar graphs,S,statistical graphs
+148,mathematics education,A,
+148,teacher training,A,
+148,bologna process,A,
+148,early childhood education,S,primary teachers training
+148,curriculum design,A,
+149,mathematical competence,A,
+149,early childhood education,A,
+149,teaching methodologies,A,
+149,cooperative learning,A,
+149,mathematical development,S,mathematical competence
+150,didactic-mathematical knowledge,A,
+150,elementary mathematics,A,
+150,future teachers,S,pre-service primary teachers
+150,basic education,S,primary education
+150,instrument validation,A,
+151,bachelor-masters system,A,
+151,pedagogical education,A,
+151,research readiness,S,Research Competence
+151,higher education,A,
+151,professional qualities,S,Graduate Profile
+152,mathematical education,A,
+152,ethics in education,A,
+152,societal transformation,S,Community Ethics
+152,argumentation theory,A,
+152,objectification theory,A,
+153,distributed leadership,A,
+153,mathematics education,A,
+153,socioeconomic groups,S,Vulnerable Schools
+153,linear hierarchical models,A,
+153,quality education,S,SIMCE Test
+154,indigenous mathematical thinking,A,
+154,mathematical education,A,
+154,ethnomathematics,A,
+154,qualitative ethnographic research,A,
+154,power relations,A,
+155,mathematics education,A,
+155,affirmative actions,A,
+155,higher education,A,
+155,critical inquiry,A,
+155,content analysis,A,
+156,mathematics education,A,
+156,elementary education,A,
+156,evaluation quality,A,
+156,instructional quality,A,
+156,educational improvement,A,
+157,mathematics education,A,
+157,teacher preparation,A,
+157,venezuelan education,A,
+157,teacher training,A,
+157,professional development,A,
+158,mathematics education,A,
+158,cultural-historical theory,A,
+158,multiplication table,A,
+158,study actions,A,
+158,davydov,A,
+159,learning objects,A,
+159,analytical geometry,A,
+159,teaching methodology,A,
+159,higher education,A,
+159,repository implementation,A,
+160,social cognitive career theory,A,
+160,colombian secondary education,A,
+160,mathematics and science,A,
+160,structural equation modeling,A,
+160,self-efficacy,A,
+161,mathematical anxiety,A,
+161,secondary education,A,
+161,costa rica,A,
+161,female students,S,Gender Differences
+161,educational level,A,
+162,mathematics teaching,A,
+162,primary classrooms,A,
+162,student learning,A,
+162,latin america,A,
+162,educational resources,A,
+163,playful education,S,Educational Game
+163,mathematics education,A,
+163,kindergarten,A,
+163,science education,A,
+163,action research,A,
+164,mathematics education,A,
+164,empowerment,A,
+164,characterization,S,Analytical-Constructive Process
+164,mathematical models,A,
+164,democratic participation,A,
+165,mathematical education,A,
+165,information technologies,S,ICT Integration
+165,secondary education,A,
+165,factor analysis,A,
+165,ict use,A,
+166,mathematical communication,A,
+166,high school education,A,
+166,mathematics education,A,
+166,blog use,S,use of blogs in education
+166,qualitative research,A,
+167,mathematics education,A,
+167,teaching materials,A,
+167,youths and adults,S,youth and adults
+167,educational program,A,
+167,evaluation model,A,
+168,mathematics education,A,
+168,spain,S,Spain
+168,research trends,A,
+168,bibliometric study,S,bibliometric analysis
+168,mathematic education,S,mathematics education
+169,mathematics education,A,
+169,spanish mathematical society,S,Spanish Mathematical Society
+169,mathematics education spain,S,mathematics education; Spain
+169,mathematical society foundation,S,Spanish Mathematical Society
+169,mathematics education impact,A,
+170,mathematics education,A,
+170,narrative production,A,
+170,scientometric study,S,scientometric analysis
+170,social networks,A,
+170,authorship,S,authorship collaboration
+171,mathematics education,A,
+171,primary education,S,mathematics education in primary school
+171,affective dimension,A,
+171,academic performance,A,
+171,mathematics teacher,A,
+172,mathematics education,A,
+172,primary teacher education,A,
+172,teacher education syllabi,S,La eliminaría
+172,mathematics pedagogy,A,
+172,school mathematics,S,mathematics teaching
+173,scientific utopia,A,
+173,rhetorical phenomenon,S,scientific rethoric
+173,scientific worldview,A,
+173,paratexts,A,
+173,scientific rhetoric,A,
+174,physics,S,teaching physics
+174,mathematics,S,teaching mathematics
+174,education,A,
+174,technology,A,
+174,collaboration,A,
+175,mathematics education,A,
+175,academic networks,A,
+175,phd theses,A,
+175,collaboration networks,A,
+175,gender bias,A,
+176,mathematics education,A,
+176,engineering,S,Engineering Education
+176,architecture,S,Architecture Education
+176,science context,A,
+176,curriculum design,A,
+177,mathematics education,A,
+177,bibliometric study,A,
+177,research articles,S,Scientometric Analysis
+177,collaboration networks,A,
+177,scientometric laws,A,
+178,mathematics education,A,
+178,visualization,A,
+178,mathematical knowledge,A,
+178,ontosemiotic approach,A,
+178,visual configuration,A,
+179,mathematics education,A,
+179,master's theses,A,
+179,pedagogical intervention,A,
+179,theoretical framework,A,
+179,methodological tools,S,Operational Indicators
+180,mathematics education,A,
+180,teaching learning processes,A,
+180,mathematical knowledge,S,Didactic Analysis
+180,instruction processes,S,Educational Suitability
+180,educational suitability,A,
