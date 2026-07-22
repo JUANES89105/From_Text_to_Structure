@@ -52,7 +52,7 @@ The retrieved metadata included:
 - Affiliations
 - Document type
 
-These metadata were cleaned, standardized, and merged into a single dataset that served as the input for the LLM-based keyword extraction stage.
+These metadata were cleaned, standardized, and merged into a single dataset that served as the input for the LLM-based keyword extraction stage. Specifically, six fields were concatenated into a single text unit per record, in the following order and separated by " • ": authors, title, publication year, source title, abstract, and the original author- and index-assigned keywords. This concatenated text is the `insumo` consumed by `1. LLMS.ipynb`.
 
 ## Data Availability
 
@@ -71,12 +71,18 @@ The repository intentionally distributes only the semantic representation of the
 
 ```
 .
-├── LLMS.ipynb
-├── CRS.ipynb
-├── w_THRESHOLDS.ipynb
-├── METRICS.ipynb
-├── Tau_SENSITIVITY.ipynb
+├── 1. LLMS.ipynb
+├── 2. CRS.ipynb
+├── 3. w_THRESHOLDS.ipynb
+├── 4. METRICS.ipynb
+├── 5. Tau_SENSITIVITY.ipynb
+├── 6. GROUND_TRUTH_INSPEC.ipynb
+├── 7. HUMAN_EVAL_M1.ipynb
 ├── EID_KEYWORDS.xlsx
+├── dataset_inspec.csv
+├── inspec_llama-3.1-8b-EN.csv
+├── human_eval_M1_8b.csv
+├── LICENSE
 └── README.md
 ```
 
@@ -88,13 +94,7 @@ The repository intentionally distributes only the semantic representation of the
 
 Uses an LLM through the OpenRouter API to extract exactly five semantic keywords for each publication. The workflow was developed using the OpenRouter API with the meta-llama/llama-3.1-8b-instruct model.
 
-The model receives
-
-- title
-- abstract
-- original author keywords
-
-and returns
+The model receives the concatenated `insumo` text described above (authors, title, publication year, source title, abstract, and original author- and index-assigned keywords) and returns
 
 ```json
 {
@@ -184,6 +184,26 @@ The notebook reconstructs the CRS for multiple τ values and compares their stru
 
 ---
 
+# Evaluation Notebooks (Human Validation and External Benchmark)
+
+Notebooks 6 and 7 reproduce the two validation components reported in the manuscript (Section 3.1) that fall outside the core graph-construction pipeline above. Both use the same LLaMA 3.1 8B-instruct extraction and the same multilingual embedding model (`paraphrase-multilingual-MiniLM-L12-v2`) used elsewhere in this repository.
+
+## 6. GROUND_TRUTH_INSPEC.ipynb
+
+Applies the extraction pipeline to the Inspec keyphrase-extraction benchmark (Hulth, 2003) as a domain-independent check, and computes lexical (Jaccard) and semantic (soft precision/recall/F1, soft mean-max, global concatenated similarity) agreement against Inspec's gold keyphrases.
+
+Inputs: `dataset_inspec.csv`, `inspec_llama-3.1-8b-EN.csv`.
+
+## 7. HUMAN_EVAL_M1.ipynb
+
+Reproduces the pooled and per-article expert-adequacy rates reported in Table 2 of the manuscript (79.12% pooled; 78.78% ± 21.23 mean per-article; 80.00% median; n = 179 articles, 891 keywords).
+
+Input: `human_eval_M1_8b.csv`.
+
+This notebook reproduces the acceptance-rate metric (M1) only. Reproducing the two "global semantic similarity" rows in Table 2 (human/model keywords vs. document text) additionally requires the title and abstract of the sampled articles. Those fields are original Scopus metadata and, consistent with the corpus-level policy above, are not redistributed here.
+
+---
+
 # Reproducibility
 
 Researchers wishing to reproduce the complete pipeline should
@@ -201,6 +221,8 @@ Researchers wishing to reproduce the complete pipeline should
 5. Tau_SENSITIVITY.ipynb
 ```
 
+Notebooks 6 (`GROUND_TRUTH_INSPEC.ipynb`) and 7 (`HUMAN_EVAL_M1.ipynb`) are independent of this sequence and of each other; each can be run on its own using the input files listed in its section above.
+
 ---
 
 # Citation
@@ -215,4 +237,4 @@ Vargas, J. & Greco, M. (2026). From Text to Structure: A Scalable Pipeline for B
 
 # License
 
-Only the source code is distributed under the MIT License. The original Scopus metadata remain the property of Elsevier and are not redistributed through this repository.
+The source code and computational workflow (all notebooks in this repository) are distributed under the MIT License; see `LICENSE`. The original Scopus metadata remain the property of Elsevier and are not redistributed through this repository. The Inspec dataset (`dataset_inspec.csv`) is distributed under its own original terms (Hulth, 2003); only the outputs of applying our own extraction pipeline to it (`inspec_llama-3.1-8b-EN.csv`) are original to this repository.
