@@ -1,0 +1,13 @@
+{
+  "1. LLMS.ipynb": "7e5e7f56e74cfa846dcc3bdcc2fa06a4d13008f28d08eaa6478d7a5d81bb9537",
+  "2. CRS.ipynb": "bcd5cbf1f8514589494f86089c6978254208a8c268a4cd128b31867738befdb7",
+  "3. w_THRESHOLDS.ipynb": "5b939f39ac1db77c4cfbc64b87dfe6455efa62790910d573849936384ad44465",
+  "4. METRICS.ipynb": "09ef2fad9602a24fc341f2c90b2c029edd2b14abe5c385db8dd84a27292f6743",
+  "5. Tau_SENSITIVITY.ipynb": "ecb22f884705dc59399f6761d23174e343b7065def86e465bc0a957d8d667911",
+  "6. GROUND_TRUTH_INSPEC.ipynb": "02f09e569ec7165d1e17dd2bc71eedd42a4cb31ee9a469b10eb34bf21ffc71dc",
+  "7. HUMAN_EVAL_M1.ipynb": "8e5cb07e34dd6123ede28c016d159892fc0b199e545ff83004ec61db5ecb6653",
+  "dataset_inspec.csv": "0a84eb5ca79c418987a47f391a6bbf47e98a6ad4ac8fcc9a94a0ae348dc5765d",
+  "inspec_llama-3.1-8b-EN.csv": "18d254befe74d016630afcb580a7e838cda7dd5d76fb6af85a4d1030d9c1f781",
+  "EID_KEYWORDS.xlsx": "a440b7cedabea950ddb0be27610e1a58f747191ae08999801d73994f9d801c8c",
+  "human_eval_M1_8b.csv": "e3aa87908e4d6bfec3a6842eea0f1183d0a59cb6c16463e18c06d4cb267871ee"
+}

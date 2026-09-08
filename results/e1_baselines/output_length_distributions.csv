@@ -1,0 +1,16 @@
+method,phrase_count,documents,count_type
+keybert,5,2000,raw_n
+llama_3.1_8b,0,1,raw_n
+llama_3.1_8b,4,8,raw_n
+llama_3.1_8b,5,1990,raw_n
+llama_3.1_8b,6,1,raw_n
+tfidf,5,2000,raw_n
+yake,5,2000,raw_n
+keybert,5,2000,clean_n
+llama_3.1_8b,0,1,clean_n
+llama_3.1_8b,4,19,clean_n
+llama_3.1_8b,5,1979,clean_n
+llama_3.1_8b,6,1,clean_n
+tfidf,5,2000,clean_n
+yake,4,1,clean_n
+yake,5,1999,clean_n

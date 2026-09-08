@@ -1,0 +1,105 @@
+source,source_community,target,target_community,weight
+mathematics education,0,science education,2,722.0
+mathematics education,0,stem education,2,415.0
+mathematics education,0,higher education,2,384.0
+mathematics education,0,engineering education,2,333.0
+mathematics,1,mathematics education,0,218.0
+mathematics education,0,student learning,2,210.0
+mathematics education,0,computational thinking,4,209.0
+mathematics education,0,artificial intelligence,4,208.0
+mathematics education,0,teacher development,2,190.0
+mathematics education,0,education,1,186.0
+mathematics education,0,curriculum,1,185.0
+mathematics education,0,calculus,1,182.0
+mathematics education,0,undergraduate students,2,172.0
+mathematics education,0,student engagement,2,165.0
+mathematics education,0,teacher professional development,2,155.0
+mathematics education,0,engineering students,2,146.0
+mathematics education,0,curriculum development,2,137.0
+mathematics education,0,students,1,135.0
+teacher training,0,stem education,2,125.0
+professional development,2,teacher education,0,122.0
+mathematics education,0,curriculum design,2,121.0
+mathematics education,0,middle school,2,109.0
+mathematics education,0,student motivation,2,104.0
+mathematics education,0,early childhood education,2,94.0
+mathematics education,0,numeracy,1,91.0
+teacher education,0,stem education,2,87.0
+mathematics education,0,learning,1,83.0
+mathematics education,0,teaching,1,79.0
+mathematics,1,geometry,0,79.0
+mathematics education,0,teachers,1,68.0
+mathematics education,0,curricula,2,67.0
+mathematics education,0,physics education,2,66.0
+mathematics education,0,middle school students,2,66.0
+science education,2,teacher education,0,60.0
+professional development,2,teacher training,0,58.0
+pre-service teachers,0,stem education,2,57.0
+education,1,programming,4,56.0
+mathematics education,0,technology education,2,56.0
+science education,2,teacher training,0,56.0
+professional development,2,teacher learning,0,46.0
+academic achievement,0,mathematics,1,46.0
+secondary education,0,stem education,2,44.0
+mathematics,1,problem solving,4,43.0
+mathematics education,0,student success,2,43.0
+engineering education,2,computer science,4,43.0
+teacher preparation,0,stem education,2,43.0
+mathematics education,0,programming,4,42.0
+educational technology,0,stem education,2,42.0
+mathematics education,0,student perceptions,2,42.0
+mathematics education,0,cognition,1,42.0
+mathematics education,0,conceptual knowledge,3,42.0
+learning outcomes,0,stem education,2,41.0
+engineering education,2,academic performance,0,41.0
+mathematics education,0,literacy,1,41.0
+education,1,pedagogy,0,40.0
+mathematics education,0,mathematical education,1,37.0
+problem solving,4,mathematical thinking,0,37.0
+professional development,2,lesson study,0,37.0
+primary education,0,stem education,2,36.0
+engineering,1,stem education,2,36.0
+science education,2,teacher preparation,0,34.0
+higher education,2,academic performance,0,34.0
+preservice teachers,0,stem education,2,34.0
+high school,0,stem education,2,33.0
+teaching methods,0,stem education,2,33.0
+teacher knowledge,0,professional development,2,32.0
+mathematics education,0,philosophy,1,32.0
+mathematics,1,science education,2,32.0
+mathematics,1,algebra,0,31.0
+pedagogy,0,stem education,2,30.0
+education,1,stem education,2,30.0
+education,1,curricula,2,30.0
+mathematics education,0,undergraduate education,2,30.0
+secondary schools,0,stem education,2,29.0
+teaching practices,0,stem education,2,28.0
+academic achievement,0,stem education,2,28.0
+engineering education,2,student performance,0,28.0
+engineering education,2,teacher training,0,28.0
+engineering education,2,students,1,27.0
+mathematics education,0,science teaching,2,26.0
+stem education,2,university students,0,26.0
+elementary education,0,stem education,2,26.0
+educational technology,0,artificial intelligence,4,26.0
+science education,2,student achievement,0,26.0
+mathematics education,0,educational robotics,2,25.0
+science education,2,preservice teachers,0,24.0
+geometry,0,augmented reality,5,24.0
+instructional design,0,stem education,2,24.0
+curriculum,1,pedagogy,0,23.0
+mathematics,1,artificial intelligence,4,23.0
+mathematics,1,programming,4,23.0
+student attitudes,0,stem education,2,23.0
+teacher education,0,online learning,2,22.0
+pedagogical content knowledge,0,professional development,2,22.0
+engineering,1,robotics,4,22.0
+curricula,2,computer science,4,22.0
+academic achievement,0,higher education,2,21.0
+higher education,2,pedagogy,0,21.0
+mathematics education,0,engineering mathematics,2,21.0
+teacher education,0,early childhood,2,20.0
+stem education,2,blended learning,0,20.0
+elementary school,0,stem education,2,20.0
+mathematics education,0,k-12 education,2,20.0
+mathematics education,0,university,1,20.0

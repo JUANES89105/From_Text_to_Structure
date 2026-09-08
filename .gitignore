@@ -1,0 +1,12 @@
+.venv/
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+
+# Local environments / system
+# E8 large reproducible artifacts
+results/e8_topic_modeling/e8_matched_dataset.pkl
+results/e8_topic_modeling/lda_vectorizer.joblib
+results/e8_topic_modeling/lda_k*.joblib
+results/e3_scalability/runtime_site/
+results/e3_scalability/.matplotlib/

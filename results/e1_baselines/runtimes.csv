@@ -1,0 +1,5 @@
+method,extraction_seconds,evaluation_seconds,extraction_source,evaluation_source
+llama_3.1_8b,,168.0240787500079,historical; unavailable,independent local reproduction
+tfidf,1.6968762500036974,174.50462379200326,measured locally,measured locally
+yake,12.73816891599563,177.4438366250106,measured locally,measured locally
+keybert,669.784056000004,223.94073308398947,measured locally,measured locally

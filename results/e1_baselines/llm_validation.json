@@ -1,0 +1,59 @@
+{
+  "checks": [
+    {
+      "metric": "jaccard_lex",
+      "expected": 0.1422,
+      "reproduced": 0.14222759742800062,
+      "difference": 2.7597428000625257e-05,
+      "passed": true
+    },
+    {
+      "metric": "soft_precision",
+      "expected": 0.7939,
+      "reproduced": 0.7939,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "soft_recall",
+      "expected": 0.467,
+      "reproduced": 0.46699910279110396,
+      "difference": -8.972088960668145e-07,
+      "passed": true
+    },
+    {
+      "metric": "soft_f1",
+      "expected": 0.5652,
+      "reproduced": 0.5651831270053578,
+      "difference": -1.6872994642258554e-05,
+      "passed": true
+    },
+    {
+      "metric": "soft_mean_max",
+      "expected": 0.7522,
+      "reproduced": 0.7521545704305171,
+      "difference": -4.54295694828355e-05,
+      "passed": true
+    },
+    {
+      "metric": "global_sem_sim",
+      "expected": 0.8042,
+      "reproduced": 0.8041979349553585,
+      "difference": -2.0650446415082513e-06,
+      "passed": true
+    }
+  ],
+  "absolute_tolerance": 5e-05,
+  "passed": true,
+  "evaluation_seconds": 168.0240787500079,
+  "reference_cells_zero_based": [
+    3,
+    4
+  ],
+  "ast_identical": true,
+  "artifact_sha256": {
+    "scripts/inspec_evaluation.py": "75b39d7c3d68db320d3161200983425b670180bf4ab55d69a1539ac6a317112b",
+    "results/e1_baselines/predictions_llama_3.1_8b.csv": "982671245263d5ffdf71f2d4098faf671596d60d615d66a7a5439222fdae95e2",
+    "results/e1_baselines/metrics_llama_3.1_8b.csv": "97d26a5107d4bb14ecdfbaa09083e4d17f5626de3a0ba67c5e79503340345e87"
+  }
+}

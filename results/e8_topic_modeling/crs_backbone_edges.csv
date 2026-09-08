@@ -1,0 +1,609 @@
+source,target,weight,sim_count,sim_mean
+academic achievement,academic performance,20,20,0.84488844871521
+academic achievement,higher education,21,21,0.7347135543823242
+academic achievement,mathematics,46,46,0.42243650555610657
+academic achievement,mathematics education,241,241,0.500244140625
+academic achievement,primary education,21,21,0.552008330821991
+academic achievement,school performance,21,21,0.6229652762413025
+academic achievement,stem education,28,28,0.5096644163131714
+academic achievement,student performance,22,22,0.723707914352417
+academic performance,educational data mining,20,20,0.40485185384750366
+academic performance,primary education,37,37,0.48940736055374146
+academic performance,student performance,20,20,0.8647408485412598
+active learning,stem education,83,83,0.4527601897716522
+active learning,student engagement,21,21,0.42876189947128296
+adaptive learning,artificial intelligence,22,22,0.6047826409339905
+algorithmic thinking,computational thinking,25,25,0.7518166303634644
+artificial intelligence,computational thinking,23,23,0.5243421792984009
+career choice,stem education,23,23,0.43085038661956787
+career development,stem education,52,52,0.6105931401252747
+community college,stem education,36,36,0.43363577127456665
+computer science,computational thinking,41,41,0.5428556799888611
+computer science,programming,24,24,0.5802943706512451
+computer science,software engineering,26,26,0.6027165651321411
+critical thinking,creative thinking,22,22,0.5542824268341064
+critical thinking,higher education,34,34,0.40586382150650024
+curricula,computer science,22,22,0.4642546772956848
+curricula,stem education,35,35,0.481198787689209
+curriculum,pedagogy,23,23,0.8605623841285706
+curriculum design,stem education,43,43,0.540308952331543
+curriculum development,engineering education,47,47,0.5726177096366882
+curriculum development,science education,20,20,0.6188386678695679
+curriculum development,stem education,51,51,0.6548197269439697
+data mining,machine learning,32,32,0.4301387667655945
+deep learning,artificial intelligence,26,26,0.48350903391838074
+deep learning,machine learning,41,41,0.6790673136711121
+distance education,online learning,21,21,0.4736751914024353
+diversity,stem,23,23,0.40339523553848267
+early childhood education,professional development,20,20,0.5144696235656738
+early childhood education,stem education,25,25,0.5778104066848755
+education,achievement,31,31,0.5739368796348572
+education,assessment,38,38,0.5495272278785706
+education,children,42,42,0.5454651117324829
+education,cognition,25,25,0.4896170496940613
+education,creativity,25,25,0.4129289388656616
+education,curricula,30,30,0.7225056290626526
+education,curriculum,136,136,0.8557944297790527
+education,development,34,34,0.6217000484466553
+education,diversity,32,32,0.4139527678489685
+education,e-learning,24,24,0.5546367168426514
+education,engineering,233,233,0.5511412620544434
+education,gamification,25,25,0.410942405462265
+education,history,53,53,0.45469218492507935
+education,informatics,32,32,0.5032801628112793
+education,innovation,36,36,0.4358384609222412
+education,interdisciplinary,28,28,0.549777626991272
+education,language,20,20,0.511745274066925
+education,learning,111,111,0.7885521650314331
+education,literacy,41,41,0.6139203906059265
+education,motivation,37,37,0.44132113456726074
+education,numeracy,27,27,0.540336549282074
+education,pedagogy,40,40,0.8883520364761353
+education,philosophy,48,48,0.4611763060092926
+education,physics,70,70,0.4253082275390625
+education,programming,56,56,0.4948155879974365
+education,research,105,105,0.6125916838645935
+education,science,191,191,0.49555861918714034
+education,statistics,50,50,0.40904700756073
+education,stem,182,182,0.4686979651451111
+education,stem education,30,30,0.7177361845970154
+education,students,141,141,0.7348861694335938
+education,teacher,23,23,0.774858832359314
+education,teachers,63,63,0.7611624002456665
+education,teaching,89,89,0.8030154705047607
+education,technology,137,137,0.4728536599308905
+education,training,20,20,0.6341047286987305
+education,university,53,53,0.7272149324417114
+educational technology,artificial intelligence,26,26,0.4829498529434204
+educational technology,stem education,42,42,0.6168361902236938
+elementary education,preservice teachers,25,25,0.641859233379364
+elementary education,stem education,26,26,0.6470200419425964
+elementary education,teacher education,28,28,0.8108731508255005
+elementary school,stem education,20,20,0.5383535623550415
+elementary school,teacher education,20,20,0.7160806059837341
+engineering,calculus,21,21,0.4069293141365051
+engineering,curriculum,27,27,0.43950700759887695
+engineering,physics,23,23,0.6229492425918579
+engineering,robotics,22,22,0.5267919301986694
+engineering,science,80,80,0.6420218959450722
+engineering,stem education,36,36,0.45152783393859863
+engineering,students,32,32,0.46847838163375854
+engineering,technology,55,55,0.7190164360133084
+engineering careers,stem education,23,23,0.48905742168426514
+engineering education,academic performance,41,41,0.46160367131233215
+engineering education,civil engineering,24,24,0.6407483816146851
+engineering education,computer programming,27,27,0.4003017246723175
+engineering education,computer science,43,43,0.4309774339199066
+engineering education,curricula,67,67,0.46705472469329834
+engineering education,curriculum design,30,30,0.5629185438156128
+engineering education,electrical engineering,33,33,0.6353399753570557
+engineering education,engineering design,40,40,0.689146101474762
+engineering education,engineering design process,22,22,0.6056362390518188
+engineering education,engineering mathematics,33,33,0.6139516830444336
+engineering education,engineering students,42,42,0.8686865568161011
+engineering education,experiential learning,29,29,0.43240511417388916
+engineering education,higher education,56,56,0.6297634840011597
+engineering education,inquiry-based learning,20,20,0.4050138294696808
+engineering education,mechanical engineering,42,42,0.6293046474456787
+engineering education,online learning,25,25,0.41447913646698
+engineering education,professional development,40,40,0.5357871651649475
+engineering education,project based learning,35,35,0.44120025634765625
+engineering education,project-based learning,53,53,0.41072189807891846
+engineering education,science education,126,126,0.6954522132873535
+engineering education,science technology engineering mathematics,30,30,0.5160093903541565
+engineering education,stem careers,28,28,0.5119277238845825
+engineering education,stem disciplines,23,23,0.5316081047058105
+engineering education,stem education,633,633,0.6089835166931152
+engineering education,stem learning,24,24,0.4956164062023163
+engineering education,student engagement,23,23,0.4701719284057617
+engineering education,student learning,44,44,0.5565562844276428
+engineering education,student motivation,30,30,0.4747772216796875
+engineering education,student perceptions,20,20,0.47720932960510254
+engineering education,student performance,28,28,0.4343101382255554
+engineering education,student success,26,26,0.4622231721878052
+engineering education,students,27,27,0.5212090611457825
+engineering education,teacher professional development,26,26,0.5036148428916931
+engineering education,teacher training,28,28,0.49739158153533936
+engineering education,technology education,28,28,0.7222861051559448
+engineering education,undergraduate students,70,70,0.5468056780951364
+engineering education,women in engineering,31,31,0.6101868152618408
+engineering students,stem education,25,25,0.5149044394493103
+engineering technology,stem education,22,22,0.4019260108470917
+equity,inclusion,26,26,0.4141595959663391
+experiential learning,stem education,52,52,0.446108341217041
+faculty development,stem education,29,29,0.47825178503990173
+gender,stem,47,47,0.5460404753684998
+geometry,augmented reality,24,24,0.4028013348579407
+graduate students,stem education,42,42,0.5603475570678711
+high school,stem education,33,33,0.493896484375
+high school students,stem education,114,114,0.4028811752796173
+higher education,academic performance,34,34,0.6571417450904846
+higher education,online learning,33,33,0.47164860367774963
+higher education,pedagogy,21,21,0.7161285281181335
+higher education,stem education,244,244,0.6792309284210205
+higher education,student engagement,29,29,0.6186877489089966
+instructional design,stem education,24,24,0.49023646116256714
+interdisciplinary learning,stem education,48,48,0.431352436542511
+learning,technology,20,20,0.43662503361701965
+learning outcomes,stem education,41,41,0.5146375298500061
+machine learning,artificial intelligence,101,101,0.6303005218505859
+mathematical problem solving,mathematics education,72,72,0.5000835657119751
+mathematics,achievement,44,44,0.4086599349975586
+mathematics,algebra,31,31,0.7455497980117798
+mathematics,artificial intelligence,23,23,0.44651445746421814
+mathematics,calculus,51,51,0.7724654674530029
+mathematics,cognition,25,25,0.46880847215652466
+mathematics,curriculum,102,102,0.42720162868499756
+mathematics,education,1061,1061,0.43405961984738667
+mathematics,engineering,176,176,0.44973593984137883
+mathematics,geometry,79,79,0.6380597352981567
+mathematics,language,34,34,0.41303569078445435
+mathematics,learning,88,88,0.4274612367153168
+mathematics,literacy,30,30,0.40080755949020386
+mathematics,math education,20,20,0.8198292851448059
+mathematics,mathematical education,21,21,0.8343245387077332
+mathematics,mathematics education,218,218,0.8532738089561462
+mathematics,numeracy,34,34,0.5083661675453186
+mathematics,philosophy,38,38,0.43701228499412537
+mathematics,physics,107,107,0.5527163743972778
+mathematics,problem solving,43,43,0.4232495427131653
+mathematics,programming,23,23,0.476677805185318
+mathematics,research,63,63,0.4495055675506592
+mathematics,science,240,240,0.5151055452724298
+mathematics,science education,32,32,0.4053967297077179
+mathematics,statistics,42,42,0.4676714539527893
+mathematics,students,94,94,0.4769337773323059
+mathematics,teacher,25,25,0.4584616720676422
+mathematics,teachers,45,45,0.404004842042923
+mathematics,teaching,81,81,0.4411783814430237
+mathematics,technology,86,86,0.40895846278168435
+mathematics,university,38,38,0.4331556558609009
+mathematics education,abstract algebra,20,20,0.5390355587005615
+mathematics education,academic performance,230,230,0.4508103132247925
+mathematics education,academic success,37,37,0.48057830333709717
+mathematics education,adult education,23,23,0.4408714175224304
+mathematics education,algebra,162,162,0.6375569105148315
+mathematics education,algebraic thinking,43,43,0.5804814696311951
+mathematics education,artificial intelligence,208,208,0.41282331943511963
+mathematics education,basic education,30,30,0.6030749082565308
+mathematics education,bilingual education,30,30,0.483999103307724
+mathematics education,blended learning,115,115,0.4231085181236267
+mathematics education,calculus,182,182,0.6665990352630615
+mathematics education,classroom assessment,20,20,0.4961494505405426
+mathematics education,classroom discourse,33,33,0.4157852530479431
+mathematics education,classroom environment,20,20,0.4790811240673065
+mathematics education,classroom management,29,29,0.48951685428619385
+mathematics education,classroom practice,39,39,0.5154061317443848
+mathematics education,classroom practices,31,31,0.5188634395599365
+mathematics education,classroom teaching,33,33,0.5943512916564941
+mathematics education,cognition,42,42,0.42001083493232727
+mathematics education,cognitive science,32,32,0.45013168454170227
+mathematics education,cognitive skills,38,38,0.4230496287345886
+mathematics education,college students,34,34,0.4372505247592926
+mathematics education,computational thinking,209,209,0.4029476046562195
+mathematics education,computer aided instruction,22,22,0.43232420086860657
+mathematics education,computer algebra,20,20,0.5830693244934082
+mathematics education,computer algebra system,23,23,0.5609976649284363
+mathematics education,computer algebra systems,31,31,0.5617246627807617
+mathematics education,computer science education,28,28,0.4547920525074005
+mathematics education,computer-assisted instruction,25,25,0.42761069536209106
+mathematics education,conceptual knowledge,42,42,0.4334578514099121
+mathematics education,conceptual understanding,99,99,0.40175384283065796
+mathematics education,critical mathematics,25,25,0.7940652370452881
+mathematics education,critical mathematics education,27,27,0.9392168521881104
+mathematics education,critical pedagogy,24,24,0.46356481313705444
+mathematics education,curricula,67,67,0.5990409255027771
+mathematics education,curriculum,185,185,0.613248348236084
+mathematics education,curriculum change,21,21,0.4346162676811218
+mathematics education,curriculum design,121,121,0.5525831580162048
+mathematics education,curriculum development,137,137,0.5450570583343506
+mathematics education,curriculum implementation,26,26,0.5275812149047852
+mathematics education,curriculum materials,22,22,0.5771224498748779
+mathematics education,curriculum reform,123,123,0.4666440784931183
+mathematics education,curriculum standards,21,21,0.510699450969696
+mathematics education,didactics,22,22,0.4049502909183502
+mathematics education,differential calculus,32,32,0.5099862813949585
+mathematics education,discrete mathematics,43,43,0.6111661195755005
+mathematics education,early childhood education,94,94,0.4739297032356262
+mathematics education,education,186,186,0.6101576685905457
+mathematics education,education policy,37,37,0.40623167157173157
+mathematics education,education reform,31,31,0.4106767773628235
+mathematics education,educational context,33,33,0.5402172803878784
+mathematics education,educational games,22,22,0.45628371834754944
+mathematics education,educational innovation,21,21,0.491300106048584
+mathematics education,educational outcomes,22,22,0.4750024676322937
+mathematics education,educational process,21,21,0.5457972884178162
+mathematics education,educational reform,41,41,0.41133078932762146
+mathematics education,educational research,51,51,0.5526203513145447
+mathematics education,educational robotics,25,25,0.45803767442703247
+mathematics education,educational software,28,28,0.5015577673912048
+mathematics education,educational technology,179,179,0.5692233443260193
+mathematics education,effective teaching,26,26,0.5516307950019836
+mathematics education,elementary education,163,163,0.5950988531112671
+mathematics education,elementary mathematics,37,37,0.8760154843330383
+mathematics education,elementary school,221,221,0.5196462869644165
+mathematics education,elementary school students,40,40,0.4677998721599579
+mathematics education,elementary school teachers,30,30,0.5095441937446594
+mathematics education,elementary schools,59,59,0.5232380032539368
+mathematics education,elementary students,59,59,0.5350587964057922
+mathematics education,elementary teachers,59,59,0.553260326385498
+mathematics education,engineering education,333,333,0.47334009408950806
+mathematics education,engineering mathematics,21,21,0.790343165397644
+mathematics education,engineering students,146,146,0.464005708694458
+mathematics education,english language learners,27,27,0.4212801456451416
+mathematics education,equity in education,22,22,0.4431532621383667
+mathematics education,female students,28,28,0.4079587757587433
+mathematics education,financial literacy,26,26,0.45892810821533203
+mathematics education,flipped classroom,92,92,0.4729546904563904
+mathematics education,flipped learning,26,26,0.44391220808029175
+mathematics education,future teachers,22,22,0.48927542567253113
+mathematics education,general education,21,21,0.5275356769561768
+mathematics education,geometry,239,239,0.4998020529747009
+mathematics education,geometry education,28,28,0.6721357107162476
+mathematics education,geometry learning,26,26,0.5957101583480835
+mathematics education,geometry teaching,20,20,0.6844418048858643
+mathematics education,gifted education,23,23,0.5166876316070557
+mathematics education,gifted students,60,60,0.48407429456710815
+mathematics education,high school,96,96,0.40131282806396484
+mathematics education,higher education,384,384,0.4930097758769989
+mathematics education,history of mathematics,100,100,0.8330777883529663
+mathematics education,inclusive education,100,100,0.41037970781326294
+mathematics education,instructional design,84,84,0.5840205550193787
+mathematics education,instructional practice,20,20,0.563143253326416
+mathematics education,instructional practices,63,63,0.5673623085021973
+mathematics education,instructional quality,44,44,0.5990103483200073
+mathematics education,instructional strategies,21,21,0.5782357454299927
+mathematics education,integral calculus,30,30,0.5334607362747192
+mathematics education,intelligent tutoring system,37,37,0.4973066747188568
+mathematics education,intelligent tutoring systems,39,39,0.5040104389190674
+mathematics education,interactive learning,45,45,0.4772253632545471
+mathematics education,k-12 education,20,20,0.5045756101608276
+mathematics education,kindergarten,33,33,0.4747571349143982
+mathematics education,learning,83,83,0.5430068969726562
+mathematics education,learning achievement,39,39,0.46859365701675415
+mathematics education,learning difficulties,33,33,0.4663953185081482
+mathematics education,learning environment,40,40,0.4552414119243622
+mathematics education,learning environments,31,31,0.45346367359161377
+mathematics education,learning mathematics,29,29,0.9388753175735474
+mathematics education,learning models,24,24,0.4663166105747223
+mathematics education,learning outcomes,123,123,0.4415534436702728
+mathematics education,learning process,73,73,0.4655112624168396
+mathematics education,learning strategies,35,35,0.47022074460983276
+mathematics education,learning style,24,24,0.4836956262588501
+mathematics education,learning styles,30,30,0.474396288394928
+mathematics education,learning theory,20,20,0.5449917316436768
+mathematics education,lesson planning,26,26,0.5221036672592163
+mathematics education,lesson study,156,156,0.5814766883850098
+mathematics education,linear algebra,87,87,0.5340489149093628
+mathematics education,literacy,41,41,0.4838557243347168
+mathematics education,math achievement,24,24,0.7351313829421997
+mathematics education,math anxiety,60,60,0.6057685017585754
+mathematics education,math skills,26,26,0.8085280060768127
+mathematics education,mathematical abilities,25,25,0.7247433066368103
+mathematics education,mathematical ability,39,39,0.7164058685302734
+mathematics education,mathematical achievement,37,37,0.6991305351257324
+mathematics education,mathematical activity,23,23,0.6967043876647949
+mathematics education,mathematical argumentation,20,20,0.5214765071868896
+mathematics education,mathematical beliefs,20,20,0.6913036704063416
+mathematics education,mathematical cognition,24,24,0.7195970416069031
+mathematics education,mathematical communication,43,43,0.6669133305549622
+mathematics education,mathematical competence,57,57,0.741857647895813
+mathematics education,mathematical competencies,38,38,0.7074179649353027
+mathematics education,mathematical concepts,158,158,0.7427105903625488
+mathematics education,mathematical connections,26,26,0.5716819763183594
+mathematics education,mathematical content,25,25,0.6629848480224609
+mathematics education,mathematical creativity,59,59,0.6669997572898865
+mathematics education,mathematical development,28,28,0.7716542482376099
+mathematics education,mathematical discourse,31,31,0.6989872455596924
+mathematics education,mathematical education,37,37,0.968274712562561
+mathematics education,mathematical identity,20,20,0.6166712641716003
+mathematics education,mathematical knowledge,284,284,0.7713057398796082
+mathematics education,mathematical learning,78,78,0.8616490960121155
+mathematics education,mathematical literacy,124,124,0.826865553855896
+mathematics education,mathematical modeling,175,175,0.5592347979545593
+mathematics education,mathematical modelling,186,186,0.5391930937767029
+mathematics education,mathematical models,33,33,0.5328910946846008
+mathematics education,mathematical objects,25,25,0.6472775936126709
+mathematics education,mathematical performance,28,28,0.6060705780982971
+mathematics education,mathematical practice,38,38,0.8313145041465759
+mathematics education,mathematical practices,33,33,0.790312647819519
+mathematics education,mathematical problem-solving,24,24,0.5037744641304016
+mathematics education,mathematical problems,56,56,0.5856835842132568
+mathematics education,mathematical proficiency,31,31,0.7775529026985168
+mathematics education,mathematical proof,45,45,0.5213544368743896
+mathematics education,mathematical reasoning,149,149,0.6154171228408813
+mathematics education,mathematical sciences,20,20,0.8010343313217163
+mathematics education,mathematical skills,60,60,0.7989706993103027
+mathematics education,mathematical tasks,27,27,0.6366554498672485
+mathematics education,mathematical techniques,57,57,0.6657382249832153
+mathematics education,mathematical thinking,217,217,0.7045973539352417
+mathematics education,mathematical understanding,63,63,0.7573180198669434
+mathematics education,mathematicians,35,35,0.7683019042015076
+mathematics education,mathematics achievement,131,131,0.8418475389480591
+mathematics education,mathematics anxiety,70,70,0.7372952699661255
+mathematics education,mathematics attitudes,21,21,0.8184519410133362
+mathematics education,mathematics classroom,29,29,0.9370625019073486
+mathematics education,mathematics classrooms,23,23,0.9356215596199036
+mathematics education,mathematics curriculum,59,59,0.9686404466629028
+mathematics education,mathematics education research,61,61,0.9669232368469238
+mathematics education,mathematics instruction,36,36,0.9293678998947144
+mathematics education,mathematics learning,152,152,0.9403265714645386
+mathematics education,mathematics performance,37,37,0.7722052931785583
+mathematics education,mathematics reform,21,21,0.8214811086654663
+mathematics education,mathematics research,26,26,0.8851410150527954
+mathematics education,mathematics teacher,110,110,0.9164825081825256
+mathematics education,mathematics teacher education,27,27,0.9427882432937622
+mathematics education,mathematics teachers,145,145,0.9213584065437317
+mathematics education,mathematics teaching,178,178,0.9602140784263611
+mathematics education,mathematization,26,26,0.8589142560958862
+mathematics education,middle school,109,109,0.46983277797698975
+mathematics education,middle school students,66,66,0.4122818410396576
+mathematics education,middle school teachers,20,20,0.47424936294555664
+mathematics education,multiplication,26,26,0.5682386755943298
+mathematics education,novice teachers,30,30,0.5511227250099182
+mathematics education,numeracy,91,91,0.49807438254356384
+mathematics education,numeracy skills,22,22,0.4997180700302124
+mathematics education,numerical cognition,21,21,0.5369405746459961
+mathematics education,numerical methods,20,20,0.4609295427799225
+mathematics education,online education,31,31,0.4575202465057373
+mathematics education,online teaching,44,44,0.4844248592853546
+mathematics education,pedagogical approach,20,20,0.4322327673435211
+mathematics education,pedagogical knowledge,80,80,0.47679799795150757
+mathematics education,pedagogical practices,40,40,0.40728700160980225
+mathematics education,pedagogical strategies,21,21,0.44300299882888794
+mathematics education,pedagogy,275,275,0.5554909706115723
+mathematics education,philosophy,32,32,0.42892736196517944
+mathematics education,philosophy of mathematics,30,30,0.7983781695365906
+mathematics education,physical education,23,23,0.40782421827316284
+mathematics education,physics education,66,66,0.6045929193496704
+mathematics education,preschool teachers,22,22,0.457916259765625
+mathematics education,preservice teacher education,30,30,0.41141703724861145
+mathematics education,preservice teachers,294,294,0.4240071177482605
+mathematics education,primary education,267,267,0.504440188407898
+mathematics education,primary school,205,205,0.45259469747543335
+mathematics education,primary school students,54,54,0.4152507185935974
+mathematics education,primary school teachers,57,57,0.45596960186958313
+mathematics education,primary schools,61,61,0.44127461314201355
+mathematics education,primary students,20,20,0.4805542826652527
+mathematics education,primary teachers,54,54,0.4711322784423828
+mathematics education,programming,42,42,0.4317420423030853
+mathematics education,prospective teachers,209,209,0.5052138566970825
+mathematics education,quality education,22,22,0.4733832776546478
+mathematics education,quantitative literacy,27,27,0.5657188296318054
+mathematics education,rational numbers,32,32,0.4187920093536377
+mathematics education,reading comprehension,23,23,0.48859721422195435
+mathematics education,realistic mathematics,21,21,0.7621968984603882
+mathematics education,realistic mathematics education,141,141,0.9270967245101929
+mathematics education,rural education,29,29,0.43022000789642334
+mathematics education,school mathematics,52,52,0.9151106476783752
+mathematics education,school performance,27,27,0.43950361013412476
+mathematics education,science education,722,722,0.5830686092376709
+mathematics education,science teaching,26,26,0.5783833265304565
+mathematics education,secondary education,223,223,0.5806114673614502
+mathematics education,secondary mathematics,43,43,0.7510057687759399
+mathematics education,secondary school,125,125,0.5421483516693115
+mathematics education,secondary school students,52,52,0.4746934473514557
+mathematics education,secondary schools,71,71,0.5384067296981812
+mathematics education,secondary students,24,24,0.5275900363922119
+mathematics education,secondary teachers,26,26,0.5410370230674744
+mathematics education,situated learning,29,29,0.4562121033668518
+mathematics education,special education,140,140,0.5094348192214966
+mathematics education,statistical literacy,33,33,0.47056686878204346
+mathematics education,statistics education,64,64,0.544679582118988
+mathematics education,stem education,415,415,0.46689993143081665
+mathematics education,student achievement,261,261,0.4962904453277588
+mathematics education,student assessment,20,20,0.43578964471817017
+mathematics education,student attitudes,57,57,0.40845727920532227
+mathematics education,student engagement,165,165,0.42983436584472656
+mathematics education,student learning,210,210,0.5525491237640381
+mathematics education,student learning outcomes,27,27,0.4677857756614685
+mathematics education,student motivation,104,104,0.41203320026397705
+mathematics education,student outcomes,47,47,0.4425831437110901
+mathematics education,student participation,32,32,0.43353861570358276
+mathematics education,student perception,21,21,0.40876615047454834
+mathematics education,student perceptions,42,42,0.41955098509788513
+mathematics education,student performance,207,207,0.41971370577812195
+mathematics education,student success,43,43,0.45469897985458374
+mathematics education,student teachers,63,63,0.5580947399139404
+mathematics education,student thinking,34,34,0.4983765482902527
+mathematics education,student understanding,29,29,0.5597829818725586
+mathematics education,students,135,135,0.5554444789886475
+mathematics education,teacher attitudes,37,37,0.4422745108604431
+mathematics education,teacher beliefs,143,143,0.49597227573394775
+mathematics education,teacher candidates,53,53,0.4425731897354126
+mathematics education,teacher collaboration,39,39,0.46137094497680664
+mathematics education,teacher competence,46,46,0.5103310346603394
+mathematics education,teacher development,190,190,0.526199221611023
+mathematics education,teacher education,1425,1425,0.5663008093833923
+mathematics education,teacher educator,25,25,0.5460416674613953
+mathematics education,teacher educators,125,125,0.5270593166351318
+mathematics education,teacher effectiveness,25,25,0.4690508544445038
+mathematics education,teacher efficacy,21,21,0.4992138147354126
+mathematics education,teacher identity,56,56,0.45360827445983887
+mathematics education,teacher knowledge,232,232,0.5611498355865479
+mathematics education,teacher learning,138,138,0.5577206611633301
+mathematics education,teacher noticing,85,85,0.4557168483734131
+mathematics education,teacher perceptions,35,35,0.4526844024658203
+mathematics education,teacher perspectives,20,20,0.5120523571968079
+mathematics education,teacher practice,30,30,0.5146976113319397
+mathematics education,teacher practices,41,41,0.5245492458343506
+mathematics education,teacher preparation,223,223,0.547660231590271
+mathematics education,teacher professional development,155,155,0.4543877840042114
+mathematics education,teacher quality,37,37,0.47922712564468384
+mathematics education,teacher reflection,23,23,0.4157659411430359
+mathematics education,teacher role,30,30,0.47327518463134766
+mathematics education,teacher self-efficacy,21,21,0.41537314653396606
+mathematics education,teacher support,31,31,0.4416126012802124
+mathematics education,teacher training,589,589,0.502047061920166
+mathematics education,teachers,68,68,0.5727463364601135
+mathematics education,teachers beliefs,22,22,0.4610331952571869
+mathematics education,teaching,79,79,0.6078442335128784
+mathematics education,teaching and learning,72,72,0.5160402059555054
+mathematics education,teaching approaches,20,20,0.5469803810119629
+mathematics education,teaching learning,51,51,0.5760137438774109
+mathematics education,teaching materials,33,33,0.5742959976196289
+mathematics education,teaching method,22,22,0.5828410387039185
+mathematics education,teaching methods,289,289,0.5824136734008789
+mathematics education,teaching practice,100,100,0.4934335947036743
+mathematics education,teaching practices,113,113,0.5138705968856812
+mathematics education,teaching quality,45,45,0.5197159647941589
+mathematics education,teaching strategies,67,67,0.546104371547699
+mathematics education,technical universities,21,21,0.4544146955013275
+mathematics education,technology education,56,56,0.4927915334701538
+mathematics education,technology enhanced learning,23,23,0.455116331577301
+mathematics education,technology-enhanced learning,26,26,0.4291977882385254
+mathematics education,tertiary education,35,35,0.5035348534584045
+mathematics education,textbook analysis,31,31,0.5204523801803589
+mathematics education,textbooks,60,60,0.5727414488792419
+mathematics education,undergraduate,22,22,0.51520836353302
+mathematics education,undergraduate education,30,30,0.5349701642990112
+mathematics education,undergraduate mathematics,27,27,0.9030027389526367
+mathematics education,undergraduate students,172,172,0.46173781156539917
+mathematics education,understanding,25,25,0.438834011554718
+mathematics education,university,20,20,0.5013063549995422
+mathematics education,university education,22,22,0.5476373434066772
+mathematics education,university level,24,24,0.47706514596939087
+mathematics education,university mathematics,27,27,0.8936066627502441
+mathematics education,university students,107,107,0.48448026180267334
+mathematics education,urban education,41,41,0.46794387698173523
+mathematics education,urban schools,20,20,0.4558735489845276
+mathematics education,vocational education,38,38,0.45089954137802124
+mathematics teacher,teacher education,70,70,0.6065784096717834
+mentoring,stem education,35,35,0.4586664140224457
+middle school,stem education,64,64,0.4822925627231598
+numeracy,health literacy,20,20,0.4151381552219391
+numeracy,literacy,42,42,0.5198893547058105
+outreach programs,stem education,21,21,0.40043240785598755
+pedagogical content knowledge,pre-service teachers,20,20,0.40877237915992737
+pedagogical content knowledge,professional development,22,22,0.4370282292366028
+pedagogical content knowledge,teacher education,98,98,0.5302463173866272
+pedagogical content knowledge,teacher knowledge,32,32,0.6149797439575195
+pedagogy,stem education,30,30,0.6460346579551697
+personalized learning,artificial intelligence,32,32,0.44843944907188416
+physics education,stem education,39,39,0.5530993938446045
+pre-service teachers,stem education,57,57,0.4218294322490692
+preservice teachers,stem education,34,34,0.4779611825942993
+preservice teachers,teacher education,129,129,0.790821373462677
+preservice teachers,teacher preparation,24,24,0.7885859608650208
+primary education,stem education,36,36,0.6381559371948242
+problem solving,computational thinking,48,48,0.5056800246238708
+problem solving,mathematical thinking,37,37,0.47930431365966797
+problem-solving,computational thinking,23,23,0.543476402759552
+procedural knowledge,conceptual knowledge,35,35,0.7630327343940735
+professional development,lesson study,37,37,0.5071462392807007
+professional development,stem education,162,162,0.6071347594261169
+professional development,teacher development,22,22,0.6704268455505371
+professional development,teacher education,122,122,0.5950677394866943
+professional development,teacher learning,46,46,0.512755811214447
+professional development,teacher training,58,58,0.5654142498970032
+programming,computational thinking,44,44,0.4996366500854492
+robotics,computational thinking,26,26,0.406821072101593
+science,technology,68,68,0.6653106212615967
+science education,high school students,27,27,0.40001463890075684
+science education,higher education,35,35,0.5835882425308228
+science education,informal learning,23,23,0.42654770612716675
+science education,inquiry-based learning,22,22,0.4295565187931061
+science education,middle school,22,22,0.4557536542415619
+science education,preservice teachers,24,24,0.41490447521209717
+science education,professional development,48,48,0.5295087099075317
+science education,steam education,29,29,0.46665582060813904
+science education,stem careers,22,22,0.4597567915916443
+science education,stem education,334,334,0.565416693687439
+science education,student achievement,26,26,0.5710626840591431
+science education,student learning,23,23,0.6104048490524292
+science education,teacher development,30,30,0.5576819181442261
+science education,teacher education,60,60,0.6011883616447449
+science education,teacher preparation,34,34,0.5645196437835693
+science education,teacher professional development,24,24,0.5442156195640564
+science education,teacher training,56,56,0.5605398416519165
+science education,technology education,56,56,0.6758469343185425
+science teachers,stem education,28,28,0.4727711081504822
+science teaching,stem education,21,21,0.4567089080810547
+secondary education,academic performance,26,26,0.5672438740730286
+secondary education,stem education,44,44,0.609209418296814
+secondary education,teacher training,21,21,0.5420877933502197
+secondary schools,stem education,29,29,0.5145220797637413
+self-efficacy,motivation,27,27,0.5515795946121216
+space education,stem education,20,20,0.4202808141708374
+special education,learning disabilities,33,33,0.6884304285049438
+statistics,probability,30,30,0.6162422299385071
+stem education,blended learning,20,20,0.433709979057312
+stem education,career interest,21,21,0.4464561939239502
+stem education,early childhood,31,31,0.41487622261047363
+stem education,educational robotics,55,55,0.41924333572387695
+stem education,interdisciplinary education,28,28,0.4874839782714844
+stem education,k-12 education,43,43,0.5869208574295044
+stem education,middle school students,41,41,0.4037565290927887
+stem education,mobile learning,25,25,0.40271463990211487
+stem education,online learning,56,56,0.40572333335876465
+stem education,research experience,22,22,0.4595028758049011
+stem education,science learning,27,27,0.48087334632873535
+stem education,stem careers,20,20,0.7971382141113281
+stem education,student engagement,70,70,0.42485567927360535
+stem education,teacher professional development,73,73,0.5181308388710022
+stem education,university students,26,26,0.45435830950737
+stem education,workforce development,21,21,0.504252016544342
+student attitudes,stem education,23,23,0.40548044443130493
+student learning,higher education,21,21,0.6016682982444763
+student learning,stem education,52,52,0.5149247646331787
+student motivation,stem education,34,34,0.433460533618927
+student success,stem education,45,45,0.4587230682373047
+students,learning,20,20,0.6417527198791504
+teacher development,professional growth,21,21,0.44811075925827026
+teacher development,stem education,44,44,0.5624439120292664
+teacher education,early childhood,20,20,0.46464234590530396
+teacher education,elementary teachers,21,21,0.8814496994018555
+teacher education,lesson study,39,39,0.6842188239097595
+teacher education,mathematics teachers,46,46,0.6328237056732178
+teacher education,mathematics teaching,82,82,0.5628457069396973
+teacher education,online learning,22,22,0.4903416037559509
+teacher education,pedagogical knowledge,30,30,0.6460132598876953
+teacher education,pedagogy,64,64,0.8211975693702698
+teacher education,pre-service teachers,137,137,0.7447332143783569
+teacher education,primary education,20,20,0.7261561155319214
+teacher education,prospective teachers,76,76,0.8697234392166138
+teacher education,statistics education,21,21,0.459207683801651
+teacher education,stem education,87,87,0.5449453592300415
+teacher education,student teachers,24,24,0.8399468660354614
+teacher education,teacher educators,36,36,0.9479111433029175
+teacher education,teacher learning,20,20,0.9202160239219666
+teacher education,teacher preparation,55,55,0.8717976808547974
+teacher knowledge,professional development,32,32,0.506600022315979
+teacher knowledge,teacher education,44,44,0.8812730312347412
+teacher preparation,stem education,43,43,0.49270808696746826
+teacher training,educational technology,23,23,0.6318526268005371
+teacher training,pedagogy,28,28,0.7516514658927917
+teacher training,pre-service teachers,25,25,0.7305053472518921
+teacher training,primary education,36,36,0.5871304869651794
+teacher training,stem education,125,125,0.4891030192375183
+teacher training,teacher education,37,37,0.9088219404220581
+teachers,students,21,21,0.6920142769813538
+teaching,learning,65,65,0.745903730392456
+teaching methods,stem education,33,33,0.4670651853084564
+teaching practices,stem education,28,28,0.5084303617477417
+technology education,stem education,28,28,0.49960583448410034
+undergraduate education,stem education,20,20,0.6002299785614014
+undergraduate research,stem education,49,49,0.4920368194580078
+undergraduate students,stem education,60,60,0.460330397884051
+virtual reality,augmented reality,35,35,0.8360399501664298
+women in stem,stem education,33,33,0.5939193331834042

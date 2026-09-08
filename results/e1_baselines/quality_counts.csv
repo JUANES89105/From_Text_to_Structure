@@ -1,0 +1,5 @@
+method,documents,raw_empty,clean_empty,raw_not_five,clean_not_five,reported_failures,historical_failure_status,missing_predictions,missing_raw_responses,warning_documents,missing_metric_values
+llama_3.1_8b,2000,1,1,10,21,0,unavailable,0,1.0,0,0
+tfidf,2000,0,0,0,0,0,not_applicable,0,,0,0
+yake,2000,0,0,0,1,0,not_applicable,0,,0,0
+keybert,2000,0,0,0,0,0,not_applicable,0,,0,0

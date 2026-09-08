@@ -1,0 +1,7 @@
+# Install with: .venv/bin/python -m pip install -r requirements-e1.txt
+# The complete measured environment is recorded in results/e1_baselines/package_versions.json.
+-r requirements.txt
+# Already present in the environment; pin the TF-IDF/candidate-vectorizer version.
+scikit-learn==1.9.0
+yake==0.7.3
+keybert==0.9.0

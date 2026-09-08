@@ -1,0 +1,21 @@
+{
+  "purpose": "fixed sample check against unmodified native SentenceTransformer KeyBERT backend; no tuning",
+  "checks": [
+    {
+      "row_abs": 0,
+      "ordered_phrases_identical": true,
+      "maximum_score_difference": 0.0
+    },
+    {
+      "row_abs": 999,
+      "ordered_phrases_identical": true,
+      "maximum_score_difference": 0.0
+    },
+    {
+      "row_abs": 1999,
+      "ordered_phrases_identical": true,
+      "maximum_score_difference": 0.0
+    }
+  ],
+  "passed": true
+}

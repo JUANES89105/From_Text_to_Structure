@@ -1,0 +1,66 @@
+community,rank,keyword,degree_backbone,weighted_degree_backbone
+0,1,mathematics education,313,23701.0
+0,2,teacher education,27,2833.0
+0,3,teacher training,11,1026.0
+0,4,preservice teachers,6,530.0
+0,5,pedagogy,7,481.0
+0,6,academic performance,8,428.0
+0,7,academic achievement,8,420.0
+0,8,primary education,6,417.0
+0,9,teacher preparation,5,379.0
+0,10,geometry,3,342.0
+0,11,teacher knowledge,4,340.0
+0,12,teaching methods,2,322.0
+0,13,secondary education,4,314.0
+0,14,student achievement,2,287.0
+0,15,prospective teachers,2,285.0
+1,1,education,39,3605.0
+1,2,mathematics,31,3040.0
+1,3,engineering,10,705.0
+1,4,science,4,579.0
+1,5,curriculum,5,473.0
+1,6,students,7,470.0
+1,7,learning,6,387.0
+1,8,technology,5,366.0
+1,9,teaching,4,314.0
+1,10,calculus,3,254.0
+1,11,stem,3,252.0
+1,12,numeracy,5,214.0
+1,13,physics,3,200.0
+1,14,teachers,4,197.0
+1,15,research,2,168.0
+2,1,stem education,74,4512.0
+2,2,engineering education,39,2327.0
+2,3,science education,22,1795.0
+2,4,higher education,11,912.0
+2,5,professional development,11,609.0
+2,6,student learning,5,350.0
+2,7,student engagement,5,308.0
+2,8,teacher development,5,307.0
+2,9,undergraduate students,3,302.0
+2,10,teacher professional development,4,278.0
+2,11,curriculum development,4,255.0
+2,12,curricula,5,221.0
+2,13,engineering students,3,213.0
+2,14,middle school,3,195.0
+2,15,curriculum design,3,194.0
+3,1,conceptual knowledge,2,77.0
+3,2,procedural knowledge,1,35.0
+4,1,artificial intelligence,8,461.0
+4,2,computational thinking,8,439.0
+4,3,programming,5,189.0
+4,4,machine learning,3,174.0
+4,5,computer science,5,156.0
+4,6,problem solving,3,128.0
+4,7,deep learning,2,67.0
+4,8,robotics,2,48.0
+4,9,data mining,1,32.0
+4,10,personalized learning,1,32.0
+4,11,software engineering,1,26.0
+4,12,algorithmic thinking,1,25.0
+4,13,problem-solving,1,23.0
+4,14,adaptive learning,1,22.0
+5,1,augmented reality,2,59.0
+5,2,virtual reality,1,35.0
+6,1,equity,1,26.0
+6,2,inclusion,1,26.0

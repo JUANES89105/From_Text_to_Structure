@@ -1,0 +1,15 @@
+{
+  "model_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "max_seq_length": 128,
+  "counts_include_special_tokens": true,
+  "truncated_insumo": {
+    "documents": 2000,
+    "over_128_tokens": 1429,
+    "maximum_tokens": 719
+  },
+  "gold_concatenations": {
+    "documents": 2000,
+    "over_128_tokens": 110,
+    "maximum_tokens": 239
+  }
+}

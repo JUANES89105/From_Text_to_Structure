@@ -1,0 +1,86 @@
+{
+  "seed": 42,
+  "input_column": "insumo",
+  "truncate_chars": 3000,
+  "evaluation": {
+    "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "tau": 0.7,
+    "batch_size": 128,
+    "keep_null": false,
+    "ddof": 1,
+    "normalize_embeddings": false,
+    "reference_function_cells": [
+      3,
+      4
+    ]
+  },
+  "baselines": {
+    "target_k": 5,
+    "gold_label_tuning": false,
+    "tfidf": {
+      "ngram_range": [
+        1,
+        4
+      ],
+      "stop_words": "english",
+      "min_df": 1,
+      "max_df": 1.0,
+      "lowercase": true,
+      "strip_accents": null,
+      "token_pattern": "(?u)\\b\\w\\w+\\b",
+      "analyzer": "word",
+      "norm": "l2",
+      "use_idf": true,
+      "smooth_idf": true,
+      "sublinear_tf": false,
+      "binary": false,
+      "max_features": null,
+      "dtype": "float64",
+      "fit_scope": "all 2000 truncated insumo inputs; transductive",
+      "ranking": "descending nonzero document TF-IDF; lexicographic phrase on exact ties",
+      "deduplication": "unique vectorizer features; no fuzzy deduplication"
+    },
+    "yake": {
+      "lan": "en",
+      "n": 4,
+      "dedup_lim": 0.9,
+      "dedup_func": "seqm",
+      "window_size": 1,
+      "top": 5,
+      "features": null,
+      "lemmatize": false,
+      "stopwords": "YAKE bundled English stopwords",
+      "ranking": "native ascending score; stable candidate insertion order for ties",
+      "top_k": "native top=5 after similarity deduplication; no padding"
+    },
+    "keybert": {
+      "ngram_range": [
+        1,
+        4
+      ],
+      "stop_words": "english",
+      "min_df": 1,
+      "max_df": 1.0,
+      "lowercase": true,
+      "strip_accents": null,
+      "token_pattern": "(?u)\\b\\w\\w+\\b",
+      "analyzer": "word",
+      "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "model_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+      "top_n": 5,
+      "use_mmr": false,
+      "use_maxsum": false,
+      "diversity": 0.5,
+      "nr_candidates": 20,
+      "diversity_settings_active": false,
+      "seed_keywords": null,
+      "llm": null,
+      "embedding_batch_size": 128,
+      "ranking": "native cosine argsort descending; NumPy default tie order; returned scores rounded to 4 decimals",
+      "deduplication": "unique vectorizer features; no fuzzy deduplication",
+      "fit_scope": "candidate vocabulary from all inputs; each document ranked only against its own candidates"
+    },
+    "output_policy": "keep native ranked top-five phrases, including post-cleaning collisions; never pad, drop documents, or alter saved LLM lists"
+  }
+}

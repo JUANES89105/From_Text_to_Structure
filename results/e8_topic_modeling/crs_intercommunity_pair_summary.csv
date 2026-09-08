@@ -1,0 +1,9 @@
+community_a,community_b,n_intercommunity_edges,total_intercommunity_weight,mean_intercommunity_weight,max_intercommunity_weight
+0,2,66,5480.0,83.03030303030303,722.0
+0,1,19,1618.0,85.15789473684211,218.0
+0,4,5,522.0,104.4,209.0
+1,4,5,167.0,33.4,56.0
+1,2,5,155.0,31.0,36.0
+2,4,2,65.0,32.5,43.0
+0,3,1,42.0,42.0,42.0
+0,5,1,24.0,24.0,24.0

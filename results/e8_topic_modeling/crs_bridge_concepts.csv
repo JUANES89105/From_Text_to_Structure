@@ -1,0 +1,85 @@
+keyword,community,n_intercommunity_edges,intercommunity_weight,degree_backbone,weighted_degree_backbone
+mathematics education,0,44,5819.0,313,23701.0
+stem education,2,24,1310.0,74,4512.0
+science education,2,7,954.0,22,1795.0
+engineering education,2,6,500.0,39,2327.0
+mathematics,1,8,495.0,31,3040.0
+higher education,2,4,460.0,11,912.0
+education,1,5,342.0,39,3605.0
+professional development,2,6,317.0,11,609.0
+teacher education,0,5,311.0,27,2833.0
+teacher training,0,4,267.0,11,1026.0
+artificial intelligence,4,3,257.0,8,461.0
+student learning,2,1,210.0,5,350.0
+computational thinking,4,1,209.0,8,439.0
+curriculum,1,2,208.0,5,473.0
+teacher development,2,1,190.0,5,307.0
+calculus,1,1,182.0,3,254.0
+undergraduate students,2,1,172.0,3,302.0
+student engagement,2,1,165.0,5,308.0
+students,1,2,162.0,7,470.0
+teacher professional development,2,1,155.0,4,278.0
+engineering students,2,1,146.0,3,213.0
+curriculum development,2,1,137.0,4,255.0
+programming,4,3,121.0,5,189.0
+curriculum design,2,1,121.0,3,194.0
+curricula,2,3,119.0,5,221.0
+pedagogy,0,4,114.0,7,481.0
+middle school,2,1,109.0,3,195.0
+student motivation,2,1,104.0,3,168.0
+geometry,0,2,103.0,3,342.0
+academic achievement,0,3,95.0,8,420.0
+early childhood education,2,1,94.0,3,139.0
+numeracy,1,1,91.0,5,214.0
+learning,1,1,83.0,6,387.0
+problem solving,4,2,80.0,3,128.0
+teaching,1,1,79.0,4,314.0
+teacher preparation,0,2,77.0,5,379.0
+academic performance,0,2,75.0,8,428.0
+educational technology,0,2,68.0,4,270.0
+teachers,1,1,68.0,4,197.0
+physics education,2,1,66.0,2,105.0
+middle school students,2,1,66.0,2,107.0
+computer science,4,2,65.0,5,156.0
+engineering,1,2,58.0,10,705.0
+preservice teachers,0,2,58.0,6,530.0
+pre-service teachers,0,1,57.0,4,239.0
+technology education,2,1,56.0,4,168.0
+teacher learning,0,1,46.0,3,204.0
+secondary education,0,1,44.0,4,314.0
+student success,2,1,43.0,3,114.0
+student perceptions,2,1,42.0,2,62.0
+cognition,1,1,42.0,3,92.0
+conceptual knowledge,3,1,42.0,2,77.0
+learning outcomes,0,1,41.0,2,164.0
+literacy,1,1,41.0,4,154.0
+mathematical education,1,1,37.0,2,58.0
+mathematical thinking,0,1,37.0,2,254.0
+lesson study,0,1,37.0,3,232.0
+primary education,0,1,36.0,6,417.0
+high school,0,1,33.0,2,129.0
+teaching methods,0,1,33.0,2,322.0
+teacher knowledge,0,1,32.0,4,340.0
+philosophy,1,1,32.0,3,118.0
+algebra,0,1,31.0,2,193.0
+undergraduate education,2,1,30.0,2,50.0
+secondary schools,0,1,29.0,2,100.0
+teaching practices,0,1,28.0,2,141.0
+student performance,0,1,28.0,4,277.0
+science teaching,2,1,26.0,2,47.0
+university students,0,1,26.0,2,133.0
+elementary education,0,1,26.0,4,242.0
+student achievement,0,1,26.0,2,287.0
+educational robotics,2,1,25.0,2,80.0
+augmented reality,5,1,24.0,2,59.0
+instructional design,0,1,24.0,2,108.0
+student attitudes,0,1,23.0,2,80.0
+online learning,2,1,22.0,5,157.0
+pedagogical content knowledge,0,1,22.0,4,172.0
+robotics,4,1,22.0,2,48.0
+engineering mathematics,2,1,21.0,2,54.0
+early childhood,2,1,20.0,2,51.0
+blended learning,0,1,20.0,2,135.0
+elementary school,0,1,20.0,3,261.0
+k-12 education,2,1,20.0,2,63.0
+university,1,1,20.0,3,111.0

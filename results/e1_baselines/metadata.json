@@ -1,0 +1,142 @@
+{
+  "started_utc": "2026-09-05T03:34:09.554962+00:00",
+  "branch": "ieee-revision-experiments",
+  "seed": 42,
+  "python": "3.13.5",
+  "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "cpu_count": 8,
+  "torch_threads": 4,
+  "device": "cpu",
+  "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "model_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "tau": 0.7,
+  "batch_size": 128,
+  "sd_ddof": 1,
+  "input_count": 2000,
+  "input_truncation_chars": 3000,
+  "truncated_document_ids": [
+    {
+      "row_abs": 164,
+      "doc_id": "1150"
+    }
+  ],
+  "paid_api_calls": 0,
+  "historical_llm_runtime_seconds": null,
+  "historical_llm_cost": null,
+  "reference_check": {
+    "reference_cells_zero_based": [
+      3,
+      4
+    ],
+    "ast_identical": true
+  },
+  "llm_validation_reused": true,
+  "baseline_configurations": {
+    "target_k": 5,
+    "gold_label_tuning": false,
+    "tfidf": {
+      "ngram_range": [
+        1,
+        4
+      ],
+      "stop_words": "english",
+      "min_df": 1,
+      "max_df": 1.0,
+      "lowercase": true,
+      "strip_accents": null,
+      "token_pattern": "(?u)\\b\\w\\w+\\b",
+      "analyzer": "word",
+      "norm": "l2",
+      "use_idf": true,
+      "smooth_idf": true,
+      "sublinear_tf": false,
+      "binary": false,
+      "max_features": null,
+      "dtype": "float64",
+      "fit_scope": "all 2000 truncated insumo inputs; transductive",
+      "ranking": "descending nonzero document TF-IDF; lexicographic phrase on exact ties",
+      "deduplication": "unique vectorizer features; no fuzzy deduplication"
+    },
+    "yake": {
+      "lan": "en",
+      "n": 4,
+      "dedup_lim": 0.9,
+      "dedup_func": "seqm",
+      "window_size": 1,
+      "top": 5,
+      "features": null,
+      "lemmatize": false,
+      "stopwords": "YAKE bundled English stopwords",
+      "ranking": "native ascending score; stable candidate insertion order for ties",
+      "top_k": "native top=5 after similarity deduplication; no padding"
+    },
+    "keybert": {
+      "ngram_range": [
+        1,
+        4
+      ],
+      "stop_words": "english",
+      "min_df": 1,
+      "max_df": 1.0,
+      "lowercase": true,
+      "strip_accents": null,
+      "token_pattern": "(?u)\\b\\w\\w+\\b",
+      "analyzer": "word",
+      "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "model_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+      "top_n": 5,
+      "use_mmr": false,
+      "use_maxsum": false,
+      "diversity": 0.5,
+      "nr_candidates": 20,
+      "diversity_settings_active": false,
+      "seed_keywords": null,
+      "llm": null,
+      "embedding_batch_size": 128,
+      "ranking": "native cosine argsort descending; NumPy default tie order; returned scores rounded to 4 decimals",
+      "deduplication": "unique vectorizer features; no fuzzy deduplication",
+      "fit_scope": "candidate vocabulary from all inputs; each document ranked only against its own candidates"
+    },
+    "output_policy": "keep native ranked top-five phrases, including post-cleaning collisions; never pad, drop documents, or alter saved LLM lists"
+  },
+  "hardware_detail_unavailable": "CPU brand and physical RAM sysctl query denied by local sandbox; platform and logical CPU count measured",
+  "model_load_seconds": 0.7779751670022961,
+  "model_max_seq_length": 128,
+  "model_dtype": "torch.float32",
+  "method_details": {
+    "tfidf": {
+      "extraction_seconds": 1.6968762500036974,
+      "fit_seconds": 1.3251738749968354,
+      "vocabulary_size": 408196,
+      "per_document_timing": "ranking only; corpus fit reported separately"
+    },
+    "yake": {
+      "extraction_seconds": 12.73816891599563,
+      "per_document_timing": "full extraction, excluding extractor initialization"
+    },
+    "keybert": {
+      "extraction_seconds": 669.784056000004,
+      "embedding_stages": [
+        {
+          "text_count": 2000,
+          "seconds": 40.54015245899791
+        },
+        {
+          "text_count": 408196,
+          "seconds": 624.9487680409948
+        }
+      ],
+      "vocabulary_size": 408196,
+      "per_document_timing": "unavailable: batched corpus extraction; no imputed per-document times"
+    }
+  },
+  "completed_utc": "2026-09-05T03:55:11.881948+00:00",
+  "status": "complete",
+  "protected_artifacts_unchanged": true,
+  "source_sha256": {
+    "scripts/e1_baseline_extraction.py": "be73b461ce6474470b0baca25b2cabe50960cec1bc9281eae68d8b44567e7023",
+    "scripts/inspec_evaluation.py": "75b39d7c3d68db320d3161200983425b670180bf4ab55d69a1539ac6a317112b",
+    "scripts/test_inspec_evaluation.py": "15eed9d90ad54c63e63609cabeb38109af5d3774cdd7af75005fe39566103c2b"
+  }
+}
