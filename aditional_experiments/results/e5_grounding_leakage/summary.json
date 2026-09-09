@@ -1,0 +1,147 @@
+{
+  "documents_analyzed": 52947,
+  "attribution_2x2_exact_presence": {
+    "in_original_only": 0.1294167038586352,
+    "in_original_and_text": 0.32349826395455267,
+    "in_text_only": 0.4020477015363435,
+    "in_neither": 0.14503733065046862,
+    "keywords": 264394,
+    "note": "exact lexical presence in the record the model saw; categories above are hierarchical, this table is not"
+  },
+  "keywords_classified": 264586,
+  "category_shares": {
+    "null_token": 0.00073,
+    "exact_original": 0.45259,
+    "verbatim_text": 0.40176,
+    "verbatim_metadata": 0.00561,
+    "soft_original": 0.07259,
+    "soft_text": 0.00413,
+    "ungrounded": 0.0626
+  },
+  "category_counts": {
+    "null_token": 192,
+    "exact_original": 119748,
+    "verbatim_text": 106299,
+    "verbatim_metadata": 1485,
+    "soft_original": 19206,
+    "soft_text": 1093,
+    "ungrounded": 16563
+  },
+  "leakage": {
+    "share_keywords_exact_copy_of_visible_original": 0.452586304641969,
+    "share_keywords_exact_or_paraphrase_of_visible_original": 0.5251751793367752,
+    "share_keywords_matching_original_hidden_by_truncation": 0.006334424345959348,
+    "mean_per_document_share_exact_original": 0.4524570631712815,
+    "median_per_document_share_exact_original": 0.4,
+    "documents_with_zero_exact_copies": 10363,
+    "documents_with_all_keywords_exact_copies": 4817,
+    "mean_recall_of_visible_original_keywords": 0.3089676366644024,
+    "mean_n_original_keywords_visible": 9.543807958902299
+  },
+  "grounding": {
+    "share_grounded_any_level": 0.9366746539877393,
+    "share_verbatim_in_record": 0.8599547973059799,
+    "share_ungrounded": 0.0625996840346806,
+    "documents_with_at_least_one_ungrounded": 13386,
+    "mean_max_sentence_similarity_ungrounded": 0.5123998893128316,
+    "median_max_sentence_similarity_ungrounded": 0.5219869017601013
+  },
+  "visibility_of_original_keywords": {
+    "fully_visible": 50939,
+    "not_visible": 1173,
+    "partially_visible": 835
+  },
+  "by_visibility_stratum": [
+    {
+      "visibility": "fully_visible",
+      "null_token": 0.00075,
+      "exact_original": 0.46403,
+      "verbatim_text": 0.39158,
+      "verbatim_metadata": 0.00576,
+      "soft_original": 0.07456,
+      "soft_text": 0.00379,
+      "ungrounded": 0.05953,
+      "n_keywords": 254548,
+      "n_documents": 50939,
+      "mean_global_sem_sim": 0.719569981098175,
+      "sd_global_sem_sim": 0.09148000180721283,
+      "mean_record_length": 1633.64004,
+      "mean_share_exact_original": 0.46388,
+      "mean_recall_original_seen": 0.31077
+    },
+    {
+      "visibility": "not_visible",
+      "null_token": 0.0,
+      "exact_original": 0.0,
+      "verbatim_text": 0.79216,
+      "verbatim_metadata": 0.00239,
+      "soft_original": 0.0,
+      "soft_text": 0.01858,
+      "ungrounded": 0.18687,
+      "n_keywords": 5865,
+      "n_documents": 1173,
+      "mean_global_sem_sim": 0.6978499889373779,
+      "sd_global_sem_sim": 0.0943399965763092,
+      "mean_record_length": 4230.70332,
+      "mean_share_exact_original": 0.0,
+      "mean_recall_original_seen": NaN
+    },
+    {
+      "visibility": "partially_visible",
+      "null_token": 0.0,
+      "exact_original": 0.39085,
+      "verbatim_text": 0.474,
+      "verbatim_metadata": 0.00096,
+      "soft_original": 0.05464,
+      "soft_text": 0.00455,
+      "ungrounded": 0.07501,
+      "n_keywords": 4173,
+      "n_documents": 835,
+      "mean_global_sem_sim": 0.7029200196266174,
+      "sd_global_sem_sim": 0.09602999687194824,
+      "mean_record_length": 3207.8491,
+      "mean_share_exact_original": 0.39095,
+      "mean_recall_original_seen": 0.19576
+    }
+  ],
+  "prompt_adherence": {
+    "documents": 52947,
+    "keywords_total": 264586,
+    "documents_with_exactly_5_keywords": 52740,
+    "documents_with_fewer_than_5": 183,
+    "documents_with_more_than_5": 24,
+    "null_tokens": 192,
+    "null_token_rate": 0.0007256619775800685,
+    "documents_with_duplicate_keywords": 0,
+    "keywords_with_non_ascii_characters": 38,
+    "keywords_equal_to_forbidden_generic_terms": 276,
+    "keywords_longer_than_4_words": 294,
+    "keywords_with_spanish_function_words": 24,
+    "examples_spanish_function_words": {
+      "augustus de morgan": 2,
+      "rio de janeiro": 2,
+      "generation y": 1,
+      "universidad politecnica de valencia": 1,
+      "south central los angeles": 1,
+      "accademia del cimento": 1,
+      "g del s incompleteness theorem": 1,
+      "el hi textbooks": 1,
+      "de facto standards": 1,
+      "las vegas": 1,
+      "de colonization": 1,
+      "de morgan": 1,
+      "olympic para alpine skiers": 1,
+      "para athletes": 1,
+      "de marginalization": 1
+    }
+  },
+  "alignment": {
+    "offset_0": 0.8452000000000002,
+    "offset_plus1": 0.11283333333333333,
+    "offset_minus1": 0.11532177392464156,
+    "pass": true,
+    "record_rows_total": 53130,
+    "records_analyzed": 52947,
+    "records_not_linked_to_a_published_output": 183
+  }
+}

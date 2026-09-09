@@ -1,0 +1,37 @@
+{
+  "inspec_8b_reproduction": {
+    "pass": true,
+    "checks": {
+      "jaccard_lex": {
+        "observed": 0.1422,
+        "reference": 0.1422,
+        "pass": true
+      },
+      "soft_precision": {
+        "observed": 0.7939,
+        "reference": 0.7939,
+        "pass": true
+      },
+      "soft_recall": {
+        "observed": 0.467,
+        "reference": 0.467,
+        "pass": true
+      },
+      "soft_f1": {
+        "observed": 0.5652,
+        "reference": 0.5652,
+        "pass": true
+      },
+      "soft_mean_max": {
+        "observed": 0.7522,
+        "reference": 0.7522,
+        "pass": true
+      },
+      "global_sem_sim": {
+        "observed": 0.8042,
+        "reference": 0.8042,
+        "pass": true
+      }
+    }
+  }
+}

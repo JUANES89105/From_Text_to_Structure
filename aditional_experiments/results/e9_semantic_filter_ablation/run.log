@@ -1,0 +1,37 @@
+documents=52946 vocabulary=56635
+REPRODUCTION GATE (tau=0.40): PASS
+  analyzed_documents     observed=52946 reference=52946 ok
+  nodes                  observed=56635 reference=56635 ok
+  edges                  observed=109022 reference=109022 ok
+  components             observed=19856 reference=19856 ok
+  lcc_nodes              observed=34316 reference=34316 ok
+  backbone_nodes         observed=408 reference=408 ok
+  backbone_edges         observed=608 reference=608 ok
+  backbone_communities   observed=7 reference=7 ok
+  backbone_modularity    observed=0.3560443171946043 reference=0.3560443171946043 ok
+  sweep tau040 w>=1: nodes=38618 edges=109022 lcc=0.889 Q=0.4413
+  sweep tau040 w>=2: nodes=5814 edges=15145 lcc=0.949 Q=0.3738
+  sweep tau040 w>=3: nodes=3063 edges=7214 lcc=0.976 Q=0.3664
+  sweep tau040 w>=5: nodes=1627 edges=3331 lcc=0.976 Q=0.3600
+  sweep tau040 w>=8: nodes=1011 edges=1801 lcc=0.979 Q=0.3560
+  sweep tau040 w>=10: nodes=783 edges=1344 lcc=0.982 Q=0.3558
+  sweep tau040 w>=15: nodes=524 edges=824 lcc=0.994 Q=0.3502
+  sweep tau040 w>=20: nodes=408 edges=608 lcc=0.995 Q=0.3560
+  sweep tau040 w>=25: nodes=319 edges=459 lcc=0.987 Q=0.3509
+  sweep tau040 w>=30: nodes=258 edges=368 lcc=0.992 Q=0.3447
+  sweep tau040 w>=40: nodes=176 edges=250 lcc=1.000 Q=0.3397
+  sweep tau040 w>=50: nodes=141 edges=188 lcc=1.000 Q=0.3374
+  sweep coword w>=1: nodes=56634 edges=377144 lcc=0.991 Q=0.3468
+  sweep coword w>=2: nodes=10936 edges=39990 lcc=0.990 Q=0.3094
+  sweep coword w>=3: nodes=5795 edges=17397 lcc=0.994 Q=0.3075
+  sweep coword w>=5: nodes=3043 edges=7420 lcc=0.998 Q=0.3081
+  sweep coword w>=8: nodes=1825 edges=3776 lcc=0.998 Q=0.3078
+  sweep coword w>=10: nodes=1397 edges=2739 lcc=0.996 Q=0.3073
+  sweep coword w>=15: nodes=905 edges=1590 lcc=1.000 Q=0.3060
+  sweep coword w>=20: nodes=658 edges=1108 lcc=1.000 Q=0.3098
+  sweep coword w>=25: nodes=503 edges=808 lcc=1.000 Q=0.3046
+  sweep coword w>=30: nodes=413 edges=638 lcc=1.000 Q=0.3069
+  sweep coword w>=40: nodes=291 edges=425 lcc=0.993 Q=0.3045
+  sweep coword w>=50: nodes=233 edges=322 lcc=0.991 Q=0.2966
+done {'load': 5.247, 'embeddings': 280.953, 'build_tau040': 306.704, 'build_coword': 333.765, 'backbones': 337.345, 'filter_effect': 338.71, 'backbone_compare': 339.017, 'w_sweep': 394.702}
+EXIT=0

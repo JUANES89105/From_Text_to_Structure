@@ -1,0 +1,5 @@
+{
+  "gate": "all records parsed into >= 6 fields",
+  "pass": true,
+  "records_with_fewer_than_6_fields": 0
+}

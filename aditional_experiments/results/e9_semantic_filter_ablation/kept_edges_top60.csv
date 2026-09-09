@@ -1,0 +1,61 @@
+u,v,weight_coword,sim_mean,weight_tau040,removed_instances
+mathematics education,teacher education,1425,0.5663009285926819,1425,0
+mathematics,education,1061,0.43405961990356445,1061,0
+mathematics education,science education,722,0.5830686688423157,722,0
+engineering education,stem education,633,0.6089833974838257,633,0
+mathematics education,teacher training,589,0.5020468831062317,589,0
+mathematics education,stem education,415,0.4668998122215271,415,0
+mathematics education,higher education,384,0.4930097460746765,384,0
+science education,stem education,334,0.565416693687439,334,0
+mathematics education,engineering education,333,0.47334015369415283,333,0
+mathematics education,preservice teachers,294,0.42400723695755005,294,0
+mathematics education,teaching methods,289,0.5824136734008789,289,0
+mathematics education,mathematical knowledge,284,0.7713055610656738,284,0
+mathematics education,pedagogy,275,0.5554910898208618,275,0
+mathematics education,primary education,267,0.504440426826477,267,0
+mathematics education,student achievement,261,0.4962904155254364,261,0
+higher education,stem education,244,0.6792311668395996,244,0
+academic achievement,mathematics education,241,0.500244140625,241,0
+mathematics,science,240,0.5151055455207825,240,0
+mathematics education,geometry,239,0.4998019337654114,239,0
+education,engineering,233,0.5511412024497986,233,0
+mathematics education,teacher knowledge,232,0.5611499547958374,232,0
+mathematics education,academic performance,230,0.4508102834224701,230,0
+mathematics education,secondary education,223,0.5806114673614502,223,0
+mathematics education,teacher preparation,223,0.547660231590271,223,0
+mathematics education,elementary school,221,0.5196462273597717,221,0
+mathematics,mathematics education,218,0.853273868560791,218,0
+mathematics education,mathematical thinking,217,0.7045971155166626,217,0
+mathematics education,student learning,210,0.5525491237640381,210,0
+mathematics education,computational thinking,209,0.4029477834701538,209,0
+mathematics education,prospective teachers,209,0.5052139759063721,209,0
+mathematics education,artificial intelligence,208,0.4128234386444092,208,0
+mathematics education,student performance,207,0.41971370577812195,207,0
+mathematics education,primary school,205,0.45259469747543335,205,0
+education,science,191,0.49555861949920654,191,0
+mathematics education,teacher development,190,0.5261991024017334,190,0
+mathematics education,education,186,0.6101577281951904,186,0
+mathematics education,mathematical modelling,186,0.5391929149627686,186,0
+mathematics education,curriculum,185,0.6132482886314392,185,0
+education,stem,182,0.4686979651451111,182,0
+mathematics education,calculus,182,0.6665989756584167,182,0
+mathematics education,educational technology,179,0.5692234635353088,179,0
+mathematics education,mathematics teaching,178,0.9602140188217163,178,0
+mathematics,engineering,176,0.4497358798980713,176,0
+mathematics education,mathematical modeling,175,0.5592346787452698,175,0
+mathematics education,undergraduate students,172,0.4617379605770111,172,0
+mathematics education,student engagement,165,0.4298343062400818,165,0
+mathematics education,elementary education,163,0.5950989723205566,163,0
+mathematics education,algebra,162,0.6375569105148315,162,0
+professional development,stem education,162,0.6071351766586304,162,0
+mathematics education,mathematical concepts,158,0.7427107095718384,158,0
+mathematics education,lesson study,156,0.5814768075942993,156,0
+mathematics education,teacher professional development,155,0.45438772439956665,155,0
+mathematics education,mathematics learning,152,0.9403263330459595,152,0
+mathematics education,mathematical reasoning,149,0.6154172420501709,149,0
+mathematics education,engineering students,146,0.46400564908981323,146,0
+mathematics education,mathematics teachers,145,0.9213584065437317,145,0
+mathematics education,teacher beliefs,143,0.4959723949432373,143,0
+education,students,141,0.7348862886428833,141,0
+mathematics education,realistic mathematics education,141,0.9270967245101929,141,0
+mathematics education,special education,140,0.5094349384307861,140,0

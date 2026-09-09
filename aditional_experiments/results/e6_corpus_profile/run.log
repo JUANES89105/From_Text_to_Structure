@@ -1,0 +1,21 @@
+  year  documents    share
+2019.0       3709 0.069810
+2020.0       4151 0.078129
+2021.0       3927 0.073913
+2022.0       3669 0.069057
+2023.0       3934 0.074045
+2024.0       4984 0.093808
+2025.0       3382 0.063655
+2026.0         18 0.000339
+ language  documents    share
+       en      52943 0.996480
+too_short         49 0.000922
+       es         49 0.000922
+       de         33 0.000621
+       fr         23 0.000433
+       pt          9 0.000169
+       it          7 0.000132
+       af          4 0.000075
+[('augustus de morgan', 2), ('rio de janeiro', 2), ('accademia del cimento', 1), ('generation y', 1), ('universidad politecnica de valencia', 1), ('south central los angeles', 1), ('g del s incompleteness theorem', 1), ('el hi textbooks', 1), ('de facto standards', 1), ('las vegas', 1)]
+done {'parse': 7.981, 'langdetect': 561.46}
+EXIT=0

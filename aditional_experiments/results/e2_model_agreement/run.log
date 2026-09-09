@@ -1,0 +1,5 @@
+INSPEC 8B GATE: PASS {'jaccard_lex': 0.1422, 'soft_precision': 0.7939, 'soft_recall': 0.467, 'soft_f1': 0.5652, 'soft_mean_max': 0.7522, 'global_sem_sim': 0.8042}
+Inspec 8B vs 70B agreement: {'jaccard_lex': 0.3951, 'soft_precision': 0.7652, 'soft_recall': 0.7557, 'soft_f1': 0.7561, 'soft_mean_max': 0.8377, 'global_sem_sim': 0.8987}
+Math-ed sample 8B vs 70B agreement: {'jaccard_lex': 0.4402, 'soft_precision': 0.7835, 'soft_recall': 0.7956, 'soft_f1': 0.7855, 'soft_mean_max': 0.8541, 'global_sem_sim': 0.9056}
+done {'inspec_8b': 310.03, 'inspec_70b': 414.245, 'sample': 431.13}
+EXIT=0

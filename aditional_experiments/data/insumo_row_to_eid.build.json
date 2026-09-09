@@ -1,0 +1,21 @@
+{
+  "record_rows": 53130,
+  "log_rows": 53129,
+  "published_rows": 52947,
+  "rows_matching_published_output": 53045,
+  "rows_not_matching": 85,
+  "published_eids_covered": 52947,
+  "duplicate_eids_among_matched": 98,
+  "alignment_check_literal_share": {
+    "offset_-1": 0.09058352116203357,
+    "offset_+0": 0.86704640293774,
+    "offset_+1": 0.09392421966282757
+  },
+  "alignment_gate_pass": true,
+  "inputs": {
+    "insumo_sha256": "597d4d8d44ddea693d4386798ea0a9d3380d1314782e937843e3184d78e2f274",
+    "published_sha256": "a440b7cedabea950ddb0be27610e1a58f747191ae08999801d73994f9d801c8c",
+    "extraction_log_sha256": "7fdb21d7dc459f51477f86f43dd4b562e35848e57203b8777405ee38caa69285",
+    "extraction_log_redistributed": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "gate": "row alignment insumo <-> keyword workbook",
+  "pass": true,
+  "offset_0": 0.8452000000000002,
+  "offset_plus1": 0.11283333333333333,
+  "offset_minus1": 0.11532177392464156,
+  "record_rows_total": 53130,
+  "records_analyzed": 52947,
+  "records_not_linked_to_a_published_output": 183
+}

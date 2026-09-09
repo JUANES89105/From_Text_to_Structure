@@ -1,0 +1,8 @@
+{
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "fetched_utc": "2026-09-09T01:49:50.474854+00:00",
+  "usd_per_prompt_token": 5e-08,
+  "usd_per_completion_token": 8e-08,
+  "context_length": 131072,
+  "source": "https://openrouter.ai/api/v1/models"
+}

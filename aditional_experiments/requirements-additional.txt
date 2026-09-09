@@ -1,0 +1,20 @@
+# Environment for aditional_experiments/ (E2, E4, E5, E6, E7, E9).
+# Versions match results/e1_baselines/package_versions.json and results/e3_scalability/metadata.json
+# where the same package is used, so that graph and embedding results are directly comparable.
+# Install (CPU-only torch):
+#   python3 -m venv .venv
+#   .venv/bin/python -m pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+#   .venv/bin/python -m pip install -r aditional_experiments/requirements-additional.txt
+numpy==2.1.3
+pandas==2.2.3
+scipy==1.15.3
+scikit-learn==1.9.0
+networkx==3.6.1
+python-louvain==0.16
+sentence-transformers==5.1.1
+transformers>=4.51,<5
+openpyxl
+langdetect==1.0.9
+tqdm
+matplotlib==3.10.0
+openai==1.107.2

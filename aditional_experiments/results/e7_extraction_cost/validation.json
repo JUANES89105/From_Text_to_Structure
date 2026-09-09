@@ -1,0 +1,27 @@
+{
+  "gate": "output reconstruction calibrated on saved raw responses",
+  "pass": true,
+  "ratio_real_over_reconstructed": 1.0,
+  "calibration": [
+    {
+      "set": "validation_sample_182",
+      "responses": 182,
+      "mean_tokens_real": 27.51098901098901,
+      "mean_tokens_reconstructed": 27.51098901098901,
+      "ratio_real_over_reconstructed": 1.0,
+      "share_string_identical": 1.0,
+      "max_tokens_real": 35,
+      "p99_tokens_real": 34.0
+    },
+    {
+      "set": "inspec_2000",
+      "responses": 1999,
+      "mean_tokens_real": 26.68534267133567,
+      "mean_tokens_reconstructed": 26.686343171585793,
+      "ratio_real_over_reconstructed": 0.9999625089041353,
+      "share_string_identical": 0.9799899949974987,
+      "max_tokens_real": 40,
+      "p99_tokens_real": 36.0
+    }
+  ]
+}

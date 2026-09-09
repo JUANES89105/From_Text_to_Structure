@@ -1,0 +1,51 @@
+{
+  "gate": "tau=0.40 CRS reproduction (notebooks 2-5)",
+  "pass": true,
+  "checks": {
+    "analyzed_documents": {
+      "observed": 52946,
+      "reference": 52946,
+      "pass": true
+    },
+    "nodes": {
+      "observed": 56635,
+      "reference": 56635,
+      "pass": true
+    },
+    "edges": {
+      "observed": 109022,
+      "reference": 109022,
+      "pass": true
+    },
+    "components": {
+      "observed": 19856,
+      "reference": 19856,
+      "pass": true
+    },
+    "lcc_nodes": {
+      "observed": 34316,
+      "reference": 34316,
+      "pass": true
+    },
+    "backbone_nodes": {
+      "observed": 408,
+      "reference": 408,
+      "pass": true
+    },
+    "backbone_edges": {
+      "observed": 608,
+      "reference": 608,
+      "pass": true
+    },
+    "backbone_communities": {
+      "observed": 7,
+      "reference": 7,
+      "pass": true
+    },
+    "backbone_modularity": {
+      "observed": 0.3560443171946043,
+      "reference": 0.3560443171946043,
+      "pass": true
+    }
+  }
+}

@@ -1,0 +1,659 @@
+keyword,community,degree,weighted_degree
+mathematics education,2,581,38891
+stem education,3,161,8597
+education,1,61,4397
+mathematics,1,53,3873
+engineering education,3,69,3495
+teacher education,2,42,3301
+science education,3,28,1946
+problem solving,3,15,1428
+higher education,3,23,1233
+professional development,2,14,1170
+teacher training,2,13,1083
+engineering,1,12,781
+computational thinking,3,14,716
+artificial intelligence,4,12,684
+academic performance,4,16,677
+pre-service teachers,2,6,646
+critical thinking,3,8,624
+computer science,1,12,609
+science,1,5,604
+preservice teachers,2,6,530
+pedagogy,2,8,507
+machine learning,4,11,496
+stem,1,9,484
+academic achievement,4,10,478
+motivation,3,9,477
+online learning,2,8,477
+curriculum,1,5,473
+students,1,7,470
+primary education,2,7,454
+technology,1,6,446
+geometry,1,5,428
+pedagogical content knowledge,2,6,391
+learning,1,6,387
+robotics,1,9,383
+teacher preparation,2,5,379
+student performance,4,7,378
+mathematical knowledge,2,2,362
+augmented reality,3,6,360
+calculus,1,6,359
+technology integration,2,5,357
+student learning,3,5,350
+secondary education,2,5,346
+self-efficacy,3,5,341
+teacher knowledge,2,4,340
+high school students,3,4,332
+teaching methods,2,2,322
+collaborative learning,3,4,317
+teaching,1,4,314
+student achievement,2,3,310
+student engagement,3,5,308
+teacher development,2,5,307
+undergraduate students,3,3,302
+educational technology,2,5,295
+research,1,3,289
+mathematical thinking,2,3,286
+prospective teachers,2,2,285
+teacher professional development,3,4,278
+active learning,3,4,274
+gender,1,6,273
+project-based learning,3,4,270
+elementary school,2,3,261
+mathematics teaching,2,2,260
+curriculum development,3,4,255
+null,1,3,249
+mathematical modeling,2,4,247
+elementary education,2,4,242
+diversity,5,7,233
+engineering students,3,4,233
+lesson study,2,3,232
+data mining,4,7,230
+mathematical modelling,2,2,223
+curricula,3,5,221
+algebra,2,3,219
+mathematics teachers,2,3,216
+numeracy,1,5,214
+programming,1,6,214
+gender differences,2,2,209
+virtual reality,3,4,208
+socioeconomic status,4,5,208
+gender gap,3,4,206
+equity,5,4,205
+primary school,2,1,205
+social justice,2,3,204
+teacher learning,2,3,204
+qualitative research,2,2,203
+physics,1,3,200
+teachers,1,4,197
+early childhood,2,3,196
+middle school,3,3,195
+curriculum design,3,3,194
+statistics,1,4,185
+e-learning,2,3,185
+inquiry-based learning,3,4,185
+problem-solving,2,3,183
+engineering design,3,3,182
+distance learning,2,3,182
+mathematics teacher,2,2,180
+systematic review,3,3,177
+special education,2,2,173
+problem posing,2,3,170
+mathematical reasoning,2,2,170
+technology education,3,4,168
+student motivation,3,3,168
+gamification,3,4,168
+mathematics achievement,2,2,166
+learning outcomes,2,2,164
+science technology engineering mathematics,3,2,163
+problem-based learning,3,3,161
+teacher educators,2,2,161
+sustainability,3,4,159
+mathematical concepts,2,1,158
+literacy,1,4,154
+mathematics learning,2,1,152
+high school,3,3,151
+game-based learning,2,2,147
+teacher beliefs,2,1,143
+teaching practices,2,2,141
+realistic mathematics education,2,1,141
+covid-19,2,4,141
+early childhood education,2,3,139
+blended learning,2,2,135
+innovation,3,3,135
+university students,2,2,133
+inclusion,5,4,133
+steam education,3,5,132
+collaboration,2,3,131
+achievement,1,3,129
+ethnomathematics,2,1,128
+secondary school,2,1,125
+mathematical literacy,2,1,124
+learning disabilities,2,2,124
+digital technologies,2,1,123
+curriculum reform,2,1,123
+history,1,3,122
+formative assessment,2,1,121
+creative thinking,3,3,120
+mobile learning,2,2,119
+project based learning,3,3,119
+philosophy,1,3,118
+covid-19 pandemic,2,2,114
+student success,3,3,114
+information technology,2,2,112
+meta-analysis,6,3,111
+creativity,1,3,111
+university,1,3,111
+linear algebra,2,2,111
+pedagogical knowledge,2,2,110
+stem fields,3,4,109
+instructional design,2,2,108
+probability,1,2,108
+middle school students,3,2,107
+children,1,3,107
+educational robotics,3,3,106
+physics education,3,2,105
+differential equations,3,2,104
+junior high school,2,1,103
+experiential learning,3,3,103
+factor analysis,2,2,101
+student retention,3,3,101
+inclusive education,2,1,100
+history of mathematics,2,1,100
+secondary schools,2,2,100
+teaching practice,2,1,100
+assessment,1,3,99
+conceptual understanding,2,1,99
+female students,3,3,99
+sustainable development,3,2,97
+design research,2,1,94
+content knowledge,2,2,94
+cognition,1,3,92
+flipped classroom,2,1,92
+deep learning,4,3,92
+distance education,2,2,89
+constructivism,2,1,88
+student teachers,2,2,87
+statistics education,2,2,85
+teacher noticing,2,1,85
+cognitive development,2,1,84
+ict,1,2,82
+student perceptions,3,3,82
+problem-solving skills,2,2,82
+student attitudes,2,2,80
+discrete mathematics,1,2,80
+elementary teachers,2,2,80
+fractions,2,1,79
+metacognition,2,1,78
+mathematical learning,2,1,78
+bibliometric analysis,2,2,78
+cooperative learning,2,1,78
+development,1,3,77
+conceptual knowledge,0,2,77
+content analysis,2,1,75
+longitudinal study,2,1,74
+underrepresented students,3,2,74
+personalized learning,4,2,74
+informal learning,3,2,73
+learning process,2,1,73
+teaching and learning,2,1,72
+mathematical problem solving,2,1,72
+procedural knowledge,0,2,72
+computer programming,3,3,72
+south africa,2,1,70
+stem careers,3,3,70
+digital technology,2,1,70
+mathematics anxiety,2,1,70
+problem solving skills,2,2,69
+interdisciplinary learning,3,2,69
+epistemology,2,1,69
+engineering design process,3,2,68
+minority students,3,2,68
+research methods,2,1,67
+teaching strategies,2,1,67
+proof,2,1,66
+geogebra,2,1,65
+adaptive learning,4,2,65
+self efficacy,3,2,64
+gender stereotypes,3,2,64
+dynamic geometry,2,1,63
+mathematical understanding,2,1,63
+decision trees,4,2,63
+literature review,2,1,63
+instructional practices,2,1,63
+k-12 education,3,2,63
+secondary mathematics,2,2,63
+statistical analysis,2,1,62
+embodied cognition,2,1,62
+self-regulated learning,2,1,62
+21st century skills,3,1,61
+primary schools,2,1,61
+mathematics education research,2,1,61
+decision tree,4,1,61
+gifted students,2,1,60
+textbooks,2,1,60
+mathematical skills,2,1,60
+young children,2,1,60
+math anxiety,2,1,60
+mathematics curriculum,2,1,59
+elementary schools,2,1,59
+mathematical creativity,2,1,59
+elementary students,2,1,59
+spatial ability,3,2,59
+mentoring,3,2,58
+action research,2,1,58
+learning analytics,3,2,58
+mathematical education,1,2,58
+problem based learning,3,2,58
+primary school teachers,2,1,57
+misconceptions,2,1,57
+gender equity,3,2,57
+mathematical competence,2,1,57
+mathematical techniques,2,1,57
+mathematical problems,2,1,56
+teacher identity,2,1,56
+scaffolding,2,1,55
+primary school students,2,1,54
+underrepresented minorities,3,2,54
+primary teachers,2,1,54
+number sense,2,1,54
+engineering mathematics,3,2,54
+language,1,2,54
+hands-on learning,3,1,53
+educational policy,2,1,53
+teacher candidates,2,1,53
+learning trajectories,2,1,53
+secondary school students,2,1,52
+decision making,3,2,52
+school mathematics,2,1,52
+career development,3,1,52
+intersectionality,3,2,52
+teaching learning,2,1,51
+word problems,2,1,51
+gender equality,3,1,51
+educational research,2,1,51
+case study,2,1,51
+interdisciplinary,1,2,50
+pre-service teacher,2,1,50
+physical activity,4,2,50
+undergraduate education,3,2,50
+undergraduate research,3,1,49
+hands-on activities,3,2,49
+parental involvement,2,1,49
+item response theory,2,1,49
+task design,2,1,49
+teacher,1,2,48
+school performance,4,2,48
+professional growth,2,2,48
+conference,1,2,48
+cognitive psychology,2,1,48
+digital tools,2,1,48
+child development,2,1,47
+student outcomes,2,1,47
+science teaching,3,2,47
+activity theory,2,1,47
+geoebra,2,1,47
+teacher competence,2,1,46
+proportional reasoning,2,1,46
+technology use,2,1,46
+teaching quality,2,1,45
+interactive learning,2,1,45
+mathematical proof,2,1,45
+discourse analysis,2,1,44
+instructional quality,2,1,44
+climate change,3,2,44
+engineering technology,3,2,44
+argumentation,2,1,44
+cognitive processes,2,1,44
+online teaching,2,1,44
+mathematical communication,2,1,43
+algebraic thinking,2,1,43
+qualitative approach,2,1,42
+mechanical engineering,3,1,42
+robotics education,3,1,42
+graduate students,3,1,42
+teacher practices,2,1,41
+design thinking,3,1,41
+educational reform,2,1,41
+performance,1,2,41
+urban education,2,1,41
+integration,1,2,41
+learning environment,2,1,40
+science technology engineering,3,1,40
+pedagogical practices,2,1,40
+elementary school students,2,1,40
+spatial reasoning,2,1,40
+junior high schools,2,1,39
+mathematical ability,2,1,39
+prior knowledge,2,1,39
+interdisciplinarity,2,1,39
+3d printing,3,1,39
+classroom practice,2,1,39
+intelligent tutoring systems,2,1,39
+beliefs,2,1,39
+teacher collaboration,2,1,39
+learning achievement,2,1,39
+cognitive skills,2,1,38
+mathematical practice,2,1,38
+psychology,2,1,38
+mathematical competencies,2,1,38
+design-based research,2,1,38
+professional learning,2,1,38
+structural equation modeling,2,1,38
+vocational education,2,1,38
+elementary mathematics,2,1,37
+academic success,2,1,37
+research methodology,2,1,37
+anthropological theory,2,1,37
+teacher attitudes,2,1,37
+mathematics performance,2,1,37
+education policy,2,1,37
+mathematical achievement,2,1,37
+reading,1,1,37
+visual impairment,2,1,37
+teacher quality,2,1,37
+mixed methods,2,1,37
+intelligent tutoring system,2,1,37
+working memory,2,1,36
+cognitive load,2,1,36
+self-regulation,2,1,36
+mathematics instruction,2,1,36
+community college,3,1,36
+technological pedagogical content knowledge,2,1,36
+tpack,2,1,36
+cognitive demand,2,1,35
+learning strategies,2,1,35
+trigonometry,2,1,35
+tertiary education,2,1,35
+correction,2,1,35
+learning trajectory,2,1,35
+teacher perceptions,2,1,35
+data science,4,1,35
+mathematicians,2,1,35
+student thinking,2,1,34
+college students,2,1,34
+educational context,2,1,33
+learning difficulties,2,1,33
+statistical literacy,2,1,33
+systematic literature review,2,1,33
+teaching materials,2,1,33
+mathematical practices,2,1,33
+classroom teaching,2,1,33
+classroom discourse,2,1,33
+electrical engineering,3,1,33
+mathematical models,2,1,33
+kindergarten,2,1,33
+women in stem,3,1,33
+reflection,2,1,33
+differential calculus,2,1,32
+student participation,2,1,32
+digital games,2,1,32
+informatics,1,1,32
+in-service teachers,2,1,32
+cultural context,2,1,32
+cognitive science,2,1,32
+qualitative analysis,2,1,32
+rational numbers,2,1,32
+women in engineering,3,1,31
+learning environments,2,1,31
+teacher support,2,1,31
+scientific literacy,3,1,31
+online education,2,1,31
+education reform,2,1,31
+mathematical discourse,2,1,31
+self-concept,2,1,31
+textbook analysis,2,1,31
+qualitative study,2,1,31
+computer algebra systems,2,1,31
+pre-service teacher education,2,1,31
+mathematical proficiency,2,1,31
+semiotics,2,1,31
+classroom practices,2,1,31
+science technology,3,1,31
+language diversity,2,1,30
+higher order thinking skills,2,1,30
+teacher practice,2,1,30
+preservice teacher education,2,1,30
+elementary school teachers,2,1,30
+integral calculus,2,1,30
+novice teachers,2,1,30
+learning styles,2,1,30
+ict integration,2,1,30
+philosophy of mathematics,2,1,30
+achievement gap,2,1,30
+serious games,2,1,30
+basic education,2,1,30
+bilingual education,2,1,30
+cluster analysis,2,1,30
+teacher role,2,1,30
+linear equations,2,1,29
+digital resources,2,1,29
+rural education,2,1,29
+mathematics classroom,2,1,29
+situated learning,2,1,29
+classroom management,2,1,29
+dyscalculia,2,1,29
+apos theory,2,1,29
+multilingualism,2,1,29
+faculty development,3,1,29
+learning mathematics,2,1,29
+student understanding,2,1,29
+biology,1,1,29
+growth mindset,2,1,29
+professional knowledge,2,1,29
+mathematical performance,2,1,28
+geometry education,2,1,28
+information and communication technologies,2,1,28
+cognitive style,2,1,28
+indonesia,2,1,28
+grounded theory,2,1,28
+educational software,2,1,28
+computer science education,2,1,28
+interdisciplinary education,3,1,28
+mathematical development,2,1,28
+democracy,2,1,28
+science teachers,3,1,28
+embodiment,2,1,27
+undergraduate mathematics,2,1,27
+critical mathematics education,2,1,27
+phenomenology,2,1,27
+student learning outcomes,2,1,27
+quantitative literacy,2,1,27
+computer technology,2,1,27
+english language learners,2,1,27
+university mathematics,2,1,27
+mathematics teacher education,2,1,27
+science learning,3,1,27
+mathematical tasks,2,1,27
+quantitative research,2,1,27
+digital literacy,2,1,26
+math skills,2,1,26
+learning motivation,2,1,26
+community of practice,2,1,26
+industrial revolution,2,1,26
+geometry learning,2,1,26
+lesson planning,2,1,26
+preschool children,2,1,26
+software engineering,1,1,26
+data analysis,2,1,26
+secondary teachers,2,1,26
+financial literacy,2,1,26
+digital learning,2,1,26
+multiplication,2,1,26
+mathematical connections,2,1,26
+technology-enhanced learning,2,1,26
+identity,2,1,26
+effective teaching,2,1,26
+curriculum implementation,2,1,26
+teacher change,2,1,26
+mathematization,2,1,26
+mathematics research,2,1,26
+flipped learning,2,1,26
+eye tracking,2,1,25
+learning media,2,1,25
+visualization,2,1,25
+internet of things,3,1,25
+mathematical abilities,2,1,25
+regression analysis,2,1,25
+science literacy,3,1,25
+teacher effectiveness,2,1,25
+understanding,2,1,25
+mathematical content,2,1,25
+teacher educator,2,1,25
+algorithmic thinking,3,1,25
+computer games,2,1,25
+critical mathematics,2,1,25
+higher-order thinking skills,2,1,25
+computer-assisted instruction,2,1,25
+collaborative work,2,1,25
+mathematical objects,2,1,25
+steam,1,1,24
+mathematical cognition,2,1,24
+digital game-based learning,2,1,24
+math achievement,2,1,24
+learning models,2,1,24
+stem learning,3,1,24
+culturally responsive teaching,2,1,24
+critical pedagogy,2,1,24
+communities of practice,2,1,24
+cognitive abilities,2,1,24
+cultural diversity,2,1,24
+secondary students,2,1,24
+mathematical problem-solving,2,1,24
+learning style,2,1,24
+critical race theory,2,1,24
+assistive technology,2,1,24
+effect size,6,1,24
+civil engineering,3,1,24
+quantitative reasoning,2,1,24
+derivative,2,1,24
+university level,2,1,24
+china,2,1,24
+bilingualism,2,1,23
+structural equation modelling,2,1,23
+mathematical activity,2,1,23
+teacher reflection,2,1,23
+modelling,2,1,23
+mathematics classrooms,2,1,23
+lifelong learning,2,1,23
+reform,2,1,23
+indigenous students,2,1,23
+gifted education,2,1,23
+adult education,2,1,23
+discovery learning,2,1,23
+engineering careers,3,1,23
+career choice,3,1,23
+technology enhanced learning,2,1,23
+computer algebra system,2,1,23
+globalization,2,1,23
+physical education,2,1,23
+reading comprehension,2,1,23
+stem disciplines,3,1,23
+natural sciences,2,1,23
+variation theory,2,1,23
+autism spectrum disorder,2,1,22
+undergraduate,2,1,22
+digital transformation,2,1,22
+teachers beliefs,2,1,22
+qualitative method,2,1,22
+mathematics science,3,1,22
+research experience,3,1,22
+interdisciplinary approach,2,1,22
+computer aided instruction,2,1,22
+equity in education,2,1,22
+chatgpt,2,1,22
+functions,2,1,22
+didactics,2,1,22
+randomized controlled trial,2,1,22
+preschool teachers,2,1,22
+quality education,2,1,22
+university education,2,1,22
+chemistry,1,1,22
+educational outcomes,2,1,22
+future teachers,2,1,22
+numeracy skills,2,1,22
+manipulatives,2,1,22
+teaching method,2,1,22
+educational games,2,1,22
+curriculum materials,2,1,22
+reasoning,2,1,22
+oral history,2,1,22
+comparative study,2,1,22
+renewable energy,3,1,21
+career interest,3,1,21
+common core,2,1,21
+graph theory,2,1,21
+teacher self-efficacy,2,1,21
+virtual manipulatives,2,1,21
+racism,2,1,21
+curriculum change,2,1,21
+communication,2,1,21
+general education,2,1,21
+workforce development,3,1,21
+research and development,2,1,21
+realistic mathematics,2,1,21
+thematic analysis,2,1,21
+social media,2,1,21
+instructional strategies,2,1,21
+technical universities,2,1,21
+intellectual disability,2,1,21
+student perception,2,1,21
+educational innovation,2,1,21
+project management,3,1,21
+self-assessment,2,1,21
+cognitive process,2,1,21
+educational process,2,1,21
+function concept,2,1,21
+mathematics attitudes,2,1,21
+computing,1,1,21
+numerical cognition,2,1,21
+gender difference,2,1,21
+mathematics reform,2,1,21
+outreach programs,3,1,21
+teacher efficacy,2,1,21
+participation,2,1,21
+space exploration,3,1,21
+curriculum standards,2,1,21
+pedagogical strategies,2,1,21
+teaching approaches,2,1,20
+abstract algebra,2,1,20
+embodied learning,2,1,20
+primary students,2,1,20
+industry 4.0,3,1,20
+common core state standards,2,1,20
+teacher perspectives,2,1,20
+student assessment,2,1,20
+design,1,1,20
+individual differences,2,1,20
+mathematical beliefs,2,1,20
+classroom environment,2,1,20
+mathematical argumentation,2,1,20
+self-determination theory,2,1,20
+underrepresented groups,3,1,20
+adolescents,4,1,20
+mathematical identity,2,1,20
+students with disabilities,2,1,20
+urban schools,2,1,20
+numerical methods,2,1,20
+health literacy,1,1,20
+middle school teachers,2,1,20
+geometry teaching,2,1,20
+educational data mining,4,1,20
+affect,2,1,20
+epistemological beliefs,2,1,20
+pedagogical approach,2,1,20
+mathematical sciences,2,1,20
+intellectual disabilities,2,1,20
+positioning theory,2,1,20
+math education,1,1,20
+game design,2,1,20
+space education,3,1,20
+classroom assessment,2,1,20
+gender bias,3,1,20
+training,1,1,20
+mobile technology,2,1,20
+computer algebra,2,1,20
+instructional practice,2,1,20
+learning theory,2,1,20
+anxiety,2,1,20
+robot programming,3,1,20

@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-09-09T01:49:55.923024+00:00",
+  "model": "meta-llama/llama-3.1-8b-instruct",
+  "k_values": [
+    10
+  ],
+  "documents": 5000,
+  "sample_file": "/home/mat/academic-writing/papers/from_text_to_structure/data_repo/results/e3_scalability/samples/n5000_r1_s42.csv",
+  "sample_sha256": "de282b2618be149ba65ffcfac9b819466a7ac887acf1ed2ce850258b0505495c",
+  "decoding": {
+    "temperature": 0.0,
+    "max_tokens": 700
+  },
+  "retry_policy": {
+    "max_attempts": 4,
+    "sleep_between_calls_s": 0.6
+  },
+  "truncate_chars": 3000,
+  "records_truncated": 185,
+  "system_message": "Respond ONLY with a valid JSON in the form {\"keywords\":[...]}. Do not include explanations, markdown, apologies, or code blocks. STRICT LANGUAGE RULE: - The output MUST contain ONLY ENGLISH WORDS. - Translate foreign terms into English; if translation is impossible, use a English descriptive equivalent. - Before responding, internally verify that EVERY keyword is fully in English. ",
+  "prompt_template": "\nYou are an expert assistant in bibliographic analysis.\nFrom the following article record (authors, title, year, journal, abstract, original keywords),\nextract EXACTLY $k terms that represent the main concepts of the article.\n\nRules:\n- ALWAYS return: {\"keywords\": [\"term1\", \"term2\", ...]}.\n- Output MUST be ONLY in ENGLISH; no other languages under any circumstance.\n- Normalize to lowercase, without accents or special characters (ej. \"mathematics education\").\n- Accept short multiword phrases (2–4 words).\n- Avoid generic terms such as: \"article\", \"study\", \"analysis\", \"research\", \"work\", \"keyword\".\n- Prioritize disciplinary concepts, population, context, method, theory.\n- ALWAYS return exactly $k items in the list; if a concept cannot be expressed in English, use the string \"null\" as a placeholder, which still counts toward the $k terms.\n\nArticle text:\n$texto\n\nBefore responding, SELF-CHECK: \"all the keywords are in English without exception?\"\n",
+  "expected_calls": 5000,
+  "wall_clock_lower_bound_hours": 0.8333333333333334,
+  "estimated_cost_usd_at_list_price": 0.1816
+}

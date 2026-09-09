@@ -1,0 +1,46 @@
+{
+  "status": "k=5 arm only; run run_extraction.py (needs OPENROUTER_API_KEY) to add other k",
+  "arms": [
+    {
+      "arm": "k=5",
+      "documents": 5000,
+      "keywords_total": 24975,
+      "keywords_per_document_mean": 4.995,
+      "vocabulary": 10249,
+      "null_tokens": 18,
+      "global_nodes": 10249,
+      "global_edges": 13247,
+      "global_density": 0.0002522475298707766,
+      "global_components": 3775,
+      "global_lcc_nodes": 5692,
+      "global_lcc_fraction": 0.5553712557322665,
+      "global_lcc_edges": 12353,
+      "global_isolated_nodes": 3234,
+      "bb20_nodes": 31,
+      "bb20_edges": 35,
+      "bb20_density": 0.07526881720430108,
+      "bb20_components": 1,
+      "bb20_lcc_nodes": 31,
+      "bb20_lcc_fraction": 1.0,
+      "bb20_lcc_edges": 35,
+      "bb20_isolated_nodes": 0,
+      "bb20_modularity": 0.34011616342443407,
+      "bb20_communities": 3,
+      "bb5_nodes": 184,
+      "bb5_edges": 244,
+      "bb5_density": 0.014492753623188406,
+      "bb5_components": 2,
+      "bb5_lcc_nodes": 182,
+      "bb5_lcc_fraction": 0.9891304347826086,
+      "bb5_lcc_edges": 243,
+      "bb5_isolated_nodes": 0,
+      "bb5_modularity": 0.3703383582672394,
+      "bb5_communities": 7
+    }
+  ],
+  "comparison": {},
+  "w_levels": [
+    20,
+    5
+  ]
+}

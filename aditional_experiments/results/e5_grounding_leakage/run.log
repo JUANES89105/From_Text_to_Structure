@@ -1,0 +1,25 @@
+record rows=53130 published outputs linked to a record=52947
+ALIGNMENT GATE: PASS {'offset_0': 0.8452000000000002, 'offset_plus1': 0.11283333333333333, 'offset_minus1': 0.11532177392464156}
+  lexical pass 0/52947
+  lexical pass 10000/52947
+  lexical pass 20000/52947
+  lexical pass 30000/52947
+  lexical pass 40000/52947
+  lexical pass 50000/52947
+keywords needing semantic check: 36862 of 264586
+sentences to embed: 205673 from 25143 documents
+         category  keywords    share
+       null_token       192 0.000726
+   exact_original    119748 0.452586
+    verbatim_text    106299 0.401756
+verbatim_metadata      1485 0.005613
+    soft_original     19206 0.072589
+        soft_text      1093 0.004131
+       ungrounded     16563 0.062600
+category           n_documents  exact_original  soft_original  verbatim_text  ungrounded  mean_global_sem_sim
+visibility                                                                                                   
+fully_visible            50939          0.4640         0.0746         0.3916      0.0595               0.7196
+not_visible               1173          0.0000         0.0000         0.7922      0.1869               0.6979
+partially_visible          835          0.3908         0.0546         0.4740      0.0750               0.7029
+done {'load': 16.182, 'lexical': 66.034, 'embed_phrases': 307.44, 'embed_sentences': 2348.91, 'semantic': 2351.554, 'doc_similarity': 3641.918}
+EXIT=0

@@ -10,3 +10,6 @@ results/e8_topic_modeling/lda_vectorizer.joblib
 results/e8_topic_modeling/lda_k*.joblib
 results/e3_scalability/runtime_site/
 results/e3_scalability/.matplotlib/
+
+# aditional_experiments: raw console logs (cleaned copies are kept as results/<exp>/run.log)
+aditional_experiments/results/*.log

@@ -1,0 +1,61 @@
+u,v,weight_coword,sim_mean,weight_tau040,removed_instances
+engineering education,problem solving,168,0.1661195605993271,0,168
+critical thinking,stem education,163,0.30639344453811646,0,163
+stem education,computational thinking,151,0.19179853796958923,0,151
+stem education,science technology engineering mathematics,133,0.32497262954711914,0,133
+problem solving,stem education,132,0.18075791001319885,0,132
+robotics,stem education,123,0.16958336532115936,0,123
+stem education,project-based learning,121,0.311795175075531,0,121
+engineering design,stem education,112,0.33877435326576233,0,112
+education,computer science,103,0.3410569429397583,0,103
+gender gap,stem education,96,0.13102851808071136,0,96
+self-efficacy,stem education,94,0.21959492564201355,0,94
+stem education,artificial intelligence,93,0.3136019706726074,0,93
+augmented reality,stem education,92,0.19840800762176514,0,92
+mathematics,engineering education,87,0.29403436183929443,0,87
+computer science,stem education,84,0.2342786341905594,0,84
+collaborative learning,stem education,80,0.311242938041687,0,80
+teacher education,mathematical knowledge,78,0.3409457206726074,0,78
+motivation,stem education,73,0.30924445390701294,0,73
+education,artificial intelligence,67,0.38697654008865356,0,67
+virtual reality,stem education,65,0.15858490765094757,0,65
+education,geometry,64,0.3367592394351959,0,64
+stem education,project based learning,63,0.34054940938949585,0,63
+innovation,stem education,62,0.395915687084198,0,62
+inquiry-based learning,stem education,62,0.3408035337924957,0,62
+stem education,21st century skills,61,0.3933669924736023,0,61
+data mining,decision tree,61,0.31429558992385864,0,61
+engineering education,high school students,59,0.32362106442451477,0,59
+education,robotics,58,0.2925783395767212,0,58
+engineering education,active learning,58,0.3953414559364319,0,58
+mathematics,stem education,57,0.28147631883621216,0,57
+stem education,diversity,56,0.3172295093536377,0,56
+mathematics,academic performance,56,0.3764899969100952,0,56
+gender differences,stem education,56,0.12569929659366608,0,56
+mathematics,gender,54,0.306454598903656,0,54
+engineering education,stem,53,0.2114235758781433,0,53
+hands-on learning,stem education,53,0.39338046312332153,0,53
+stem education,sustainability,53,0.23704926669597626,0,53
+engineering education,calculus,52,0.2595999240875244,0,52
+gender equality,stem education,51,0.18741828203201294,0,51
+engineering,stem,51,0.3821857273578644,0,51
+education,gender,50,0.37143558263778687,0,50
+stem education,informal learning,50,0.3833857774734497,0,50
+stem education,machine learning,50,0.2979091703891754,0,50
+critical thinking,problem solving,49,0.27326223254203796,0,49
+mathematics,history,49,0.29080697894096375,0,49
+academic performance,stem education,49,0.38472938537597656,0,49
+problem-based learning,stem education,49,0.31943583488464355,0,49
+underrepresented students,stem education,48,0.3647890090942383,0,48
+stem education,systematic review,48,0.27613335847854614,0,48
+engineering education,robotics,47,0.3425818681716919,0,47
+female students,stem education,47,0.37337470054626465,0,47
+stem education,engineering design process,46,0.2961483895778656,0,46
+critical thinking,engineering education,46,0.2838611900806427,0,46
+stem education,sustainable development,46,0.37472468614578247,0,46
+mathematics,computer science,46,0.36293676495552063,0,46
+engineering education,stem fields,44,0.3147362172603607,0,44
+minority students,stem education,44,0.37276172637939453,0,44
+mathematics,higher education,44,0.3299208879470825,0,44
+problem solving,teacher education,43,0.1718733310699463,0,43
+mathematics,null,43,0.2907056212425232,0,43

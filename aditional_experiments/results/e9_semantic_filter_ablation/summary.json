@@ -1,0 +1,140 @@
+{
+  "documents": 52946,
+  "vocabulary": 56635,
+  "global_graph": {
+    "coword": {
+      "nodes": 56635,
+      "edges": 377144,
+      "density": 0.0002351662843041492,
+      "components": 103,
+      "lcc_nodes": 56129,
+      "lcc_fraction": 0.991065595479827,
+      "lcc_edges": 376134,
+      "isolated_nodes": 1
+    },
+    "tau040": {
+      "nodes": 56635,
+      "edges": 109022,
+      "density": 6.798013132227201e-05,
+      "components": 19856,
+      "lcc_nodes": 34316,
+      "lcc_fraction": 0.6059150701862805,
+      "lcc_edges": 106297,
+      "isolated_nodes": 18017
+    }
+  },
+  "backbone_w20": {
+    "coword": {
+      "nodes": 658,
+      "edges": 1108,
+      "density": 0.005125998713873969,
+      "components": 1,
+      "lcc_nodes": 658,
+      "lcc_fraction": 1.0,
+      "lcc_edges": 1108,
+      "isolated_nodes": 0,
+      "w_min": 20,
+      "modularity_seed42": 0.3098008291089467,
+      "communities_seed42": 7,
+      "modularity_mean": 0.30960111932855067,
+      "modularity_sd": 0.00046254258944184237,
+      "communities_mean": 6.6,
+      "total_weight": 62533.0
+    },
+    "tau040": {
+      "nodes": 408,
+      "edges": 608,
+      "density": 0.0073228308522426165,
+      "components": 2,
+      "lcc_nodes": 406,
+      "lcc_fraction": 0.9950980392156863,
+      "lcc_edges": 607,
+      "isolated_nodes": 0,
+      "w_min": 20,
+      "modularity_seed42": 0.3560443171946043,
+      "communities_seed42": 7,
+      "modularity_mean": 0.35594661898587643,
+      "modularity_sd": 0.0003089488628984876,
+      "communities_mean": 7.0,
+      "total_weight": 38525.0
+    }
+  },
+  "filter_effect": {
+    "cooccurrence_edge_instances_total": 529000,
+    "edge_instances_kept_tau040": 183495,
+    "edge_instances_removed": 345505,
+    "share_instances_removed": 0.6531285444234405,
+    "unique_edges_coword": 377144,
+    "unique_edges_tau040": 109022,
+    "unique_edges_fully_removed": 268122,
+    "share_unique_edges_removed": 0.7109273911291177,
+    "removed_edges_with_weight_ge_20": 500,
+    "removed_edges_with_weight_ge_5": 4089
+  },
+  "backbone_comparison": {
+    "coword_backbone_nodes": 658,
+    "tau040_backbone_nodes": 408,
+    "shared_nodes": 408,
+    "nodes_only_in_coword_backbone": 250,
+    "nodes_only_in_tau040_backbone": 0,
+    "coword_backbone_edges_removed_by_filter": 500,
+    "coword_backbone_edges_total": 1108,
+    "partition_agreement_shared_nodes": {
+      "shared_nodes": 408,
+      "nmi": 0.7025558681462132,
+      "ari": 0.8341680810309227
+    },
+    "hub_dominance": {
+      "coword_backbone": {
+        "hub": "mathematics education",
+        "hub_degree": 581,
+        "hub_share_of_edges": 0.5243682310469314,
+        "hub_weighted_degree_share": 0.6219276222154703,
+        "edges_not_incident_to_hub": 527
+      },
+      "tau040_backbone": {
+        "hub": "mathematics education",
+        "hub_degree": 313,
+        "hub_share_of_edges": 0.5148026315789473,
+        "hub_weighted_degree_share": 0.6152109020116807,
+        "edges_not_incident_to_hub": 295
+      },
+      "share_removed_instances_incident_to_hub": 0.1421831811406492,
+      "share_hub_instances_removed": 0.5547838460496002,
+      "share_removed_instances_not_incident_to_hub": 0.8578168188593508
+    },
+    "null_placeholder_node": {
+      "in_global_graph": true,
+      "doc_freq": 191,
+      "in_coword_backbone": true,
+      "in_tau040_backbone": false,
+      "coword_backbone_degree": 3
+    }
+  },
+  "louvain_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "w_sweep_values": [
+    1,
+    2,
+    3,
+    5,
+    8,
+    10,
+    15,
+    20,
+    25,
+    30,
+    40,
+    50
+  ]
+}

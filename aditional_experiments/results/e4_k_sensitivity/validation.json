@@ -1,0 +1,46 @@
+{
+  "gate": "k=5 arm reproduces the E3 run on the same sample",
+  "pass": true,
+  "checks": {
+    "global_nodes": {
+      "observed": 10249,
+      "e3_reference": 10249,
+      "pass": true
+    },
+    "global_edges": {
+      "observed": 13247,
+      "e3_reference": 13247,
+      "pass": true
+    },
+    "global_components": {
+      "observed": 3775,
+      "e3_reference": 3775,
+      "pass": true
+    },
+    "global_lcc_nodes": {
+      "observed": 5692,
+      "e3_reference": 5692,
+      "pass": true
+    },
+    "bb20_nodes": {
+      "observed": 31,
+      "e3_reference": 31,
+      "pass": true
+    },
+    "bb20_edges": {
+      "observed": 35,
+      "e3_reference": 35,
+      "pass": true
+    },
+    "bb20_communities": {
+      "observed": 3,
+      "e3_reference": 3,
+      "pass": true
+    },
+    "bb20_modularity": {
+      "observed": 0.34011616342443407,
+      "e3_reference": 0.340116163424434,
+      "pass": true
+    }
+  }
+}

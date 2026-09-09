@@ -1,0 +1,61 @@
+u,v,weight_coword,sim_mean,weight_tau040,removed_instances
+mathematics education,problem solving,732,0.3035039007663727,0,732
+mathematics education,professional development,516,0.34306004643440247,0,516
+mathematics education,pre-service teachers,384,0.36248794198036194,0,384
+mathematics education,critical thinking,259,0.2490488737821579,0,259
+mathematics education,online learning,258,0.39413148164749146,0,258
+mathematics education,technology integration,238,0.2714051604270935,0,238
+mathematics education,motivation,200,0.23870611190795898,0,200
+mathematics education,pedagogical content knowledge,197,0.3467232286930084,0,197
+mathematics education,collaborative learning,180,0.3057072162628174,0,180
+mathematics education,qualitative research,177,0.2870495021343231,0,177
+mathematics education,self-efficacy,173,0.21566620469093323,0,173
+engineering education,problem solving,168,0.1661195605993271,0,168
+mathematics education,null,167,0.17982670664787292,0,167
+critical thinking,stem education,163,0.30639344453811646,0,163
+mathematics education,augmented reality,160,0.182734876871109,0,160
+mathematics education,gender differences,153,0.08330122381448746,0,153
+stem education,computational thinking,151,0.19179853796958923,0,151
+mathematics education,social justice,148,0.17073236405849457,0,148
+mathematics education,early childhood,145,0.3126102685928345,0,145
+stem education,science technology engineering mathematics,133,0.32497262954711914,0,133
+problem solving,stem education,132,0.18075791001319885,0,132
+mathematics education,problem-solving,132,0.31452876329421997,0,132
+mathematics education,high school students,132,0.34244492650032043,0,132
+mathematics education,e-learning,130,0.35308873653411865,0,130
+mathematics education,ethnomathematics,128,0.32708942890167236,0,128
+mathematics education,equity,127,0.306915819644928,0,127
+mathematics education,distance learning,126,0.31728923320770264,0,126
+mathematics education,computer science,125,0.33929675817489624,0,125
+robotics,stem education,123,0.16958336532115936,0,123
+mathematics education,digital technologies,123,0.23962925374507904,0,123
+mathematics education,research,121,0.37888967990875244,0,121
+stem education,project-based learning,121,0.311795175075531,0,121
+mathematics education,formative assessment,121,0.33125782012939453,0,121
+mathematics education,problem posing,118,0.08297514915466309,0,118
+mathematics education,active learning,112,0.30723246932029724,0,112
+engineering design,stem education,112,0.33877435326576233,0,112
+mathematics education,game-based learning,111,0.327291339635849,0,111
+mathematics education,systematic review,109,0.24880021810531616,0,109
+mathematics education,junior high school,103,0.34782111644744873,0,103
+education,computer science,103,0.3410569429397583,0,103
+gender gap,stem education,96,0.13102851808071136,0,96
+mathematics education,mobile learning,94,0.39788466691970825,0,94
+self-efficacy,stem education,94,0.21959492564201355,0,94
+mathematics education,design research,94,0.2663509249687195,0,94
+stem education,artificial intelligence,93,0.3136019706726074,0,93
+augmented reality,stem education,92,0.19840800762176514,0,92
+mathematics education,information technology,92,0.3762565851211548,0,92
+mathematics education,socioeconomic status,92,0.15076954662799835,0,92
+mathematics education,machine learning,92,0.3623345196247101,0,92
+mathematics education,learning disabilities,91,0.39714911580085754,0,91
+mathematics education,constructivism,88,0.38989681005477905,0,88
+mathematics,engineering education,87,0.29403436183929443,0,87
+mathematics education,virtual reality,86,0.16067922115325928,0,86
+mathematics education,cognitive development,84,0.3784148693084717,0,84
+mathematics education,problem-based learning,84,0.3640221953392029,0,84
+computer science,stem education,84,0.2342786341905594,0,84
+mathematics education,gamification,82,0.3424609303474426,0,82
+mathematics education,collaboration,81,0.168090358376503,0,81
+mathematics education,inquiry-based learning,81,0.36495208740234375,0,81
+mathematics education,factor analysis,80,0.15792103111743927,0,80

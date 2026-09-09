@@ -1,0 +1,3 @@
+set,responses,mean_tokens_real,mean_tokens_reconstructed,ratio_real_over_reconstructed,share_string_identical,max_tokens_real,p99_tokens_real
+validation_sample_182,182,27.51098901098901,27.51098901098901,1.0,1.0,35,34.0
+inspec_2000,1999,26.68534267133567,26.686343171585793,0.9999625089041353,0.9799899949974987,40,36.0
