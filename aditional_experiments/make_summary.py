@@ -57,6 +57,7 @@ def main():
     w(f"| E7 extraction cost | R2-5 | {gate('e7_extraction_cost')} |")
     w(f"| E6 corpus profile | R3-4, Editor E-2 | {gate('e6_corpus_profile')} |")
     w(f"| E4 k sensitivity | R3-2 | {gate('e4_k_sensitivity')} (k = 5 arm; k = 10 extraction pending, needs API key) |")
+    w(f"| E10 Scopus keyword baseline | Editor E-4, R2-1, R3-5, R3-6 | {gate('e10_scopus_keyword_baseline')} |")
     w("")
 
     # ------------------------------------------------------------------ E9
@@ -184,6 +185,26 @@ def main():
         for k, comp in s.get("comparison", {}).items():
             nov = comp["extra_keyword_novelty"]
             w(f"* {k}: backbone w>=5 node Jaccard {f(comp['bb5']['jaccard_nodes'])}, partition NMI {f(comp['bb5']['nmi'])}, ARI {f(comp['bb5']['ari'])}; extra keywords: exact restatement {pct(nov['exact_restatement_of_k5'])}, soft restatement {pct(nov['soft_restatement_of_k5'])}, new concepts {pct(nov['new_concept'])}.")
+        w("")
+    # ------------------------------------------------------------------ E10
+    s = load("e10_scopus_keyword_baseline")
+    if s:
+        w("## E10. Baseline: the CRS built from the Scopus author/index keywords\n")
+        w(f"Same {s['documents']:,} documents, same constructor, tau = 0.40, w >= 20, Louvain seed 42; only the keyword source changes.\n")
+        w("| Arm | Keywords/doc | Vocabulary | Edges | Isolated nodes | Backbone nodes / edges | Modularity | Communities | Docs with a backbone concept |")
+        w("|---|---|---|---|---|---|---|---|---|")
+        for a in s["arms"]:
+            w(f"| {a['arm']} (tau={a['tau']}) | {f(a['keywords_per_document_mean'],2)} | {a['global_nodes']:,} | {a['global_edges']:,} | {a['global_isolated_nodes']:,} ({pct(a['global_isolated_nodes']/a['global_nodes'])}) | {a['backbone_nodes']} / {a['backbone_edges']} | {f(a['backbone_modularity_seed42'],3)} | {a['backbone_communities_seed42']} | {pct(a['share_documents_with_backbone_concept'])} |")
+        w("")
+        fr = s["vocabulary_fragmentation"]
+        w("* Lexical fragmentation (share of the vocabulary that collapses under punctuation/plural normalisation): " + "; ".join(f"{k} {pct(v['share_vocabulary_that_collapses'])} ({v['vocabulary']:,} terms, {v['canonical_forms']:,} canonical forms)" for k, v in fr.items()) + ".")
+        er = s["english_residue"]
+        w("* Non-English residue (Spanish function words): LLM " + pct(er['llm_k5']['share_spanish_function_words'], 3) + "; Scopus keywords " + pct(er['scopus_all']['share_spanish_function_words'], 3) + ". Non-ASCII: LLM " + pct(er['llm_k5']['share_non_ascii'], 3) + "; Scopus " + pct(er['scopus_all']['share_non_ascii'], 3) + ".")
+        ov = s["vocabulary_overlap"]
+        w(f"* {pct(ov['share_llm_terms_present_in_scopus_vocabulary'])} of the LLM vocabulary also occurs as a Scopus keyword somewhere in the corpus; {pct(ov['share_llm_keyword_instances_that_are_a_scopus_keyword_of_same_record'])} of LLM keyword instances equal a Scopus keyword of the same record.")
+        for k, c in s["comparisons"].items():
+            pa = c["concept_partition_agreement_on_shared"]
+            w(f"* {k}: backbone concepts shared {c['shared_backbone_concepts']} (Jaccard {f(c['jaccard_backbone_concepts'])}); community agreement on shared concepts NMI {f(pa['nmi'])} / ARI {f(pa['ari'])}; document-level agreement on {c['documents_compared']:,} documents NMI {f(c['document_nmi'])} / ARI {f(c['document_ari'])}.")
         w("")
     (R / "SUMMARY.md").write_text("\n".join(out), encoding="utf-8")
     print("\n".join(out))

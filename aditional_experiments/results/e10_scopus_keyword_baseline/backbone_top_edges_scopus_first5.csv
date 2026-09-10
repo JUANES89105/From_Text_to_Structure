@@ -1,0 +1,61 @@
+u,v,weight,sim_mean
+education,mathematics,1358,0.43405961990356445
+curricula,engineering education,653,0.4670548737049103
+education,engineering education,567,0.6973425149917603
+engineering education,students,536,0.5212090015411377
+engineering education,"stem (science, technology, engineering and mathematics)",362,0.5049165487289429
+education,curricula,354,0.7225059270858765
+students,teaching,339,0.6439774632453918
+mathematics,learning,337,0.427461177110672
+mathematics,science,332,0.5151054859161377
+engineering education,teaching,318,0.5322874188423157
+education,students,309,0.7348861694335938
+engineering education,education computing,295,0.6526545286178589
+international,conference,282,0.5263317823410034
+education,engineering,276,0.5511412620544434
+curricula,students,274,0.7071840763092041
+education,stem,274,0.4686979651451111
+students,education computing,261,0.6433471441268921
+education,human,258,0.4551646411418915
+mathematics,teaching,228,0.44117820262908936
+education,teaching,227,0.8030153512954712
+education,article,224,0.48178523778915405
+mathematics,engineering,210,0.44973599910736084
+curricula,teaching,199,0.6897029876708984
+curricula,education computing,195,0.666910707950592
+article,child,194,0.4060227870941162
+education,curriculum,184,0.8557945489883423
+education,education computing,177,0.7823839783668518
+mathematics,research,172,0.4495055079460144
+education,learning,169,0.7885522842407227
+education,science,167,0.49555858969688416
+mathematics,teacher,164,0.4584616422653198
+learning systems,education computing,160,0.6610926389694214
+engineering education,engineering research,157,0.7827275991439819
+mathematics,teachers,141,0.4040048122406006
+mathematics,technology,140,0.40895843505859375
+education,research,139,0.6125917434692383
+mathematics,curriculum,137,0.4272014796733856
+teaching,learning,136,0.7459036111831665
+article,adult,136,0.4614177644252777
+article,human,131,0.5919044017791748
+education,professional aspects,131,0.49203675985336304
+mathematics,human,129,0.41865816712379456
+article,academic achievement,129,0.4100840985774994
+mathematics education,teacher education,128,0.5663009285926819
+teaching,education computing,120,0.6435179710388184
+engineering,human,117,0.46179670095443726
+science education,mathematics education,112,0.5830686688423157
+curricula,professional aspects,110,0.40851008892059326
+education,teacher,110,0.7748589515686035
+engineering,science,109,0.642021894454956
+students,surveys,108,0.42375460267066956
+technology,science,106,0.6653106212615967
+engineering education,computer aided instruction,100,0.41744744777679443
+education,child,98,0.48573851585388184
+learning systems,students,98,0.4646439552307129
+engineering education,engineering and mathematics,95,0.6407136917114258
+gender,stem,94,0.5460407137870789
+engineering education,e-learning,94,0.4135710895061493
+learning systems,engineering education,94,0.41277220845222473
+female,human,93,0.6549258828163147

@@ -1,0 +1,1338 @@
+keyword,community,degree,weighted_degree
+students,4,502,64690
+education,15,425,54601
+human,1,256,39915
+engineering education,4,300,38198
+teaching,4,323,34507
+mathematics,15,165,30187
+humans,1,174,28720
+male,1,173,25933
+curricula,4,203,20355
+article,1,123,18687
+education computing,4,185,16792
+female,1,72,15978
+child,1,75,14115
+student,15,90,13762
+learning,15,103,10688
+mathematics education,4,118,10139
+science,15,83,9020
+adolescent,1,64,8494
+engineering,15,75,8255
+learning systems,4,98,8029
+"stem (science, technology, engineering and mathematics)",4,68,7599
+e-learning,4,76,7191
+technology,15,58,7067
+psychology,1,60,6866
+school,1,65,6695
+academic achievement,15,77,6298
+adult,1,44,6061
+cognition,1,69,5915
+curriculum,15,75,5051
+stem education,4,50,5001
+computer aided instruction,4,46,4951
+engineering and mathematics,4,33,4546
+university,15,44,4507
+achievement,1,48,4367
+controlled study,2,57,4150
+science technologies,4,35,4052
+reading,1,32,3733
+educational measurement,15,49,3622
+stem,15,38,3487
+schools,15,34,3415
+educational status,15,51,3300
+professional aspects,4,40,3278
+teacher,15,41,2994
+science education,4,28,2913
+research,15,37,2705
+teachers',4,30,2662
+language,1,27,2632
+procedures,1,27,2626
+human experiment,1,23,2615
+personnel training,4,26,2548
+higher education,4,36,2476
+longitudinal study,1,30,2415
+engineering research,4,23,2400
+methodology,1,35,2389
+academic performance,15,35,2317
+mathematics learning,4,30,2297
+skill,15,35,2204
+teaching and learning,4,23,2147
+physiology,1,22,2097
+statistics,1,32,2039
+universities,15,20,1981
+young adult,1,13,1869
+preschool child,1,23,1846
+"child, preschool",1,23,1830
+technology education,4,16,1828
+longitudinal studies,1,25,1782
+intelligence,1,30,1775
+review,1,34,1730
+questionnaire,15,30,1700
+knowledge,15,27,1693
+professional development,4,26,1661
+educational technology,4,24,1617
+major clinical study,2,22,1482
+comprehension,1,21,1458
+educational robots,10,19,1441
+"science , technology , engineering , and mathematics",4,10,1437
+high school,15,24,1417
+comparative study,1,25,1406
+priority journal,1,19,1400
+school child,15,25,1370
+motivation,15,21,1364
+gender,1,21,1354
+artificial intelligence,4,27,1337
+"science , technology , engineering and mathematics",4,9,1263
+problem solving,15,22,1247
+high educations,4,15,1203
+computer science,4,19,1203
+career,1,22,1189
+primary school,15,25,1183
+teacher education,4,23,1175
+learning environments,4,12,1159
+undergraduate students,4,12,1112
+mathematics teacher,4,15,1110
+surveys,4,7,1080
+child development,1,16,1076
+mathematical techniques,15,16,1076
+mathematics course,4,13,1052
+psychological aspect,1,17,1026
+learning disorder,1,23,1014
+high school students,4,7,1008
+faculty,15,17,1007
+secondary schools,4,13,1004
+technical presentations,4,11,1001
+elementary schools,4,13,996
+clinical article,1,11,983
+learning process,4,13,983
+education program,15,22,982
+attention,1,19,964
+academic success,15,18,957
+trees (mathematics),13,12,956
+medical education,15,25,939
+note,15,15,931
+student learning,4,12,917
+learning mathematics,4,14,906
+science and engineering,4,10,881
+aptitude,1,16,877
+project based learning,4,9,857
+calculations,4,13,855
+physics,15,16,853
+engineering mathematics,4,11,848
+computer science education,4,14,831
+decision trees,13,12,830
+biology,1,18,824
+age,1,14,823
+data mining,13,17,817
+primary education,15,18,811
+computer programming,4,13,796
+teacher training,4,17,794
+mathematics teachings,4,14,784
+international,17,12,781
+sex difference,1,6,781
+infant,1,12,779
+self concept,1,9,768
+parents,1,17,749
+teachers,15,15,740
+primary schools,4,13,739
+sex factors,1,9,727
+childhood,1,14,722
+robotics,10,13,717
+design,4,12,715
+secondary education,15,17,715
+learning outcome,4,12,703
+middle school,4,12,701
+intelligent tutoring system,4,12,699
+educational robotics,10,12,679
+engineers,4,7,676
+programming,10,14,675
+machine learning,13,13,668
+literacy,15,14,666
+societies and institutions,4,6,655
+thinking,1,13,634
+science and technology,4,10,633
+laboratories,4,9,628
+learning experiences,4,10,627
+contrastive learning,13,7,615
+writing,1,10,614
+teaching methods,4,11,610
+active learning,4,9,596
+distance education,4,8,593
+engineering curriculum,4,6,589
+engineering course,4,10,584
+learning disorders,1,13,575
+computational thinking,10,12,575
+learning models,4,8,574
+nursing education,16,11,560
+conference,17,8,555
+mathematical concepts,15,10,554
+learning algorithms,4,11,552
+engineering program,4,8,546
+higher school,4,10,545
+student engagement,4,8,537
+junior high schools,4,5,535
+student performance,4,7,533
+computational thinkings,10,12,522
+medical research,1,12,521
+social status,1,9,508
+numeracy,15,11,507
+clinical competence,16,14,505
+standard,15,10,503
+algebra,4,8,501
+problem based learning,4,8,501
+children,1,11,490
+educational development,15,13,486
+collaborative learning,4,7,485
+questionnaires,15,11,484
+graduate students,4,7,483
+national science foundations,4,7,479
+scientist,15,11,476
+algorithms,13,12,473
+curriculum development,4,8,468
+intelligence quotient,1,9,465
+decision making,13,10,463
+online learning,4,10,457
+behavior,1,12,455
+middle aged,1,5,454
+linguistics,1,9,450
+special education,15,14,441
+blended learning,4,10,439
+federated learning,13,5,438
+parent,1,11,437
+nursing student,16,10,432
+robot programming,10,9,432
+learning activity,4,9,430
+teaching materials,4,10,430
+educational model,15,11,427
+assessment,4,9,427
+statistical model,1,7,417
+attitude,1,9,414
+"education, special",1,10,413
+"students, nursing",16,10,412
+training,15,10,411
+geometry,4,8,406
+middle school students,4,7,406
+communication,1,10,402
+employment,4,9,395
+university students,4,8,395
+"education, nursing, baccalaureate",16,10,392
+engineering disciplines,4,7,390
+tutoring system,4,8,390
+educational innovation,4,8,388
+mathematics curricula,4,7,387
+history,15,9,381
+standards,15,8,380
+textbooks,4,8,375
+aged,1,6,373
+"science, technology, engineering, and mathematic",4,5,369
+teacher professional development,4,10,365
+adversarial machine learning,13,5,364
+working memory,2,9,363
+internet,15,8,360
+intelligent tutoring systems,4,8,360
+intelligent tutoring,4,8,360
+"models, educational",15,10,357
+educational innovations,4,8,356
+"infant, newborn",1,10,355
+normal human,1,6,352
+project-based learning,4,6,346
+pedagogy,4,9,345
+college students,4,6,342
+students' interests,4,7,341
+decision tree,13,5,336
+engineering degrees,4,7,336
+prospective studies,1,10,336
+learn+,4,6,336
+cohort studies,2,8,336
+school teachers,15,9,335
+higher education institutions,4,7,334
+evaluation,15,8,328
+interview,1,7,328
+nursing,16,9,324
+randomized controlled trial,2,4,323
+physical education,15,10,320
+self efficacy,1,6,319
+brain,1,8,318
+educational data mining,13,7,316
+classification,13,9,316
+"science , technology , engineering , and mathematics educations",4,8,313
+school students,4,8,313
+intervention,1,8,313
+machine-learning,13,6,312
+personnel,20,8,310
+colleges and universities,4,7,309
+prospective study,1,8,306
+editorial,1,6,304
+school teacher,15,9,304
+arithmetic,15,6,303
+development,15,8,301
+economics,15,7,295
+teaching practices,4,7,295
+ethnicity,1,7,291
+engineering design,4,4,290
+educational institutions,4,6,288
+socioeconomics,1,5,287
+science teachers,4,9,285
+demography,1,6,282
+learning materials,4,8,281
+information technology,4,6,280
+medical student,15,6,278
+experiential learning,4,6,277
+"science , technology , engineering , and maths",4,4,274
+cross-sectional study,2,5,273
+information science,15,7,273
+science learning,4,9,272
+systematic review,1,8,270
+innovation,15,6,268
+student motivation,4,6,267
+information systems,4,7,265
+child behavior,1,6,264
+machine design,10,6,262
+information use,4,7,262
+preservice teachers,4,7,262
+mother,1,8,261
+engineering fields,4,7,260
+career choice,13,4,260
+mathematical phenomena,15,3,260
+first year students,4,5,260
+algorithm,1,5,260
+sex factor,1,5,259
+academic achievements,4,7,258
+mathematical programming,10,6,258
+emotion,1,7,257
+engineering design process,4,4,256
+psychometry,1,5,255
+instructional designs,4,8,255
+robots,10,5,254
+prematurity,1,7,254
+mathematical knowledge,4,6,253
+perception,1,4,251
+engineering undergraduates,4,6,251
+prevalence,1,5,251
+educational systems,4,6,249
+k-12 education,4,5,249
+undergraduate engineering students,4,6,248
+policy,1,7,247
+computer software,4,6,245
+mobile learning,4,6,245
+cross-sectional studies,2,5,244
+short term memory,2,5,244
+educational game,4,8,243
+student achievement,4,6,242
+intellectual impairment,1,7,242
+child parent relation,1,6,241
+classification (of information),13,5,239
+research methods,4,5,239
+"memory, short-term",2,5,237
+computer games,4,8,237
+undergraduate education,4,5,237
+elementary education,4,6,236
+nursing education research,16,7,236
+mentor,15,6,235
+informatics,4,7,235
+community college,4,5,234
+undergraduate engineering,4,6,233
+newborn,1,7,232
+pathophysiology,1,4,232
+sociology,1,7,232
+cognitive development,1,5,232
+deep learning,4,7,231
+student perceptions,4,5,230
+social class,1,5,230
+research and development,4,6,229
+game-based learning,4,6,229
+augmented reality,13,6,229
+early childhood intervention,1,5,228
+school buildings,4,4,227
+undergraduate,15,7,226
+kindergarten,1,6,225
+knowledge management,4,6,225
+"education, graduate",15,7,224
+philosophy,15,6,223
+education systems,4,6,223
+matlab,4,4,223
+nasa,4,4,223
+culture,1,7,222
+mathematical educations,4,7,220
+early intervention (education),1,5,220
+computing education,4,6,220
+diversity,15,6,219
+publication,1,6,215
+visualization,13,7,215
+chemistry,15,4,214
+engineering and technology,4,5,214
+educational environment,4,7,212
+cultural anthropology,1,6,210
+time,1,7,210
+adolescence,1,7,209
+educational process,4,6,208
+caucasian,1,7,207
+engineering careers,4,4,206
+program evaluation,15,6,206
+memory,1,6,205
+human relation,1,6,205
+surveys and questionnaires,15,4,205
+forecasting,13,5,204
+stem careers,4,5,204
+equity,15,5,203
+behavioral research,4,4,202
+integration,15,3,201
+math,1,6,201
+technical universities,4,5,201
+comorbidity,1,7,200
+mental capacity,1,5,200
+short survey,1,5,198
+software engineering,4,4,197
+letter,15,5,197
+interactive learning,4,6,197
+virtual reality,13,6,197
+school mathematics,4,5,197
+personalized learning,4,5,196
+women,1,6,196
+technology fields,4,5,196
+spelling,1,5,195
+based,15,5,195
+hispanic,1,5,194
+mentors,15,5,194
+mentoring,15,5,193
+technology enhanced learning,4,6,191
+retrospective study,2,6,191
+e - learning,4,5,191
+statistical analysis,1,5,190
+software,15,6,190
+engineering students,4,4,189
+first-year engineering,4,4,189
+student success,4,4,188
+websites,4,4,187
+apprentices,4,5,187
+awareness,1,5,184
+educational experiences,4,5,184
+art,15,7,183
+england,1,6,182
+pregnancy,1,4,182
+organization,1,6,182
+"models, statistical",1,4,182
+physics education,4,6,182
+gestational age,1,5,181
+female students,4,3,181
+high school mathematics,4,5,180
+student learning outcomes,4,5,179
+age factors,1,5,175
+statistics and numerical data,15,4,174
+family,1,5,173
+language model,18,4,172
+controlled clinical trial,2,4,172
+concept formation,15,4,171
+forestry,13,3,170
+probability,1,4,169
+pedagogical approach,4,5,168
+undergraduate research,4,4,168
+undergraduate courses,4,5,168
+human engineering,4,4,165
+creativity,15,5,164
+problem-solving,15,3,164
+human computer interaction,4,4,163
+research personnel,20,5,163
+individuality,1,5,163
+"students, medical",15,5,163
+race,1,5,163
+teaching model,4,5,161
+learning achievement,4,5,161
+preschool,1,5,161
+anxiety,1,3,160
+educational program,4,4,159
+knowledge acquisition,4,4,158
+government,15,5,157
+learning approach,4,4,157
+cultural factor,1,4,157
+mental performance,1,4,155
+social psychology,1,5,155
+mathematics teaching,4,5,155
+medical school,15,5,154
+problem-based learning,4,3,154
+minority group,1,2,154
+mothers,1,6,153
+educational tools,4,5,153
+reasoning,15,5,152
+engineering learning,4,6,151
+education policy,15,6,151
+accreditation,4,4,151
+conceptual understanding,4,4,151
+animals,1,4,150
+outcome assessment,15,3,150
+critical thinking,15,4,149
+inquiry-based learning,4,4,149
+engineering concepts,4,4,149
+calculation,2,3,149
+clinical trial,2,4,149
+"models, psychological",1,4,147
+elementary school,15,5,146
+information management,13,4,145
+distance learning,4,4,145
+school of engineering,4,4,145
+mathematical problems,4,4,145
+neuropsychological tests,2,3,144
+high school teachers,4,4,144
+theoretical model,15,3,144
+learning objectives,4,5,144
+learning management system,4,5,144
+high school student,15,5,143
+university sector,15,4,142
+cohort analysis,2,3,142
+pre-service teacher,4,4,141
+mathematical problem solving,15,4,141
+sexism,1,4,141
+medication errors,16,4,140
+australia,1,4,140
+undergraduate student,1,5,139
+sweden,1,5,139
+psychological model,1,4,139
+registries,1,6,139
+social behavior,1,5,139
+model,15,4,139
+gender identity,1,4,139
+computational biology,1,4,138
+"science, technology, engineering and mathematic",4,3,138
+social sciences,4,4,138
+body mass,1,4,137
+proceedings,17,2,137
+industrial research,4,3,137
+complication,1,5,136
+cooperation,1,5,135
+lesson plans,4,4,135
+instruction,15,4,134
+theory,15,3,134
+elementary students,4,4,133
+elementary student,15,5,133
+differential equations,4,4,133
+mathematical models,13,5,132
+underrepresented students,4,3,132
+educational attainment,15,5,132
+cognition disorders,1,4,132
+educational activities,4,4,132
+elementary,15,4,130
+secondary,15,3,130
+learning analytics,4,4,129
+stem fields,4,2,129
+biomedical research,1,3,128
+self-efficacy,1,3,128
+emotions,1,4,128
+research subjects,4,2,128
+intelligence tests,15,5,127
+united states,15,4,127
+mathematic fields,4,4,126
+multimedia systems,9,5,126
+mathematical,15,4,126
+teacher knowledge,4,4,125
+steam education,4,4,125
+follow-up studies,2,4,125
+on-line education,4,4,125
+workforce,1,4,124
+social environment,1,4,124
+engineering science,4,3,124
+self report,1,3,123
+science course,4,4,123
+research instruments,4,3,123
+natural language processing systems,30,4,122
+information and communication technologies,4,4,121
+study,15,4,121
+prediction,13,3,121
+adaptive learning,4,5,121
+learning tool,4,4,121
+case report,1,3,121
+social aspect,1,5,121
+competence,1,4,120
+medication error,16,3,120
+adolescents,1,5,120
+s,15,3,120
+problem,15,3,120
+engineering educators,4,4,120
+teaching process,4,4,120
+learning disabilities,15,4,119
+university levels,4,4,118
+research questions,4,3,117
+department of education,4,4,117
+ethnology,1,5,117
+ministry of education,4,4,116
+executive function,1,3,116
+engineering faculty,4,3,115
+grading,4,3,114
+cognitive defect,1,3,113
+learning style,4,4,113
+learning strategy,4,3,112
+art educations,4,4,111
+online systems,4,3,111
+engineering practices,4,4,111
+technical educations,4,4,110
+interactive computer graphics,4,4,110
+virtual learning environments,4,3,110
+secondary school,4,4,110
+interpersonal communication,1,2,109
+teaching approaches,4,3,109
+science curriculum,4,4,109
+gamification,15,3,108
+neuropsychological test,2,2,108
+biographies,4,4,108
+research experience,4,3,108
+adolescent behavior,1,4,108
+interactive learning environments,4,4,107
+vocabulary,1,3,106
+decision-tree algorithm,13,2,106
+3-d printing,45,3,106
+learning environment,4,4,106
+nonhuman,1,3,106
+animal,1,3,105
+pre-college,4,3,105
+educational research,4,4,105
+computer science students,4,3,105
+retrospective studies,2,3,105
+mathematics instruction,4,3,105
+public health,1,3,105
+calculus,4,3,105
+sustainable development,24,3,104
+teaching strategy,4,3,104
+great britain,1,3,104
+online teaching,4,4,104
+large language model,18,2,104
+organization and management,1,3,103
+laboratory,15,4,103
+engineering applications,4,3,103
+socioeconomic factors,1,2,103
+pisa,15,3,103
+professional,15,3,102
+differentiation (calculus),4,2,102
+task performance,1,3,102
+women in engineering,4,2,102
+k-12 stem education,4,4,101
+intellectual disability,1,3,101
+student attitudes,4,3,101
+neural networks,13,4,101
+health survey,1,3,100
+arts computing,4,3,100
+postsecondary education,4,3,100
+engineering graduates,4,3,100
+early childhood education,1,4,100
+online course,4,4,100
+scientists and engineers,4,3,99
+physical activity,15,3,98
+interdisciplinary,4,3,98
+psychometrics,1,2,98
+teaching-learning process,4,3,98
+flipped classroom,4,3,98
+theoretical study,15,4,98
+information analysis,13,3,97
+mental task,1,4,97
+mental function,1,4,97
+vocational education,4,4,96
+3d printing,45,3,96
+graduate student,15,4,95
+practice,15,3,95
+instructional practices,4,4,95
+undergraduate curricula,4,3,94
+teaching methodologies,4,3,94
+student experiences,4,2,94
+solving,15,2,94
+mlown,1,4,94
+engineering schools,4,3,93
+stereotypy,1,3,93
+interactive learning environment,4,3,93
+autism,1,3,92
+funding,15,3,92
+cooperative behavior,1,3,92
+medicine,15,3,92
+mathematics achievement,15,3,92
+drug dosage calculations,16,3,92
+physician,1,3,92
+"models, theoretical",15,2,92
+united kingdom,1,2,91
+hands-on learning,4,3,91
+juvenile,1,4,90
+understanding,15,3,90
+quantitative analysis,15,2,90
+outreach,15,2,89
+introduction,15,3,89
+personality,1,4,89
+epidemiology,1,2,89
+introductory course,4,3,88
+natural languages,30,3,88
+primary and secondary schools,4,3,88
+parent-child relations,1,3,88
+teaching experience,4,3,88
+"science , technology , engineering , mathematics",4,2,87
+vision,1,3,87
+teaching/learning strategies,4,3,87
+computers,4,3,86
+college,15,3,86
+african american,1,3,86
+scientific literature,15,3,85
+technology learning,4,4,85
+manpower,1,3,85
+course contents,4,3,85
+learning and teachings,4,3,85
+ethnic group,1,2,85
+application programs,4,2,85
+interdisciplinary education,15,3,84
+general education,4,3,84
+critical thinking skills,15,3,84
+student participation,4,3,83
+graduation rates,4,2,83
+pedagogical content knowledge,4,3,83
+expectation,1,3,83
+reproducibility of results,14,1,82
+reproducibility,14,1,82
+data collection,7,3,82
+large language models,18,2,82
+instructional strategy,4,3,82
+linear algebra,4,3,81
+analysis,15,3,81
+integral equations,4,3,81
+formative assessment,4,2,81
+computer-assisted instruction,15,2,80
+secondary mathematics,4,3,80
+interpersonal relations,1,3,80
+cooperative learning,4,2,79
+three dimensional computer graphics,13,3,79
+communication skills,4,3,79
+simulation,15,3,79
+international students,4,2,79
+health personnel attitude,16,3,79
+undergraduate program,4,2,78
+primary,15,3,78
+national academy of engineering,4,3,78
+development model,4,2,78
+developmental disorder,1,3,78
+minority groups,1,1,78
+book,15,3,78
+classroom teaching,4,2,77
+design and development,4,3,77
+population research,1,3,77
+school performance,15,3,77
+genetics,1,2,76
+natural language processing,30,3,76
+research studies,4,2,76
+language processing,30,3,76
+modeling,4,3,75
+engineering profession,4,2,75
+data science,4,2,75
+research laboratories,4,2,74
+degree program,4,3,74
+learning methods,4,2,74
+experimental research,4,1,74
+occupation,1,3,73
+student populations,4,2,73
+college student,15,3,73
+netherlands,1,3,72
+distance-learning,4,3,72
+electrical engineering,4,1,72
+dyslexia,1,3,72
+engineering and computer science,4,2,71
+judgment,1,3,71
+germany,1,2,70
+health behavior,1,3,70
+mental health,1,2,70
+teaching quality,4,3,70
+learning technology,4,2,70
+teaching/learning strategy,4,3,69
+risk factor,2,2,69
+3d printers,45,2,69
+pilot study,15,2,69
+open source software,32,1,69
+open systems,32,1,69
+accuracy,15,2,69
+linear models,15,2,68
+stem activities,4,2,68
+content knowledge,4,3,68
+early,1,1,68
+mathematical analysis,15,2,68
+numerical cognition,15,2,68
+special,15,3,67
+ecology,15,2,67
+online education,4,3,67
+classroom,15,2,67
+learning science,4,3,67
+data visualization,13,2,66
+validity,22,2,66
+pre,12,1,66
+group,17,3,66
+computer engineering,4,2,66
+mathematical thinking,4,2,66
+tree structures,13,2,66
+faculty members,4,2,66
+ethnic groups,1,2,66
+service,12,1,66
+timss,15,2,65
+inclusive education,4,3,65
+peer group,1,2,65
+challenges,15,2,65
+planning,24,2,65
+learning community,4,2,65
+pre-service teachers,4,2,65
+sex ratio,1,3,64
+"history, 20th century",15,2,64
+mathematical modeling,13,2,64
+engineering problems,4,1,64
+project management,15,2,64
+lesson study,4,3,64
+data handling,13,2,64
+testing,4,1,63
+exercise,15,2,62
+aptitude tests,15,2,62
+research design,15,2,62
+instructional materials,4,2,62
+mobile applications,8,2,61
+inclusion,15,2,61
+learning opportunity,4,2,61
+learning objects,4,3,61
+aptitude test,15,2,61
+decision theory,13,2,60
+math anxiety,15,2,60
+problem solving skills,15,1,60
+school admission criteria,15,2,60
+basic educations,4,2,60
+student retention,4,1,60
+learning motivation,4,2,59
+computer science and engineerings,4,2,59
+improving classroom teaching,4,2,59
+models,4,2,59
+case-control studies,2,2,59
+educational software,4,2,59
+undergraduate engineering educations,4,2,59
+engineering activities,4,2,59
+space education,4,2,58
+k-12 engineering education,4,2,58
+technological literacy,4,2,58
+computation theory,10,2,58
+social aspects,15,2,58
+attitude of health personnel,16,2,58
+scholarship program,4,2,57
+qualitative research,15,2,57
+teachers and teaching,44,2,57
+abstract syntax trees,13,2,57
+conceptual knowledge,19,2,57
+attention deficit disorder,5,2,57
+educational materials,4,2,56
+experimental groups,39,1,56
+health education,15,2,56
+computer algebra systems,4,1,56
+educational settings,4,2,56
+control groups,39,1,56
+modelling,15,2,56
+tertiary education,4,2,55
+immersive,13,2,55
+preface,17,2,55
+research universities,4,2,55
+"history, 21st century",15,2,54
+empirical studies,4,2,54
+academic institutions,4,2,54
+behavior disorder,1,2,54
+student outcomes,4,2,54
+undergraduate degrees,4,2,54
+through,15,2,54
+innovative teaching,4,2,53
+teacher learning,4,2,53
+classroom environment,4,2,53
+cognitive,15,2,53
+requirements engineering,4,1,53
+graduate education,4,2,53
+follow up,2,1,53
+student feedback,4,2,53
+mental disease,1,2,53
+african americans,1,2,52
+what,15,2,52
+child health,1,2,52
+intelligence test,15,2,52
+workforce development,15,2,52
+sustainability,24,1,52
+cybernetics,15,1,52
+mental arithmetic,15,2,52
+teaching-learning,4,2,52
+annual,17,2,52
+program development,15,2,52
+research results,4,1,52
+ethics,15,2,52
+3rd,17,2,52
+digital game-based learning,4,2,51
+learning outcomes,4,2,51
+literature,15,2,51
+aerospace engineering,4,1,51
+interdisciplinary learning,4,2,51
+machine learning techniques,13,2,51
+problem-solving abilities,15,2,50
+neuroscience,1,2,50
+mlcs,1,2,50
+poverty,1,1,50
+dose calculation,16,1,50
+logic,15,2,50
+statistics as topic,1,2,50
+effective teaching,4,2,50
+engineering colleges,4,2,50
+mathematical computing,15,1,50
+bioinformatics,1,2,49
+informal learning,4,2,49
+teacher beliefs,4,2,49
+faculty development,4,2,49
+university student,15,2,49
+logistic models,15,2,49
+supervised learning,4,2,49
+learning platform,4,2,49
+bachelor's degree,4,2,49
+classification algorithm,13,2,48
+classroom instruction,4,2,48
+basic mathematics,4,1,48
+engineering mathematics course,4,2,48
+health,1,2,48
+user interfaces,4,2,48
+mathematical education,4,2,48
+graduate schools,4,2,48
+symbolism,1,2,48
+subject matters,4,2,48
+student response,4,1,48
+academic research,15,2,48
+robotics education,10,2,48
+learning trajectories,40,2,47
+professional development program,4,2,47
+3d-printing,45,2,47
+classroom practices,4,2,47
+prospective teachers,4,2,47
+mathematical model,15,1,47
+experimental design,15,2,47
+technology-enhanced learning,4,2,47
+civil engineering,4,1,46
+asian,15,2,46
+digital technologies,4,1,46
+history of mathematics,4,1,46
+mechanical engineering,4,1,46
+language development,15,2,46
+skills,15,2,46
+career opportunities,4,2,46
+instructional design,4,2,46
+pedagogical issues,4,2,46
+professional skills,4,2,46
+intelligent systems,4,2,46
+computer,15,2,46
+health service,16,2,46
+student teachers,4,2,45
+curriculum design,4,2,45
+pedagogical strategies,4,2,45
+biomedical engineering,4,1,45
+academic program,4,2,45
+mechanical engineering students,4,2,45
+computer science course,4,2,45
+internet of things,0,2,44
+computational linguistics,18,2,44
+undergraduates,4,2,44
+teacher preparation,4,2,44
+open educational resources,4,2,44
+knowledge engineering,4,2,44
+"education, medical, undergraduate",15,2,44
+drug therapy,16,2,44
+university education,4,2,44
+education technology,4,2,44
+mathematical communication,4,1,44
+reliability,22,1,43
+experience,15,2,43
+outreach programs,15,2,43
+biological model,1,2,43
+performance,1,2,43
+middle school student,15,2,43
+computer science curricula,4,2,43
+information,17,2,43
+research opportunities,4,2,43
+cost engineering,4,1,42
+geography,15,2,42
+critical,15,1,42
+career development,4,2,42
+learning modules,4,2,42
+evolution,15,2,42
+constructivism,15,2,42
+medical literature,15,2,42
+time factors,1,2,42
+health literacy,15,2,42
+e-learning environment,4,2,42
+correction,15,1,41
+risk factors,2,1,41
+teachers' perceptions,4,2,41
+education programs,4,2,41
+research designs,4,1,41
+attitudes,21,2,41
+natural science,1,1,40
+self-regulated learning,4,2,40
+industrial engineering,15,2,40
+knowledge based systems,4,2,40
+student assessment,4,1,39
+k-12,4,1,39
+applied mathematics,4,1,39
+stem program,4,1,39
+stereotyping,1,1,38
+pilot studies,4,1,38
+procedural knowledge,19,1,37
+space perception,29,1,37
+depth perception,29,1,37
+software testing,4,1,37
+engineering technology,4,1,37
+fractions,15,1,37
+college buildings,4,1,36
+big data,13,1,36
+effective learning,4,1,36
+pilot projects,15,1,36
+learning performance,4,1,35
+mathematical modelling,4,1,35
+research papers,4,1,34
+augmented reality technology,13,1,34
+brain function,1,1,34
+pandemic,43,1,34
+task performance and analysis,1,1,34
+quality of education,4,1,34
+scientific researches,4,1,34
+statistical tests,4,1,34
+realistic,15,1,34
+mobile application,8,1,34
+pandemics,43,1,34
+minority student,4,1,34
+students learning,4,1,34
+"education, medical",15,1,33
+electrical and computer engineering,4,1,33
+"health knowledge, attitudes, practice",31,1,33
+attitude to health,31,1,33
+educational context,4,1,33
+exploratory studies,4,1,33
+engaging students,4,1,33
+mathematical reasoning,4,1,33
+experiments,4,1,33
+steam,4,1,33
+environmental technology,4,1,33
+disability,1,1,33
+intelligent robots,10,1,32
+spatial visualization,13,1,32
+flow visualization,13,1,32
+social sciences computing,4,1,32
+augmented reality applications,13,1,32
+engineering principles,4,1,32
+e-learning platforms,4,1,32
+virtual environments,13,1,31
+senior high school students,4,1,31
+condition,4,1,31
+attention deficit disorder with hyperactivity,5,1,31
+biological science disciplines,25,1,31
+serious games,4,1,31
+values,15,1,31
+physical education and training,15,1,31
+biomedicine,25,1,31
+disease severity,1,1,30
+mathematics literacy,4,1,30
+clustering algorithms,13,1,30
+case control study,2,1,30
+international space stations,34,1,30
+mathematics skills,4,1,30
+math education,4,1,30
+robot learning,10,1,30
+"data interpretation, statistical",1,1,30
+space stations,34,1,30
+computer aided software engineering,4,1,30
+professional competence,15,1,30
+quality education,4,1,30
+engineering education research,4,1,29
+decisions makings,13,1,29
+technology integration,4,1,29
+math/math education,44,1,29
+basic concepts,4,1,29
+student interactions,4,1,29
+autism spectrum disorder,1,1,29
+educational games,4,1,29
+lesson,15,1,29
+descriptive studies,4,1,29
+professional careers,4,1,29
+engineering skills,4,1,29
+treatment outcome,1,1,29
+learning difficulties,4,1,29
+how,15,1,29
+research and development management,4,1,29
+online,15,1,28
+bridges,35,1,28
+intrinsic motivation,15,1,28
+summer bridge program,35,1,28
+income,15,1,28
+programming education,4,1,28
+goals,15,1,28
+diagnosis,1,1,28
+first year,15,1,28
+case,15,1,28
+pedagogics,15,1,28
+"education, distance",15,1,28
+quantitative research,4,1,28
+standardized tests,4,1,27
+research activities,4,1,27
+analysis of variance,2,1,27
+4th,17,1,27
+quality,15,1,27
+introductory programming,4,1,27
+mobile computing,8,1,27
+intervention study,1,1,27
+social interaction,1,1,27
+grade point average,4,1,27
+educational approach,4,1,27
+music,1,1,27
+birth weight,1,1,27
+introductory programming course,4,1,27
+graph theory,13,1,27
+remote laboratories,4,1,27
+regression analysis,2,1,27
+fuzzy mathematics,36,1,26
+programming course,4,1,26
+perspectives,15,1,26
+introduction to engineering,4,1,26
+hearing impairment,37,1,26
+deafness,37,1,26
+integral calculus,4,1,26
+artificial,1,1,26
+design thinking,4,1,26
+north america,15,1,26
+traditional engineerings,4,1,26
+personal experience,1,1,26
+medical information,1,1,26
+health services needs and demand,16,1,26
+engineering department,4,1,26
+nuclear magnetic resonance imaging,3,1,26
+magnetic resonance imaging,3,1,26
+mentoring programs,4,1,26
+spatial ability,27,1,26
+mathematical literacy,4,1,26
+word problem,15,1,26
+fundamental concepts,4,1,26
+arts,15,1,26
+number sense,15,1,26
+systems engineering,4,1,26
+learning resource,4,1,26
+k,11,1,26
+12,11,1,26
+spatial abilities,27,1,26
+fuzzy logic,36,1,26
+professional training,4,1,25
+disease association,1,1,25
+engagement,15,1,25
+student knowledge,4,1,25
+english (language),1,1,25
+society,15,1,25
+population statistics,4,1,25
+mathematics curriculum,4,1,25
+mathematics software,4,1,25
+distributed computer systems,4,1,25
+young peoples,4,1,25
+philosophical aspects,15,1,25
+towards,15,1,25
+course design,4,1,25
+"aged, 80 and over",1,1,25
+summer program,4,1,25
+technological tools,4,1,25
+educational opportunities,4,1,25
+scientific literacy,4,1,25
+descriptive analysis,4,1,25
+pre-service teacher education,4,1,25
+clinical practice,1,1,25
+factor analysis,41,1,24
+participation,15,1,24
+practice guideline,15,1,24
+learning designs,4,1,24
+child care,1,1,24
+laboratory experiments,4,1,24
+interdisciplinary studies,15,1,24
+therapy,1,1,24
+learning analytic,4,1,24
+space research,26,1,24
+operations research,4,1,24
+space explorations,26,1,24
+ecosystems,15,1,24
+cross-cultural comparison,1,1,24
+issue,15,1,24
+visual perception,1,1,24
+realistic mathematics education,4,1,24
+educational resource,4,1,24
+depression,1,1,24
+information processing,7,1,24
+enhance learning,4,1,24
+computer simulation,13,1,24
+learners,15,1,24
+aging,1,1,24
+audition,4,1,24
+discovery learning,4,1,24
+digital games,4,1,24
+approximate number system,15,1,24
+social robots,10,1,24
+design and implementations,4,1,24
+multivariant analysis,41,1,24
+data acquisition,7,1,24
+achievement test,15,1,23
+mathematics teacher education,4,1,23
+humanities,15,1,23
+engineering knowledge,4,1,23
+traditional learning,4,1,23
+hands-on activities,4,1,23
+massive open online course,4,1,23
+scoring system,15,1,23
+educational,15,1,23
+physics learning,4,1,23
+innovative learning,4,1,23
+mechanics,4,1,23
+mechanical,4,1,23
+game design,4,1,23
+codes (symbols),13,1,23
+wellbeing,1,1,23
+computer program,15,1,23
+reinforcement,15,1,23
+number,15,1,23
+content,15,1,23
+preservice teacher education,4,1,23
+trajectories,40,1,23
+artificial intelligence (ai),4,1,23
+software design,4,1,23
+manufacture,4,1,23
+data mining technology,13,1,23
+computer assisted instruction,4,1,23
+body mass index,1,1,23
+patient care,1,1,23
+learning gain,4,1,23
+social justice,15,1,23
+human robot interaction,10,1,23
+neural-networks,13,1,23
+risk assessment,2,1,23
+learning media,4,1,23
+discrete mathematics,15,1,23
+covid-19,6,1,22
+communication skill,1,1,22
+approach,15,1,22
+issues,15,1,22
+"schools, medical",15,1,22
+economic development,15,1,22
+problems,15,1,22
+commerce,4,1,22
+chinese,1,1,22
+photic stimulation,1,1,22
+pedagogical practices,4,1,22
+sars-cov-2,6,1,22
+didactics,15,1,22
+research programs,4,1,22
+educational platforms,4,1,22
+child psychology,1,1,22
+research experiences for teachers,4,1,22
+problem solving process,15,1,22
+video game,28,1,22
+video games,28,1,22
+curriculum designs,4,1,22
+social,15,1,22
+2nd,17,1,22
+women in science,4,1,22
+digital literacies,4,1,22
+quality control,4,1,22
+teaching modes,4,1,22
+community,15,1,22
+training program,4,1,22
+binary trees,13,1,22
+medical society,1,1,22
+design process,4,1,22
+multimedia technologies,9,1,22
+measurement,15,1,22
+vulnerable population,1,1,22
+student-centered learning,4,1,22
+high school curriculum,4,1,22
+obesity,1,1,22
+applications,15,1,22
+interactive computer systems,9,1,22
+time factor,1,1,21
+using,15,1,21
+dyscalculia,1,1,21
+extracurricular activities,4,1,21
+cs education,4,1,21
+computer programming languages,4,1,21
+computer graphics,4,1,21
+brain mapping,1,1,21
+mobile devices,4,1,21
+computing curricula,4,1,21
+ai,4,1,21
+nutrition,1,1,21
+formal education,4,1,21
+economic and social effects,15,1,21
+logistic regression,13,1,21
+job analysis,23,1,21
+elearning,4,1,21
+interdisciplinary project,4,1,21
+students' engagements,4,1,21
+student learning experiences,4,1,21
+digital devices,38,1,21
+ontology,15,1,21
+"infant, premature",1,1,21
+computer scientists,4,1,21
+baccalaureate degrees,4,1,21
+digital tools,38,1,21
+"education, nursing",16,1,21
+early childhood,15,1,21
+teaching programming,4,1,21
+preliminary analysis,4,1,21
+computer aided design,4,1,21
+register,1,1,21
+support vector machines,13,1,21
+elementary teachers,4,1,21
+teaching mathematics,4,1,21
+student satisfaction,4,1,21
+task analysis,23,1,21
+artificial intelligence technologies,4,1,21
+spain,1,1,21
+technological development,4,1,21
+public schools,4,1,21
+language ability,15,1,21
+law,15,1,21
+individual learning,4,1,20
+instructional,15,1,20
+1st,17,1,20
+leadership,4,1,20
+multicenter study,2,1,20
+urban education,4,1,20
+work,15,1,20
+dynamic geometry softwares,4,1,20
+human tissue,1,1,20
+internet of things (iot),0,1,20
+math teachers,4,1,20
+natural sciences,15,1,20
+classroom actions,4,1,20
+higher education students,4,1,20
+abstracting,4,1,20
+cyber security,33,1,20
+object oriented programming,4,1,20
+educational contents,4,1,20
+learning skills,4,1,20
+affect,1,1,20
+programming concepts,4,1,20
+computer technology,4,1,20
+social networking (online),42,1,20
+k-12 teachers,4,1,20
+education for sustainable development,24,1,20
+assessment instruments,4,1,20
+syntactics,13,1,20
+engineering professionals,4,1,20
+practicing engineers,4,1,20
+research experience for teachers,4,1,20
+evaluation results,4,1,20
+applied,15,1,20
+study skills,15,1,20
+beliefs,21,1,20
+semantics,15,1,20
+risk,1,1,20
+engineering student,4,1,20
+cybersecurity,33,1,20
+molecular biology,1,1,20
+cognitive systems,4,1,20
+colleges of engineerings,4,1,20
+socio-economic status,15,1,20
+university course,4,1,20
+performance assessment,15,1,20
+experimental study,15,1,20
+engineering programs,4,1,20
+public universities,4,1,20
+mathematical cognition,1,1,20
+database systems,4,1,20
+innovative technology,4,1,20
+accessibility,15,1,20
+social media,42,1,20
+visually impaired students,4,1,20
+social competence,1,1,20
+online learning environment,4,1,20
+observational study,1,1,20

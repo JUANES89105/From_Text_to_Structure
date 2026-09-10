@@ -1,0 +1,17 @@
+documents=52946 (records without Scopus keywords: 0)
+vocabulary: llm=56635 scopus_all=97738 scopus_first5=65420
+  llm_k5: nodes=56635 edges=109022 isolated=18017 bb=408/608 Q=0.3560 comm=7 hub=mathematics education (0.515)
+  scopus_all: nodes=97738 edges=541841 isolated=14337 bb=1337/5261 Q=0.4018 comm=46 hub=students (0.095)
+  scopus_first5: nodes=65420 edges=116867 isolated=19333 bb=198/385 Q=0.4549 comm=17 hub=education (0.182)
+  scopus_all_coword: nodes=97738 edges=2305259 isolated=48 bb=1760/12441 Q=0.3720 comm=12 hub=students (0.087)
+REPRODUCTION GATE (llm_k5): PASS
+              arm  keywords_per_document_mean  global_nodes  global_edges  global_isolated_nodes  global_lcc_fraction  backbone_nodes  backbone_edges  backbone_modularity_seed42  backbone_communities_seed42  share_documents_with_backbone_concept
+           llm_k5                      4.9973         56635        109022                  18017               0.6059             408             608                      0.3560                            7                                 0.9159
+       scopus_all                     10.0229         97738        541841                  14337               0.8004            1337            5261                      0.4018                           46                                 0.9013
+    scopus_first5                      4.7353         65420        116867                  19333               0.5804             198             385                      0.4549                           17                                 0.7169
+scopus_all_coword                     10.0229         97738       2305259                     48               0.9822            1760           12441                      0.3720                           12                                 0.9178
+llm_k5_vs_scopus_all {'backbone_nodes_llm': 408, 'backbone_nodes_scopus_all': 1337, 'shared_backbone_concepts': 259, 'jaccard_backbone_concepts': 0.1743, 'documents_unambiguous_llm': 39477, 'documents_unambiguous_scopus_all': 41262, 'documents_compared': 30892, 'document_nmi': 0.0602, 'document_ari': 0.0216, 'llm_backbone_concepts_absent_from_scopus_vocabulary': 2} shared-concept NMI/ARI: {'shared_nodes': 259, 'nmi': 0.2346, 'ari': 0.1897}
+llm_k5_vs_scopus_first5 {'backbone_nodes_llm': 408, 'backbone_nodes_scopus_first5': 198, 'shared_backbone_concepts': 102, 'jaccard_backbone_concepts': 0.2024, 'documents_unambiguous_llm': 39477, 'documents_unambiguous_scopus_first5': 31615, 'documents_compared': 24227, 'document_nmi': 0.0883, 'document_ari': 0.0618, 'llm_backbone_concepts_absent_from_scopus_vocabulary': 2} shared-concept NMI/ARI: {'shared_nodes': 102, 'nmi': 0.3808, 'ari': 0.3916}
+llm_k5_vs_scopus_all_coword {'backbone_nodes_llm': 408, 'backbone_nodes_scopus_all_coword': 1760, 'shared_backbone_concepts': 262, 'jaccard_backbone_concepts': 0.1375, 'documents_unambiguous_llm': 39477, 'documents_unambiguous_scopus_all_coword': 44606, 'documents_compared': 33212, 'document_nmi': 0.062, 'document_ari': 0.0237, 'llm_backbone_concepts_absent_from_scopus_vocabulary': 2} shared-concept NMI/ARI: {'shared_nodes': 262, 'nmi': 0.1811, 'ari': 0.1043}
+done {'load': 6.928, 'vocabulary': 9.198, 'embeddings': 233.49, 'build_llm_k5': 244.616, 'backbone_llm_k5': 245.209, 'build_scopus_all': 260.735, 'backbone_scopus_all': 263.252, 'build_scopus_first5': 275.198, 'backbone_scopus_first5': 275.784, 'build_scopus_all_coword': 295.32, 'backbone_scopus_all_coword': 300.213, 'comparisons': 312.452}
+EXIT=0

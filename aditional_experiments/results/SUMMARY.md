@@ -1,6 +1,6 @@
 # Additional experiments: headline results
 
-Generated 2026-09-09T02:52:21.722597+00:00 from `aditional_experiments/results/*/summary.json`. Commit `e75f027baa8cd4701291cb4303f6b38a2234ec9e`.
+Generated 2026-09-10T03:04:41.790333+00:00 from `aditional_experiments/results/*/summary.json`. Commit `b162c230c417ade195d1782e0cc13182f8a291e2`.
 
 | Experiment | Reviewer / editor item | Gate |
 |---|---|---|
@@ -10,6 +10,7 @@ Generated 2026-09-09T02:52:21.722597+00:00 from `aditional_experiments/results/*
 | E7 extraction cost | R2-5 | PASS |
 | E6 corpus profile | R3-4, Editor E-2 | PASS |
 | E4 k sensitivity | R3-2 | PASS (k = 5 arm; k = 10 extraction pending, needs API key) |
+| E10 Scopus keyword baseline | Editor E-4, R2-1, R3-5, R3-6 | PASS |
 
 ## E9. Semantic filter ablation: co-word CRS (no tau) vs. published CRS (tau = 0.40)
 
@@ -86,3 +87,21 @@ Non-hierarchical attribution (exact presence): in original keywords only 12.9%, 
 
 * Status: k=5 arm only; run run_extraction.py (needs OPENROUTER_API_KEY) to add other k.
 * k = 5 arm on the 5,000-document sample: 10,249 concepts, 13,247 edges, backbone w >= 20: 31 nodes / 35 edges (Q = 0.340); backbone w >= 5: 184 nodes / 244 edges (Q = 0.370, 7 communities).
+
+## E10. Baseline: the CRS built from the Scopus author/index keywords
+
+Same 52,946 documents, same constructor, tau = 0.40, w >= 20, Louvain seed 42; only the keyword source changes.
+
+| Arm | Keywords/doc | Vocabulary | Edges | Isolated nodes | Backbone nodes / edges | Modularity | Communities | Docs with a backbone concept |
+|---|---|---|---|---|---|---|---|---|
+| llm_k5 (tau=0.4) | 5.00 | 56,635 | 109,022 | 18,017 (31.8%) | 408 / 608 | 0.356 | 7 | 91.6% |
+| scopus_all (tau=0.4) | 10.02 | 97,738 | 541,841 | 14,337 (14.7%) | 1337 / 5261 | 0.402 | 46 | 90.1% |
+| scopus_first5 (tau=0.4) | 4.74 | 65,420 | 116,867 | 19,333 (29.6%) | 198 / 385 | 0.455 | 17 | 71.7% |
+| scopus_all_coword (tau=-1.0) | 10.02 | 97,738 | 2,305,259 | 48 (0.0%) | 1760 / 12441 | 0.372 | 12 | 91.8% |
+
+* Lexical fragmentation (share of the vocabulary that collapses under punctuation/plural normalisation): llm_k5 7.5% (56,635 terms, 52,404 canonical forms); scopus_all 9.7% (97,738 terms, 88,301 canonical forms); scopus_first5 7.3% (65,420 terms, 60,632 canonical forms).
+* Non-English residue (Spanish function words): LLM 0.006%; Scopus keywords 0.031%. Non-ASCII: LLM 0.014%; Scopus 0.338%.
+* 57.8% of the LLM vocabulary also occurs as a Scopus keyword somewhere in the corpus; 45.4% of LLM keyword instances equal a Scopus keyword of the same record.
+* llm_k5_vs_scopus_all: backbone concepts shared 259 (Jaccard 0.174); community agreement on shared concepts NMI 0.235 / ARI 0.190; document-level agreement on 30,892 documents NMI 0.060 / ARI 0.022.
+* llm_k5_vs_scopus_first5: backbone concepts shared 102 (Jaccard 0.202); community agreement on shared concepts NMI 0.381 / ARI 0.392; document-level agreement on 24,227 documents NMI 0.088 / ARI 0.062.
+* llm_k5_vs_scopus_all_coword: backbone concepts shared 262 (Jaccard 0.137); community agreement on shared concepts NMI 0.181 / ARI 0.104; document-level agreement on 33,212 documents NMI 0.062 / ARI 0.024.

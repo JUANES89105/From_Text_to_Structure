@@ -1,0 +1,61 @@
+u,v,weight,sim_mean
+students,engineering education,5169,0.5212090015411377
+education,mathematics,3881,0.43405961990356445
+students,teaching,3854,0.6439774632453918
+education,students,3242,0.7348861694335938
+human,mathematics,2973,0.41865816712379456
+human,humans,2893,0.9065712690353394
+students,education computing,2665,0.6433471441268921
+students,curricula,2642,0.7071840763092041
+students,"stem (science, technology, engineering and mathematics)",2594,0.27432477474212646
+teaching,engineering education,2571,0.5322874188423157
+humans,mathematics,2395,0.3753889203071594
+education,human,2338,0.4551646411418915
+engineering education,"stem (science, technology, engineering and mathematics)",2266,0.5049165487289429
+education,teaching,2241,0.8030153512954712
+engineering education,curricula,2233,0.4670548737049103
+female,human,2152,0.6549258828163147
+article,human,2131,0.5919044017791748
+human,male,2091,0.7572890520095825
+female,male,2044,0.5916315913200378
+teaching,curricula,1993,0.6897029876708984
+education,humans,1991,0.42435136437416077
+article,mathematics,1854,0.36872121691703796
+female,humans,1834,0.5973416566848755
+female,mathematics,1807,0.3305351138114929
+humans,male,1789,0.6802569627761841
+male,mathematics,1760,0.42442429065704346
+article,humans,1620,0.5326597690582275
+education,engineering education,1529,0.6973425149917603
+article,female,1451,0.45084601640701294
+article,male,1430,0.6562483310699463
+human,child,1410,0.5430315732955933
+education,female,1407,0.3754969835281372
+article,education,1400,0.48178523778915405
+education,male,1347,0.48654860258102417
+mathematics,students,1341,0.47693368792533875
+teaching,"stem (science, technology, engineering and mathematics)",1296,0.2560370862483978
+engineering education,education computing,1239,0.6526545286178589
+mathematics,child,1231,0.3424548804759979
+students,mathematics education,1219,0.5554444789886475
+humans,child,1210,0.4441840648651123
+engineering education,professional aspects,1166,0.37010884284973145
+female,child,1164,0.4904786944389343
+students,learning systems,1162,0.4646439552307129
+male,child,1145,0.5888697504997253
+students,e-learning,1137,0.4174848794937134
+learning,mathematics,1134,0.427461177110672
+mathematics,teaching,1091,0.44117820262908936
+mathematics,science,1069,0.5151054859161377
+mathematics,student,1028,0.48599815368652344
+students,professional aspects,1023,0.31695395708084106
+education,student,1017,0.744300127029419
+education,"stem (science, technology, engineering and mathematics)",1005,0.3615160286426544
+human,student,1002,0.5023784041404724
+teaching,education computing,986,0.6435179710388184
+engineering education,science technologies,941,0.5008140206336975
+curricula,"stem (science, technology, engineering and mathematics)",933,0.37764036655426025
+article,child,927,0.4060227870941162
+education,child,921,0.48573851585388184
+humans,student,915,0.4665728211402893
+human,students,904,0.4919469356536865

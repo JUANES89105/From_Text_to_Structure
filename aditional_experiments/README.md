@@ -15,6 +15,7 @@ a paid API; E4 is the only experiment that needs new inference and is delivered 
 | E7 | `e7_extraction_cost.py` | R2-5 (inference cost, processing time, hardware) | none |
 | E6 | `e6_corpus_profile.py` | R3-4 (corpus representativeness, language bias), Editor E-2 (corpus selection) | none |
 | E4 | `e4_k_sensitivity/run_extraction.py`, `analyze.py` | R3-2 (k = 5 is arbitrary) | 5,000 calls per additional k |
+| E10 | `e10_scopus_keyword_baseline.py` | Editor E-4, R2-1, R3-5, R3-6 (what the LLM stage adds over a co-word network built from the Scopus keywords) | none |
 
 Results live in `results/<code>/` with, for each experiment, `summary.json` (all reported numbers),
 `validation.json` (reproduction gate and its outcome), `metadata.json` (environment, package versions,
@@ -60,6 +61,7 @@ export FTTS_PRIVATE_DIR=/path/to/private/records      # only for E2 (full), E5, 
 .venv/bin/python aditional_experiments/e2_model_agreement.py
 .venv/bin/python aditional_experiments/e7_extraction_cost.py
 .venv/bin/python aditional_experiments/e6_corpus_profile.py
+.venv/bin/python aditional_experiments/e10_scopus_keyword_baseline.py
 .venv/bin/python aditional_experiments/e4_k_sensitivity/run_extraction.py --dry-run --k 10
 OPENROUTER_API_KEY=... .venv/bin/python aditional_experiments/e4_k_sensitivity/run_extraction.py --k 10
 .venv/bin/python aditional_experiments/e4_k_sensitivity/analyze.py
@@ -154,3 +156,23 @@ concepts. Gate: the k = 5 arm reproduces the E3 record of the same sample exactl
 Status: the dry run and the k = 5 arm are included; the k = 10 extraction requires an OpenRouter key
 (estimated 5,000 calls, about US$0.18 at list price, at least 50 minutes) and is the only pending
 computation of this directory.
+
+## E10 - Baseline: CRS built from the Scopus author/index keywords
+
+The grounding audit (E5) showed that 45% of the LLM keywords copy a record keyword and 86% appear
+verbatim in the record, and every record carries author or index keywords (E6). E10 asks what the LLM
+stage contributes at the graph level by building the same CRS from the Scopus keywords of the same
+52,946 documents with the same constructor, tau = 0.40, w >= 20 and Louvain seed. Three arms:
+`llm_k5` (published keywords; gate: exact reproduction of the published CRS), `scopus_all` (every
+author/index keyword of the record, normalised as in notebook 2) and `scopus_first5` (the first five
+keywords in record order, which holds the cardinality fixed). The unconstrained co-word network of
+`scopus_all` is also built, since that is the classical bibliometric map. Arms are compared on
+vocabulary size and lexical fragmentation (share of terms that collapse under punctuation and plural
+normalisation), isolated nodes, connectivity, backbone size and modularity, hub dominance, non-English
+residue, overlap of backbone concepts, and agreement of community partitions on shared concepts and at
+the document level (majority community of a document's backbone keywords, as in E8).
+
+Outputs: `arms_comparison.csv`, `summary.json`, `vocabulary_fragmentation.csv`, per-arm
+`backbone_nodes_*.csv`, `community_sizes_*.csv`, `backbone_top_edges_*.csv`,
+`llm_backbone_concepts_not_in_*_backbone.csv`, `document_communities.csv` (EID and community label
+per arm, no text), `validation.json`, `metadata.json`.

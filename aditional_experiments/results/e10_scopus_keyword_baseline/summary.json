@@ -1,0 +1,646 @@
+{
+  "documents": 52946,
+  "records_without_scopus_keywords": 0,
+  "arms": [
+    {
+      "arm": "llm_k5",
+      "tau": 0.4,
+      "documents": 52946,
+      "keywords_total": 264586,
+      "keywords_per_document_mean": 4.997280247799645,
+      "keywords_per_document_median": 5.0,
+      "global_nodes": 56635,
+      "global_edges": 109022,
+      "global_density": 6.798013132227201e-05,
+      "global_components": 19856,
+      "global_lcc_nodes": 34316,
+      "global_lcc_fraction": 0.6059150701862805,
+      "global_lcc_edges": 106297,
+      "global_isolated_nodes": 18017,
+      "backbone_nodes": 408,
+      "backbone_edges": 608,
+      "backbone_density": 0.0073228308522426165,
+      "backbone_components": 2,
+      "backbone_lcc_nodes": 406,
+      "backbone_lcc_fraction": 0.9950980392156863,
+      "backbone_lcc_edges": 607,
+      "backbone_isolated_nodes": 0,
+      "backbone_modularity_seed42": 0.3560443171946043,
+      "backbone_modularity_mean": 0.35594661898587643,
+      "backbone_modularity_sd": 0.0003089488628984876,
+      "backbone_communities_seed42": 7,
+      "backbone_communities_mean": 7.0,
+      "backbone_hub": "mathematics education",
+      "backbone_hub_degree": 313,
+      "backbone_hub_share_of_edges": 0.5148026315789473,
+      "share_documents_with_backbone_concept": 0.9159143278056888
+    },
+    {
+      "arm": "scopus_all",
+      "tau": 0.4,
+      "documents": 52946,
+      "keywords_total": 530670,
+      "keywords_per_document_mean": 10.022853473350207,
+      "keywords_per_document_median": 6.0,
+      "global_nodes": 97738,
+      "global_edges": 541841,
+      "global_density": 0.00011344344526497747,
+      "global_components": 16351,
+      "global_lcc_nodes": 78233,
+      "global_lcc_fraction": 0.800435859133602,
+      "global_lcc_edges": 537278,
+      "global_isolated_nodes": 14337,
+      "backbone_nodes": 1337,
+      "backbone_edges": 5261,
+      "backbone_density": 0.005890612193712799,
+      "backbone_components": 26,
+      "backbone_lcc_nodes": 1284,
+      "backbone_lcc_fraction": 0.9603590127150337,
+      "backbone_lcc_edges": 5231,
+      "backbone_isolated_nodes": 0,
+      "backbone_modularity_seed42": 0.4018352572024967,
+      "backbone_modularity_mean": 0.40036444047340625,
+      "backbone_modularity_sd": 0.004143261297494275,
+      "backbone_communities_seed42": 46,
+      "backbone_communities_mean": 47.0,
+      "backbone_hub": "students",
+      "backbone_hub_degree": 502,
+      "backbone_hub_share_of_edges": 0.09541912183995438,
+      "share_documents_with_backbone_concept": 0.9012578853926643
+    },
+    {
+      "arm": "scopus_first5",
+      "tau": 0.4,
+      "documents": 52946,
+      "keywords_total": 250715,
+      "keywords_per_document_mean": 4.735296339666831,
+      "keywords_per_document_median": 5.0,
+      "global_nodes": 65420,
+      "global_edges": 116867,
+      "global_density": 5.461443566920493e-05,
+      "global_components": 22527,
+      "global_lcc_nodes": 37970,
+      "global_lcc_fraction": 0.5804035463161112,
+      "global_lcc_edges": 110810,
+      "global_isolated_nodes": 19333,
+      "backbone_nodes": 198,
+      "backbone_edges": 385,
+      "backbone_density": 0.019740552735476594,
+      "backbone_components": 8,
+      "backbone_lcc_nodes": 183,
+      "backbone_lcc_fraction": 0.9242424242424242,
+      "backbone_lcc_edges": 377,
+      "backbone_isolated_nodes": 0,
+      "backbone_modularity_seed42": 0.4548930196632067,
+      "backbone_modularity_mean": 0.4541632477160637,
+      "backbone_modularity_sd": 0.0011242945939219941,
+      "backbone_communities_seed42": 17,
+      "backbone_communities_mean": 17.0,
+      "backbone_hub": "education",
+      "backbone_hub_degree": 70,
+      "backbone_hub_share_of_edges": 0.18181818181818182,
+      "share_documents_with_backbone_concept": 0.7169191251463756
+    },
+    {
+      "arm": "scopus_all_coword",
+      "tau": -1.0,
+      "documents": 52946,
+      "keywords_total": 530670,
+      "keywords_per_document_mean": 10.022853473350207,
+      "keywords_per_document_median": 6.0,
+      "global_nodes": 97738,
+      "global_edges": 2305259,
+      "global_density": 0.0004826443978733553,
+      "global_components": 434,
+      "global_lcc_nodes": 96001,
+      "global_lcc_fraction": 0.9822279972989011,
+      "global_lcc_edges": 2301481,
+      "global_isolated_nodes": 48,
+      "backbone_nodes": 1760,
+      "backbone_edges": 12441,
+      "backbone_density": 0.008037237066515065,
+      "backbone_components": 4,
+      "backbone_lcc_nodes": 1753,
+      "backbone_lcc_fraction": 0.9960227272727272,
+      "backbone_lcc_edges": 12436,
+      "backbone_isolated_nodes": 0,
+      "backbone_modularity_seed42": 0.37201403495692115,
+      "backbone_modularity_mean": 0.3723590354703934,
+      "backbone_modularity_sd": 0.0005339903934201355,
+      "backbone_communities_seed42": 12,
+      "backbone_communities_mean": 12.9,
+      "backbone_hub": "students",
+      "backbone_hub_degree": 1087,
+      "backbone_hub_share_of_edges": 0.0873723977172253,
+      "share_documents_with_backbone_concept": 0.917803044611491
+    }
+  ],
+  "vocabulary_fragmentation": {
+    "llm_k5": {
+      "vocabulary": 56635,
+      "canonical_forms": 52404,
+      "share_vocabulary_that_collapses": 0.07470645360642714,
+      "variant_groups": 3944,
+      "largest_groups": [
+        [
+          "student attitude",
+          "student attitudes",
+          "students attitude",
+          "students attitudes",
+          "students' attitude",
+          "students' attitudes"
+        ],
+        [
+          "student perception",
+          "student perceptions",
+          "students perception",
+          "students perceptions",
+          "students' perception",
+          "students' perceptions"
+        ],
+        [
+          "teacher attitude",
+          "teacher attitudes",
+          "teachers attitude",
+          "teachers attitudes",
+          "teachers' attitude",
+          "teachers' attitudes"
+        ],
+        [
+          "teacher perspective",
+          "teacher perspectives",
+          "teachers perspective",
+          "teachers perspectives",
+          "teachers' perspective",
+          "teachers' perspectives"
+        ],
+        [
+          "teacher student relationship",
+          "teacher student relationships",
+          "teacher-student relationship",
+          "teacher-student relationships",
+          "teacher-students relationships",
+          "teachers students relationship"
+        ],
+        [
+          "research practice partnership",
+          "research practice partnerships",
+          "research-practice partnership",
+          "research-practice partnerships",
+          "research–practice partnerships"
+        ],
+        [
+          "student achievement",
+          "student achievements",
+          "students achievement",
+          "students' achievement",
+          "students' achievements"
+        ],
+        [
+          "student perspective",
+          "student perspectives",
+          "students perspective",
+          "students perspectives",
+          "students' perspectives"
+        ],
+        [
+          "teacher belief",
+          "teacher beliefs",
+          "teachers beliefs",
+          "teachers' belief",
+          "teachers' beliefs"
+        ],
+        [
+          "teacher perception",
+          "teacher perceptions",
+          "teachers perception",
+          "teachers perceptions",
+          "teachers' perceptions"
+        ],
+        [
+          "teacher practice",
+          "teacher practices",
+          "teachers practice",
+          "teachers practices",
+          "teachers' practices"
+        ],
+        [
+          "attitude toward mathematics",
+          "attitude towards mathematics",
+          "attitudes toward mathematics",
+          "attitudes towards mathematics"
+        ],
+        [
+          "cluster randomized trial",
+          "cluster randomized trials",
+          "cluster-randomized trial",
+          "cluster-randomized trials"
+        ],
+        [
+          "cyber physical system",
+          "cyber physical systems",
+          "cyber-physical system",
+          "cyber-physical systems"
+        ],
+        [
+          "expectancy value theory",
+          "expectancy-value theory",
+          "expectancy-value-theory",
+          "expectancy–value theory"
+        ]
+      ]
+    },
+    "scopus_all": {
+      "vocabulary": 97738,
+      "canonical_forms": 88301,
+      "share_vocabulary_that_collapses": 0.09655405267142769,
+      "variant_groups": 8545,
+      "largest_groups": [
+        [
+          ")",
+          "à",
+          "δ",
+          "высшее образование",
+          "гендерные стереотипы",
+          "ключевые слова студентки",
+          "компетенции на наставниците",
+          "ставови на студентите",
+          "удержание женщин",
+          "хемиско образование",
+          "말소리장애",
+          "학령기활동·참여"
+        ],
+        [
+          "(pre-service) teachers",
+          "pre service teacher",
+          "pre service teachers",
+          "pre – service teachers",
+          "pre-service teacher",
+          "pre-service teachers",
+          "pre-service teachers.",
+          "pre-service teachers’",
+          "pre-services teacher",
+          "pre-services teachers"
+        ],
+        [
+          "science , technology , engineering , and mathematics",
+          "science , technology , engineering and mathematics",
+          "science technology engineering and mathematic",
+          "science technology engineering and mathematics",
+          "science, technology ,engineering, and mathematics",
+          "science, technology, engineering and mathematic",
+          "science, technology, engineering and mathematics",
+          "science, technology, engineering, and mathematic",
+          "science, technology, engineering, and mathematics"
+        ],
+        [
+          "stem (science technology engineering mathematics)",
+          "stem (science, technology, engineering & mathematics)",
+          "stem (science, technology, engineering, & mathematics)",
+          "stem (science, technology, engineering, mathematics)",
+          "stem - science technology engineering mathematics",
+          "stem – science technology engineering mathematics",
+          "stem-science technology engineering mathematics",
+          "stem–science technology engineering mathematics",
+          "stem—science technology engineering mathematics"
+        ],
+        [
+          "student attitude",
+          "student attitudes",
+          "students attitude",
+          "students attitudes",
+          "students' attitude",
+          "students' attitudes",
+          "students´ attitude",
+          "students’ attitude",
+          "students’ attitudes"
+        ],
+        [
+          "teacher - education",
+          "teacher education",
+          "teacher educations",
+          "teacher – education",
+          "teacher-education",
+          "teachers education",
+          "teachers' education",
+          "teachers’ education",
+          "teacher—education"
+        ],
+        [
+          "teacher attitude",
+          "teacher attitudes",
+          "teachers attitudes",
+          "teachers' attitude",
+          "teachers' attitudes",
+          "teachers´ attitude",
+          "teachers’ attitude",
+          "teachers’ attitudes",
+          "teacher’ attitude"
+        ],
+        [
+          "teacher perspective",
+          "teacher perspectives",
+          "teachers perspectives",
+          "teachers' perspective",
+          "teachers' perspectives",
+          "teachers‘perspective",
+          "teachers’ perspective",
+          "teachers’ perspectives",
+          "teacher’ perspective"
+        ],
+        [
+          "teacher perception",
+          "teacher perceptions",
+          "teachers perception",
+          "teachers perceptions",
+          "teachers' perception",
+          "teachers' perceptions",
+          "teachers’ perception",
+          "teachers’ perceptions"
+        ],
+        [
+          "teacher training",
+          "teacher training.",
+          "teacher trainings",
+          "teacher-training",
+          "teachers training",
+          "teachers trainings",
+          "teachers' training",
+          "teachers’ training"
+        ],
+        [
+          "(mathematics) teacher",
+          "mathematic teacher",
+          "mathematic teachers",
+          "mathematics teacher",
+          "mathematics teachers",
+          "mathematics teachers'",
+          "mathematics teachers’"
+        ],
+        [
+          "e - learning",
+          "e - learnings",
+          "e learning",
+          "e- learning",
+          "e-learning",
+          "e‐learning",
+          "elearning"
+        ],
+        [
+          "problem solving",
+          "problem- solving",
+          "problem-solving",
+          "problems solving",
+          "problems-solving",
+          "problem‐solving",
+          "problem−solving"
+        ],
+        [
+          "student perception",
+          "student perceptions",
+          "students perceptions",
+          "students' perception",
+          "students' perceptions",
+          "students’ perception",
+          "students’ perceptions"
+        ],
+        [
+          "(mathematics) education",
+          "mathematic education",
+          "mathematics education",
+          "mathematics education.",
+          "mathematics educations",
+          "mathematics-education"
+        ]
+      ]
+    },
+    "scopus_first5": {
+      "vocabulary": 65420,
+      "canonical_forms": 60632,
+      "share_vocabulary_that_collapses": 0.07318862733109144,
+      "variant_groups": 4308,
+      "largest_groups": [
+        [
+          "(pre-service) teachers",
+          "pre service teacher",
+          "pre service teachers",
+          "pre – service teachers",
+          "pre-service teacher",
+          "pre-service teachers",
+          "pre-service teachers.",
+          "pre-service teachers’",
+          "pre-services teacher",
+          "pre-services teachers"
+        ],
+        [
+          "student attitude",
+          "student attitudes",
+          "students attitude",
+          "students attitudes",
+          "students' attitude",
+          "students' attitudes",
+          "students´ attitude",
+          "students’ attitude",
+          "students’ attitudes"
+        ],
+        [
+          "stem (science technology engineering mathematics)",
+          "stem (science, technology, engineering & mathematics)",
+          "stem (science, technology, engineering, & mathematics)",
+          "stem (science, technology, engineering, mathematics)",
+          "stem - science technology engineering mathematics",
+          "stem – science technology engineering mathematics",
+          "stem-science technology engineering mathematics",
+          "stem—science technology engineering mathematics"
+        ],
+        [
+          "teacher perception",
+          "teacher perceptions",
+          "teachers perception",
+          "teachers perceptions",
+          "teachers' perception",
+          "teachers' perceptions",
+          "teachers’ perception",
+          "teachers’ perceptions"
+        ],
+        [
+          "teacher perspective",
+          "teacher perspectives",
+          "teachers perspectives",
+          "teachers' perspective",
+          "teachers' perspectives",
+          "teachers‘perspective",
+          "teachers’ perspective",
+          "teachers’ perspectives"
+        ],
+        [
+          "(mathematics) teacher",
+          "mathematic teacher",
+          "mathematic teachers",
+          "mathematics teacher",
+          "mathematics teachers",
+          "mathematics teachers'",
+          "mathematics teachers’"
+        ],
+        [
+          "student perception",
+          "student perceptions",
+          "students perceptions",
+          "students' perception",
+          "students' perceptions",
+          "students’ perception",
+          "students’ perceptions"
+        ],
+        [
+          "teacher attitude",
+          "teacher attitudes",
+          "teachers attitudes",
+          "teachers' attitude",
+          "teachers' attitudes",
+          "teachers’ attitude",
+          "teachers’ attitudes"
+        ],
+        [
+          "e - learning",
+          "e learning",
+          "e- learning",
+          "e-learning",
+          "e‐learning",
+          "elearning"
+        ],
+        [
+          "mathematic teaching",
+          "mathematics teaching",
+          "mathematics teaching.",
+          "mathematics teachings",
+          "mathematics'teaching",
+          "mathematics-teaching"
+        ],
+        [
+          "problem solving",
+          "problem-solving",
+          "problems solving",
+          "problems-solving",
+          "problem‐solving",
+          "problem−solving"
+        ],
+        [
+          "student achievement",
+          "student achievements",
+          "students achievement",
+          "students' achievement",
+          "students’ achievement",
+          "students’ achievements"
+        ],
+        [
+          "student perspective",
+          "student perspectives",
+          "students' perspective",
+          "students' perspectives",
+          "students'perspectives",
+          "students’ perspectives"
+        ],
+        [
+          "student response",
+          "student responses",
+          "students responses",
+          "students' response",
+          "students' responses",
+          "students’ response"
+        ],
+        [
+          "teacher - education",
+          "teacher education",
+          "teachers education",
+          "teachers' education",
+          "teachers’ education",
+          "teacher—education"
+        ]
+      ]
+    }
+  },
+  "english_residue": {
+    "llm_k5": {
+      "keywords": 264586,
+      "share_non_ascii": 0.00014362059972938856,
+      "share_spanish_function_words": 6.047183146500571e-05
+    },
+    "scopus_all": {
+      "keywords": 530670,
+      "share_non_ascii": 0.003380632031205834,
+      "share_spanish_function_words": 0.0003109276951777941
+    }
+  },
+  "vocabulary_overlap": {
+    "llm_vocabulary": 56635,
+    "scopus_vocabulary": 97738,
+    "shared_terms": 32728,
+    "share_llm_terms_present_in_scopus_vocabulary": 0.5778758718107178,
+    "share_llm_keyword_instances_that_are_a_scopus_keyword_of_same_record": 0.4540111721708632
+  },
+  "comparisons": {
+    "llm_k5_vs_scopus_all": {
+      "backbone_nodes_llm": 408,
+      "backbone_nodes_scopus_all": 1337,
+      "shared_backbone_concepts": 259,
+      "jaccard_backbone_concepts": 0.17429340511440108,
+      "concept_partition_agreement_on_shared": {
+        "shared_nodes": 259,
+        "nmi": 0.234630676172402,
+        "ari": 0.1897327669876729
+      },
+      "documents_unambiguous_llm": 39477,
+      "documents_unambiguous_scopus_all": 41262,
+      "documents_compared": 30892,
+      "document_nmi": 0.06017664259247506,
+      "document_ari": 0.02163494313092593,
+      "llm_backbone_concepts_absent_from_scopus_vocabulary": 2
+    },
+    "llm_k5_vs_scopus_first5": {
+      "backbone_nodes_llm": 408,
+      "backbone_nodes_scopus_first5": 198,
+      "shared_backbone_concepts": 102,
+      "jaccard_backbone_concepts": 0.20238095238095238,
+      "concept_partition_agreement_on_shared": {
+        "shared_nodes": 102,
+        "nmi": 0.380754015258063,
+        "ari": 0.3916490671014322
+      },
+      "documents_unambiguous_llm": 39477,
+      "documents_unambiguous_scopus_first5": 31615,
+      "documents_compared": 24227,
+      "document_nmi": 0.08832583709479347,
+      "document_ari": 0.06176534579378851,
+      "llm_backbone_concepts_absent_from_scopus_vocabulary": 2
+    },
+    "llm_k5_vs_scopus_all_coword": {
+      "backbone_nodes_llm": 408,
+      "backbone_nodes_scopus_all_coword": 1760,
+      "shared_backbone_concepts": 262,
+      "jaccard_backbone_concepts": 0.13746065057712487,
+      "concept_partition_agreement_on_shared": {
+        "shared_nodes": 262,
+        "nmi": 0.18108486054648376,
+        "ari": 0.10429199301525402
+      },
+      "documents_unambiguous_llm": 39477,
+      "documents_unambiguous_scopus_all_coword": 44606,
+      "documents_compared": 33212,
+      "document_nmi": 0.061993121787801704,
+      "document_ari": 0.023715815420421858,
+      "llm_backbone_concepts_absent_from_scopus_vocabulary": 2
+    }
+  },
+  "louvain_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ]
+}
