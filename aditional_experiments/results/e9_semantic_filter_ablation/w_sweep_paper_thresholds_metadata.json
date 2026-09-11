@@ -1,5 +1,5 @@
 {
-  "started_utc": "2026-09-11T14:29:56.231460+00:00",
+  "started_utc": "2026-09-11T21:28:53.247063+00:00",
   "python": "3.12.3",
   "platform": "Linux-7.0.0-30-generic-x86_64-with-glibc2.39",
   "machine": "x86_64",
@@ -20,24 +20,18 @@
   },
   "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
   "embedding_model_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
-  "experiment": "E6 corpus profile",
+  "experiment": "E9b w sweep on the manuscript thresholds",
+  "llm_calls": 0,
+  "paid_api_calls": 0,
   "inputs": {
-    "insumo": {
-      "path": "/home/mat/academic-writing/papers/from_text_to_structure/corpus_insumo_DEFINITIVO.csv",
-      "sha256": "597d4d8d44ddea693d4386798ea0a9d3380d1314782e937843e3184d78e2f274",
-      "redistributed": false
-    },
     "keywords": {
       "path": "/home/mat/academic-writing/papers/from_text_to_structure/data_repo/EID_KEYWORDS.xlsx",
       "sha256": "a440b7cedabea950ddb0be27610e1a58f747191ae08999801d73994f9d801c8c"
     }
   },
-  "llm_calls": 0,
-  "paid_api_calls": 0,
-  "completed_utc": "2026-09-11T14:33:42.703494+00:00",
+  "completed_utc": "2026-09-11T21:28:53.251503+00:00",
   "timings_seconds": {
-    "parse": 6.428,
-    "langdetect": 225.733
+    "total": 116.398
   },
   "status": "complete"
 }

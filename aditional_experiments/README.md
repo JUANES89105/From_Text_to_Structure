@@ -91,7 +91,9 @@ co-occurrences that the filter discards), `kept_edges_top60.csv`, `similarity_di
 (backbone size, connectivity, modularity and NMI between consecutive thresholds for
 w in {1,2,3,5,8,10,15,20,25,30,40,50}, for both graphs), `backbone_nodes_*.csv`,
 `community_sizes_*.csv`, `nodes_only_in_coword_backbone.csv`, figures `w_sweep.*`,
-`similarity_distribution.*`.
+`similarity_distribution.*`. `e9b_w_sweep_paper_thresholds.py` recomputes the sweep for the seven
+thresholds reported in the manuscript's Table 7 (w in {1, 3, 5, 8, 10, 20, 30}) with the agreement between
+consecutive partitions defined on that set (`w_sweep_paper_thresholds.csv`).
 
 ## E5 - Grounding and leakage
 

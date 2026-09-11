@@ -6,12 +6,12 @@
     "min": 1996,
     "max": 2026,
     "median": 2019.0,
-    "share_2016_or_later": 0.6722567287784679,
-    "missing": 5
+    "share_2016_or_later": 0.6723508375682289,
+    "missing": 0
   },
   "abstract": {
     "missing_or_under_50_chars": 464,
-    "mean_chars": 1298.2367588932807,
+    "mean_chars": 1298.2343685300207,
     "median_chars": 1224.0
   },
   "original_keywords": {
@@ -20,15 +20,15 @@
     "median_per_document": 6.0
   },
   "sources": {
-    "unique_sources": 4813,
-    "top10_share": 0.3137210615471485
+    "unique_sources": 4808,
+    "top10_share": 0.3137398833051007
   },
   "language_title": {
-    "en": 0.93493,
+    "en": 0.93497,
     "es": 0.02285,
     "de": 0.01075,
     "pt": 0.00984,
-    "too_short": 0.00486,
+    "too_short": 0.00482,
     "fr": 0.00329,
     "tr": 0.00235,
     "it": 0.00152,
@@ -48,7 +48,7 @@
     "ro": 6e-05
   },
   "share_abstract_english": 0.99648033126294,
-  "share_title_english": 0.9349331827592697,
+  "share_title_english": 0.9349708262751741,
   "generated_keyword_language_audit": {
     "keywords_total": 264586,
     "keywords_with_non_ascii_characters": 38,

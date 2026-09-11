@@ -188,12 +188,16 @@ def parse_record(insumo: str) -> dict:
     n = len(parts)
     if n < 6:
         parts = parts + [""] * (6 - n)
+    # The year is the only purely numeric field; when the separator also occurs inside the title
+    # (5 records) or the abstract (183 records) it anchors the split: title = fields before it,
+    # source = the field after it, abstract = everything between source and the last field.
+    k = next((i for i in range(2, max(3, n - 3)) if re.fullmatch(r"\d{4}", parts[i].strip())), 2)
     rec = {
         "authors": parts[0].strip(),
-        "title": parts[1].strip(),
-        "year": parts[2].strip(),
-        "source": parts[3].strip(),
-        "abstract": FIELD_SEP.join(parts[4:-1]).strip() if n >= 6 else parts[4].strip(),
+        "title": FIELD_SEP.join(parts[1:k]).strip(),
+        "year": parts[k].strip(),
+        "source": parts[k + 1].strip() if k + 1 < n else "",
+        "abstract": FIELD_SEP.join(parts[k + 2:-1]).strip() if n >= 6 else parts[4].strip(),
         "original_keywords_raw": parts[-1].strip() if n >= 6 else "",
         "n_fields": n,
         "length": len(s),
