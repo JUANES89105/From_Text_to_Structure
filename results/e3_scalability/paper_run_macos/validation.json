@@ -1,0 +1,477 @@
+{
+  "passed": true,
+  "full_corpus_reference": {
+    "passed": true,
+    "checks": [
+      {
+        "metric": "n_documents",
+        "expected": 52946,
+        "actual": 52946,
+        "absolute_tolerance": 0,
+        "passed": true
+      },
+      {
+        "metric": "nodes_full_graph",
+        "expected": 56635,
+        "actual": 56635,
+        "absolute_tolerance": 0,
+        "passed": true
+      },
+      {
+        "metric": "edges_full_graph",
+        "expected": 109022,
+        "actual": 109022,
+        "absolute_tolerance": 0,
+        "passed": true
+      },
+      {
+        "metric": "n_components_full_graph",
+        "expected": 19856,
+        "actual": 19856,
+        "absolute_tolerance": 0,
+        "passed": true
+      },
+      {
+        "metric": "lcc_nodes",
+        "expected": 34316,
+        "actual": 34316,
+        "absolute_tolerance": 0,
+        "passed": true
+      },
+      {
+        "metric": "lcc_edges",
+        "expected": 106297,
+        "actual": 106297,
+        "absolute_tolerance": 0,
+        "passed": true
+      },
+      {
+        "metric": "lcc_fraction_nodes",
+        "expected": 0.6059150701862805,
+        "actual": 0.6059150701862805,
+        "absolute_tolerance": 1e-10,
+        "passed": true
+      },
+      {
+        "metric": "density_full_graph",
+        "expected": 6.798013132227201e-05,
+        "actual": 6.798013132227201e-05,
+        "absolute_tolerance": 1e-10,
+        "passed": true
+      },
+      {
+        "metric": "backbone_nodes",
+        "expected": 408,
+        "actual": 408,
+        "absolute_tolerance": 0,
+        "passed": true
+      },
+      {
+        "metric": "backbone_edges",
+        "expected": 608,
+        "actual": 608,
+        "absolute_tolerance": 0,
+        "passed": true
+      },
+      {
+        "metric": "backbone_components",
+        "expected": 2,
+        "actual": 2,
+        "absolute_tolerance": 0,
+        "passed": true
+      },
+      {
+        "metric": "backbone_lcc_nodes",
+        "expected": 406,
+        "actual": 406,
+        "absolute_tolerance": 0,
+        "passed": true
+      },
+      {
+        "metric": "backbone_lcc_edges",
+        "expected": 607,
+        "actual": 607,
+        "absolute_tolerance": 0,
+        "passed": true
+      },
+      {
+        "metric": "backbone_lcc_fraction_nodes",
+        "expected": 0.9950980392156863,
+        "actual": 0.9950980392156864,
+        "absolute_tolerance": 1e-10,
+        "passed": true
+      },
+      {
+        "metric": "backbone_density",
+        "expected": 0.0073228308522426165,
+        "actual": 0.0073228308522426,
+        "absolute_tolerance": 1e-10,
+        "passed": true
+      },
+      {
+        "metric": "backbone_mean_degree",
+        "expected": 2.980392156862745,
+        "actual": 2.980392156862745,
+        "absolute_tolerance": 1e-10,
+        "passed": true
+      },
+      {
+        "metric": "backbone_mean_weighted_degree",
+        "expected": 188.84803921568627,
+        "actual": 188.84803921568627,
+        "absolute_tolerance": 1e-10,
+        "passed": true
+      },
+      {
+        "metric": "modularity",
+        "expected": 0.3560443171946043,
+        "actual": 0.3560443171946043,
+        "absolute_tolerance": 1e-06,
+        "passed": true
+      },
+      {
+        "metric": "n_communities",
+        "expected": 7,
+        "actual": 7,
+        "absolute_tolerance": 0,
+        "passed": true
+      }
+    ],
+    "sources": [
+      "2. CRS.ipynb stored output",
+      "3. w_THRESHOLDS.ipynb stored table",
+      "4. METRICS.ipynb stored summary",
+      "5. Tau_SENSITIVITY.ipynb tau=0.4 stored table"
+    ]
+  },
+  "reference_functions": {
+    "parse_keywords": {
+      "notebook": "2. CRS.ipynb",
+      "ast_identical": true
+    },
+    "build_backbone": {
+      "notebook": "3. w_THRESHOLDS.ipynb",
+      "ast_identical": true
+    },
+    "build_crs_for_tau": {
+      "notebook": "5. Tau_SENSITIVITY.ipynb",
+      "ast_identical": true
+    }
+  },
+  "sample_checks": [
+    {
+      "n_documents": 52946,
+      "replicate": 1,
+      "seed": 42,
+      "passed": true
+    },
+    {
+      "n_documents": 500,
+      "replicate": 1,
+      "seed": 42,
+      "passed": true
+    },
+    {
+      "n_documents": 500,
+      "replicate": 2,
+      "seed": 43,
+      "passed": true
+    },
+    {
+      "n_documents": 500,
+      "replicate": 3,
+      "seed": 44,
+      "passed": true
+    },
+    {
+      "n_documents": 500,
+      "replicate": 4,
+      "seed": 45,
+      "passed": true
+    },
+    {
+      "n_documents": 500,
+      "replicate": 5,
+      "seed": 46,
+      "passed": true
+    },
+    {
+      "n_documents": 500,
+      "replicate": 6,
+      "seed": 47,
+      "passed": true
+    },
+    {
+      "n_documents": 500,
+      "replicate": 7,
+      "seed": 48,
+      "passed": true
+    },
+    {
+      "n_documents": 500,
+      "replicate": 8,
+      "seed": 49,
+      "passed": true
+    },
+    {
+      "n_documents": 500,
+      "replicate": 9,
+      "seed": 50,
+      "passed": true
+    },
+    {
+      "n_documents": 500,
+      "replicate": 10,
+      "seed": 51,
+      "passed": true
+    },
+    {
+      "n_documents": 1000,
+      "replicate": 1,
+      "seed": 42,
+      "passed": true
+    },
+    {
+      "n_documents": 1000,
+      "replicate": 2,
+      "seed": 43,
+      "passed": true
+    },
+    {
+      "n_documents": 1000,
+      "replicate": 3,
+      "seed": 44,
+      "passed": true
+    },
+    {
+      "n_documents": 1000,
+      "replicate": 4,
+      "seed": 45,
+      "passed": true
+    },
+    {
+      "n_documents": 1000,
+      "replicate": 5,
+      "seed": 46,
+      "passed": true
+    },
+    {
+      "n_documents": 1000,
+      "replicate": 6,
+      "seed": 47,
+      "passed": true
+    },
+    {
+      "n_documents": 1000,
+      "replicate": 7,
+      "seed": 48,
+      "passed": true
+    },
+    {
+      "n_documents": 1000,
+      "replicate": 8,
+      "seed": 49,
+      "passed": true
+    },
+    {
+      "n_documents": 1000,
+      "replicate": 9,
+      "seed": 50,
+      "passed": true
+    },
+    {
+      "n_documents": 1000,
+      "replicate": 10,
+      "seed": 51,
+      "passed": true
+    },
+    {
+      "n_documents": 5000,
+      "replicate": 1,
+      "seed": 42,
+      "passed": true
+    },
+    {
+      "n_documents": 5000,
+      "replicate": 2,
+      "seed": 43,
+      "passed": true
+    },
+    {
+      "n_documents": 5000,
+      "replicate": 3,
+      "seed": 44,
+      "passed": true
+    },
+    {
+      "n_documents": 5000,
+      "replicate": 4,
+      "seed": 45,
+      "passed": true
+    },
+    {
+      "n_documents": 5000,
+      "replicate": 5,
+      "seed": 46,
+      "passed": true
+    },
+    {
+      "n_documents": 5000,
+      "replicate": 6,
+      "seed": 47,
+      "passed": true
+    },
+    {
+      "n_documents": 5000,
+      "replicate": 7,
+      "seed": 48,
+      "passed": true
+    },
+    {
+      "n_documents": 5000,
+      "replicate": 8,
+      "seed": 49,
+      "passed": true
+    },
+    {
+      "n_documents": 5000,
+      "replicate": 9,
+      "seed": 50,
+      "passed": true
+    },
+    {
+      "n_documents": 5000,
+      "replicate": 10,
+      "seed": 51,
+      "passed": true
+    },
+    {
+      "n_documents": 10000,
+      "replicate": 1,
+      "seed": 42,
+      "passed": true
+    },
+    {
+      "n_documents": 10000,
+      "replicate": 2,
+      "seed": 43,
+      "passed": true
+    },
+    {
+      "n_documents": 10000,
+      "replicate": 3,
+      "seed": 44,
+      "passed": true
+    },
+    {
+      "n_documents": 10000,
+      "replicate": 4,
+      "seed": 45,
+      "passed": true
+    },
+    {
+      "n_documents": 10000,
+      "replicate": 5,
+      "seed": 46,
+      "passed": true
+    },
+    {
+      "n_documents": 10000,
+      "replicate": 6,
+      "seed": 47,
+      "passed": true
+    },
+    {
+      "n_documents": 10000,
+      "replicate": 7,
+      "seed": 48,
+      "passed": true
+    },
+    {
+      "n_documents": 10000,
+      "replicate": 8,
+      "seed": 49,
+      "passed": true
+    },
+    {
+      "n_documents": 10000,
+      "replicate": 9,
+      "seed": 50,
+      "passed": true
+    },
+    {
+      "n_documents": 10000,
+      "replicate": 10,
+      "seed": 51,
+      "passed": true
+    },
+    {
+      "n_documents": 25000,
+      "replicate": 1,
+      "seed": 42,
+      "passed": true
+    },
+    {
+      "n_documents": 25000,
+      "replicate": 2,
+      "seed": 43,
+      "passed": true
+    },
+    {
+      "n_documents": 25000,
+      "replicate": 3,
+      "seed": 44,
+      "passed": true
+    },
+    {
+      "n_documents": 25000,
+      "replicate": 4,
+      "seed": 45,
+      "passed": true
+    },
+    {
+      "n_documents": 25000,
+      "replicate": 5,
+      "seed": 46,
+      "passed": true
+    },
+    {
+      "n_documents": 25000,
+      "replicate": 6,
+      "seed": 47,
+      "passed": true
+    },
+    {
+      "n_documents": 25000,
+      "replicate": 7,
+      "seed": 48,
+      "passed": true
+    },
+    {
+      "n_documents": 25000,
+      "replicate": 8,
+      "seed": 49,
+      "passed": true
+    },
+    {
+      "n_documents": 25000,
+      "replicate": 9,
+      "seed": 50,
+      "passed": true
+    },
+    {
+      "n_documents": 25000,
+      "replicate": 10,
+      "seed": 51,
+      "passed": true
+    }
+  ],
+  "protected_artifacts_unchanged": true,
+  "tau_exact": true,
+  "backbone_threshold_exact": true,
+  "completed_runs": 51,
+  "expected_runs": 51,
+  "experiment_complete": true,
+  "empty_backbone_runs": 10,
+  "undefined_modularity_runs": 10
+}

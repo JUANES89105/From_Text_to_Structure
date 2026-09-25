@@ -1,22 +1,16 @@
-# E1 — Inspec extraction baseline comparison
+# E1: Inspec extraction baseline comparison
 
 This experiment compares saved LLaMA 3.1 8B predictions with TF-IDF, YAKE, and KeyBERT on the same 2,000 Inspec documents. See `comparison.md` for means and sample SDs, `summary.csv` for full precision, and `llm_validation.json` for independent reproduction of notebook 6's saved means.
 
 ## Reproduce
 
-From the repository root on `ieee-revision-experiments`:
+This experiment is notebook `9. BASELINES_INSPEC.ipynb` in the repository root (executed with its outputs visible). Its cells reproduce the saved LLM means first (a mismatch larger than 0.00005 in any LLM mean stops execution before baseline extraction), then run the three baselines, aggregate the results, run the independent YAKE and KeyBERT checks and verify the written artifacts. The unit tests of the reference evaluator are run with:
 
 ```sh
-.venv/bin/python -m pip install -r requirements-e1.txt
-.venv/bin/python -B -m unittest discover -s scripts -p 'test_*.py' -v
-.venv/bin/python -B -u scripts/e1_baseline_extraction.py --validate-only
-.venv/bin/python -B -u scripts/e1_baseline_extraction.py --reuse-validated-llm
-.venv/bin/python -B scripts/e1_baseline_extraction.py --verify-results
+cd scripts && ../.venv/bin/python -m unittest test_inspec_evaluation
 ```
 
-Alternatively, omit both command-line flags to reproduce the LLM scores and then run all baselines in one invocation. A mismatch larger than 0.00005 in any LLM mean stops execution before baseline extraction. Cached validation reuse requires identical protected inputs and package versions, checksummed evaluator/prediction/metric artifacts, unchanged reference syntax trees, and a successful score check.
-
-The script requires the model revision below to be cached locally. It enables Hugging Face/Transformers offline mode, uses `local_files_only=True`, and never invokes an LLM or paid API. If the cache is absent, it fails rather than downloading silently. Rerunning writes the generated files in this results directory; original datasets and notebooks are never written.
+The notebook requires the model revision below to be cached locally. It enables Hugging Face/Transformers offline mode, uses `local_files_only=True`, and never invokes an LLM or paid API. If the cache is absent, it fails rather than downloading silently. Rerunning writes the generated files in this results directory; original datasets and notebooks are never written. The archived run reported in the manuscript was made on macOS (arm64, Python 3.13.5); re-executing on another platform changes `package_versions.json`, `runtimes.csv` and the last digits of the semantic metrics (differences below 1e-6), not the reported means.
 
 ## Fixed input and evaluation protocol
 
@@ -90,7 +84,7 @@ The `keywords` field for saved LLM predictions retains the original `keywords_ll
 - TF-IDF extraction time includes corpus fitting and ranking; per-document times cover ranking only. YAKE times cover extraction (excluding extractor initialization). KeyBERT time includes vocabulary construction, document/candidate embedding and ranking; per-document times are unavailable because extraction is batched. Embedding-stage times are recorded separately.
 - Evaluation times are separate from extraction. Model loading is recorded once and is not charged repeatedly to methods. Historical LLM extraction time, tokens, costs, retries, and hardware are unavailable; no values are imputed.
 - These are single-run wall-clock measurements on an active host, not isolated performance benchmarks. Separate validation processes ran during parts of the experiment and can affect timings. The independent YAKE repeatability check is separate from the reported method extraction run.
-- YAKE 0.7.3 and KeyBERT 0.9.0 plus required dependencies were installed in the existing `.venv`. `requirements-e1.txt` adds those two pinned packages, pins the already installed scikit-learn 1.9.0, and includes the existing `requirements.txt`, which was not modified. `package_versions.json` records the complete environment; `pip check` found no broken requirements.
+- YAKE 0.7.3 and KeyBERT 0.9.0 are pinned in the repository's single `requirements.txt` together with scikit-learn 1.9.0. `package_versions.json` records the complete environment of the run.
 - The full reproduction runs inference from the original function semantics without an embedding cache or altered metric definitions. Notebook outputs alone were not treated as reproduced evidence.
 
 ## Methodological concerns

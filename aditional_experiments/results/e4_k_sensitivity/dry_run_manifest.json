@@ -1,11 +1,11 @@
 {
-  "created_utc": "2026-09-09T01:49:55.923024+00:00",
+  "created_utc": "2026-09-24T06:55:38.208606+00:00",
   "model": "meta-llama/llama-3.1-8b-instruct",
   "k_values": [
     10
   ],
   "documents": 5000,
-  "sample_file": "/home/mat/academic-writing/papers/from_text_to_structure/data_repo/results/e3_scalability/samples/n5000_r1_s42.csv",
+  "sample_file": "results/e3_scalability/samples/n5000_r1_s42.csv",
   "sample_sha256": "de282b2618be149ba65ffcfac9b819466a7ac887acf1ed2ce850258b0505495c",
   "decoding": {
     "temperature": 0.0,

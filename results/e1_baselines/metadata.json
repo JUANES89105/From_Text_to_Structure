@@ -1,11 +1,11 @@
 {
-  "started_utc": "2026-09-05T03:34:09.554962+00:00",
-  "branch": "ieee-revision-experiments",
+  "started_utc": "2026-09-24T03:46:25.864069+00:00",
+  "branch": "ieee",
   "seed": 42,
-  "python": "3.13.5",
-  "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
-  "machine": "arm64",
-  "cpu_count": 8,
+  "python": "3.12.3",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+  "machine": "x86_64",
+  "cpu_count": 16,
   "torch_threads": 4,
   "device": "cpu",
   "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
@@ -31,7 +31,7 @@
     ],
     "ast_identical": true
   },
-  "llm_validation_reused": true,
+  "llm_validation_reused": false,
   "baseline_configurations": {
     "target_k": 5,
     "gold_label_tuning": false,
@@ -100,43 +100,62 @@
     },
     "output_policy": "keep native ranked top-five phrases, including post-cleaning collisions; never pad, drop documents, or alter saved LLM lists"
   },
-  "hardware_detail_unavailable": "CPU brand and physical RAM sysctl query denied by local sandbox; platform and logical CPU count measured",
-  "model_load_seconds": 0.7779751670022961,
+  "hardware_detail": {
+    "cpu_model": "AMD Ryzen 7 7735U with Radeon Graphics",
+    "memory_total_gib": 46.5
+  },
+  "hardware_detail_unavailable": null,
+  "model_load_seconds": 1.8898122459941078,
   "model_max_seq_length": 128,
   "model_dtype": "torch.float32",
   "method_details": {
     "tfidf": {
-      "extraction_seconds": 1.6968762500036974,
-      "fit_seconds": 1.3251738749968354,
+      "extraction_seconds": 4.3562121860159095,
+      "fit_seconds": 3.183079031005036,
       "vocabulary_size": 408196,
       "per_document_timing": "ranking only; corpus fit reported separately"
     },
     "yake": {
-      "extraction_seconds": 12.73816891599563,
+      "extraction_seconds": 25.03570005702204,
       "per_document_timing": "full extraction, excluding extractor initialization"
     },
     "keybert": {
-      "extraction_seconds": 669.784056000004,
+      "extraction_seconds": 1510.2826028850104,
       "embedding_stages": [
         {
           "text_count": 2000,
-          "seconds": 40.54015245899791
+          "seconds": 99.03956433598069
         },
         {
           "text_count": 408196,
-          "seconds": 624.9487680409948
+          "seconds": 1405.9655814009893
         }
       ],
       "vocabulary_size": 408196,
       "per_document_timing": "unavailable: batched corpus extraction; no imputed per-document times"
     }
   },
-  "completed_utc": "2026-09-05T03:55:11.881948+00:00",
+  "completed_utc": "2026-09-24T05:09:12.667186+00:00",
   "status": "complete",
   "protected_artifacts_unchanged": true,
   "source_sha256": {
+    "scripts/build_alignment.py": "f77a8626adbfbcbe6acd8cb978be3c8732a69e4cf9540fd52e14c76b8d61db7f",
+    "scripts/common.py": "82eb620d40fd5fc91c661511e866d42dcbb2cf7118e3206cf129ad80ca71d46c",
+    "scripts/crs_reference.py": "e26878a5dd4875bee7394bc42ee85ff3cc39fdee2cfe0c4daedb74c0e4089d31",
     "scripts/e1_baseline_extraction.py": "be73b461ce6474470b0baca25b2cabe50960cec1bc9281eae68d8b44567e7023",
+    "scripts/e2_model_agreement.py": "d2c4e4013474c4b7239f7498ab9a9b837ed7296f9f92146da9b9e7e639e5d5b4",
+    "scripts/e3_runtime.py": "5b22a276d46d53e645a23f0d96f0678c094ecb7aed0c1446be9c80e26e493b29",
+    "scripts/e3_scalability.py": "e453b80cd868ef2d140b046b23f2d5e3bb560e3e6d25f13f9021b7023049a455",
+    "scripts/e5_grounding_leakage.py": "f0991d40c05b9f7ae4f98b7866b94c270a2aebba8201ef22dafbd75513d6cf4f",
+    "scripts/e6_corpus_profile.py": "ced991d907b99cf13f3e7d9011b797a1bdd936720501462af53b972575fe9bbf",
+    "scripts/e7_extraction_cost.py": "7d96dfecee2960302b2bcb810a367ad7c05e89a59c0f9cdbcdac7cd63fd7ff72",
+    "scripts/e8_compare_lda_crs.py": "41f147de3f5a52e63ab2f2ef5a2c51fbc0044a7657a13c8946e17bcffa7924bf",
+    "scripts/e8_export_crs_partition.py": "821b9dce36aea5988d327e34fce500cb4b9f308c343db7eeb964a9151bdf0633",
+    "scripts/e8_interpret_communities.py": "a1b2475430e9506b1b1104d57227df80cd84dc88b693515ea689c88a2139fa3d",
+    "scripts/e9_semantic_filter_ablation.py": "9ee3404137e66b1fe4ad260145c2618e1f3a0fed080c66fa91c35f1e9bb77e03",
+    "scripts/e9b_w_sweep_paper_thresholds.py": "a9514c439661a53a31eaf61a20cbb8ef751ceff79f432771fb5d98365f92710c",
     "scripts/inspec_evaluation.py": "75b39d7c3d68db320d3161200983425b670180bf4ab55d69a1539ac6a317112b",
+    "scripts/test_e3_scalability.py": "3b688f4de225c93854d8cbcf8ad862eb18270dab2ebc0d19ac7beee0c73a7943",
     "scripts/test_inspec_evaluation.py": "15eed9d90ad54c63e63609cabeb38109af5d3774cdd7af75005fe39566103c2b"
   }
 }

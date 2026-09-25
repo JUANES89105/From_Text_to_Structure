@@ -1,0 +1,2 @@
+in_original_only,in_original_and_text,in_text_only,in_neither,keywords,note
+0.12941292162454518,0.3235020461886427,0.40205148377043354,0.14503354841637858,264394,"exact lexical presence in the record the model saw; categories above are hierarchical, this table is not"

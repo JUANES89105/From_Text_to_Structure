@@ -1,0 +1,56 @@
+{
+  "started_utc": "2026-09-07T15:03:42.010620+00:00",
+  "branch": "ieee-revision-experiments",
+  "python": "3.13.5",
+  "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+  "cpu_count": 8,
+  "packages": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.9.0",
+    "networkx": "3.6.1",
+    "python-louvain": "0.16",
+    "torch": "2.8.0",
+    "sentence-transformers": "5.1.1",
+    "transformers": "4.57.6",
+    "huggingface-hub": "0.36.2",
+    "openpyxl": "3.1.5",
+    "matplotlib": "3.10.0",
+    "psutil": "7.2.2"
+  },
+  "raw_excel_rows": 52947,
+  "analyzed_corpus_rows": 52946,
+  "excluded_empty_parsed_lists": 1,
+  "protected_sha256": {
+    "1. LLMS.ipynb": "7e5e7f56e74cfa846dcc3bdcc2fa06a4d13008f28d08eaa6478d7a5d81bb9537",
+    "2. CRS.ipynb": "bcd5cbf1f8514589494f86089c6978254208a8c268a4cd128b31867738befdb7",
+    "3. w_THRESHOLDS.ipynb": "5b939f39ac1db77c4cfbc64b87dfe6455efa62790910d573849936384ad44465",
+    "4. METRICS.ipynb": "09ef2fad9602a24fc341f2c90b2c029edd2b14abe5c385db8dd84a27292f6743",
+    "5. Tau_SENSITIVITY.ipynb": "ecb22f884705dc59399f6761d23174e343b7065def86e465bc0a957d8d667911",
+    "6. GROUND_TRUTH_INSPEC.ipynb": "02f09e569ec7165d1e17dd2bc71eedd42a4cb31ee9a469b10eb34bf21ffc71dc",
+    "7. HUMAN_EVAL_M1.ipynb": "8e5cb07e34dd6123ede28c016d159892fc0b199e545ff83004ec61db5ecb6653",
+    "EID_KEYWORDS.xlsx": "a440b7cedabea950ddb0be27610e1a58f747191ae08999801d73994f9d801c8c",
+    "dataset_inspec.csv": "0a84eb5ca79c418987a47f391a6bbf47e98a6ad4ac8fcc9a94a0ae348dc5765d",
+    "human_eval_M1_8b.csv": "e3aa87908e4d6bfec3a6842eea0f1183d0a59cb6c16463e18c06d4cb267871ee",
+    "inspec_llama-3.1-8b-EN.csv": "18d254befe74d016630afcb580a7e838cda7dd5d76fb6af85a4d1030d9c1f781"
+  },
+  "source_sha256": {
+    "scripts/e3_scalability.py": "df53063d6c967e8b53d43115fbb65a9502be72ae8b8611f186cab175bc8ebb3e",
+    "scripts/crs_reference.py": "e26878a5dd4875bee7394bc42ee85ff3cc39fdee2cfe0c4daedb74c0e4089d31",
+    "scripts/e3_runtime.py": "5b22a276d46d53e645a23f0d96f0678c094ecb7aed0c1446be9c80e26e493b29"
+  },
+  "runtime_isolation": {
+    "strategy": "relative symlinks exposing only the pinned E3 dependency closure",
+    "directory": "results/e3_scalability/runtime_site",
+    "linked_top_level_entries": 105
+  },
+  "llm_calls": 0,
+  "paid_api_calls": 0,
+  "model_downloads": 0,
+  "status": "complete",
+  "resumed_from_started_utc": "2026-09-07T15:01:29.717755+00:00",
+  "shared_setup_seconds": 3.3678034159820527,
+  "model_max_seq_length": 128,
+  "completed_utc": "2026-09-07T15:21:17.733139+00:00"
+}

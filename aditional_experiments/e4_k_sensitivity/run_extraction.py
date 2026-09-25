@@ -28,7 +28,7 @@ from string import Template
 
 import pandas as pd
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "scripts"))   # common.py lives in scripts/
 import common as C  # noqa: E402
 
 OUT = C.RESULTS / "e4_k_sensitivity"

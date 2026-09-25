@@ -1,10 +1,10 @@
 # Rhizomatic Knowledge Structure of Mathematics Education Literature
 
-This repository contains the complete computational workflow used to construct and analyze a rhizomatic semantic network of the *Mathematics Education* literature indexed in Scopus.
+This repository contains the complete computational workflow used to construct and analyze a rhizomatic semantic network of the *Mathematics Education* literature indexed in Scopus, together with the evaluation and robustness analyses reported in the accompanying manuscript.
 
 The repository accompanies the manuscript:
 
-> **(From Text to Structure: A Scalable Pipeline for Bibliographic Information Extraction and Connectivity Pathways Mapping Using Large Language Models)**
+> **From Text to Structure: A Scalable Pipeline for Bibliographic Information Extraction and Connectivity Pathways Mapping Using Large Language Models** (IEEE Access, manuscript Access-2026-36745, revised version)
 
 ---
 
@@ -12,13 +12,13 @@ The repository accompanies the manuscript:
 
 The objective of this project is to construct a semantic network from scientific publications in Mathematics Education using Large Language Models (LLMs) for keyword extraction and graph-based analyses.
 
-The complete workflow consists of five stages:
+The workflow has three parts, each implemented as numbered Jupyter notebooks that were executed in order and are stored with their outputs visible:
 
-1. LLM-based keyword extraction
-2. Construction of the Concept Relationship Structure (CRS)
-3. Backbone extraction through edge-weight thresholds
-4. Network characterization
-5. Sensitivity analysis of the semantic threshold
+1. **Pipeline (notebooks 1 to 5):** LLM-based keyword extraction, construction of the Conceptual Rhizomatic Space (CRS), backbone extraction through edge-weight thresholds, network characterization, and sensitivity to the semantic threshold.
+2. **Evaluation of the extraction step (notebooks 6 to 11):** external benchmark (Inspec), human evaluation, corpus profile, keyphrase-extraction baselines, model dependence (8B vs 70B) and a corpus-wide grounding audit of the generated keywords.
+3. **Structural robustness and comparisons (notebooks 12 to 15):** ablation of the semantic constraint against the unconstrained co-word network, behaviour across corpus sizes, comparison with LDA topic modeling, and reconstruction of token usage and inference cost.
+
+Experiments that were run during the revision but are **not reported in the manuscript** live in `aditional_experiments/` (see below).
 
 ---
 
@@ -31,14 +31,12 @@ The corpus was constructed from the Scopus database using the Elsevier Scopus AP
 The bibliographic corpus was constructed using the **Elsevier Scopus API** based on the following search query:
 
 ```
-TITLE-ABS-KEY("mathematics education")
+TITLE-ABS-KEY("mathematics education" OR "educación matemática")
 ```
 
 The query was executed on **August 21, 2025**, retrieving all publications indexed in Scopus that matched the search criterion.
 
 An initial exploratory analysis of the complete retrieval was conducted to examine the historical evolution of the field. Based on this exploration, publications prior to the year **2000** were excluded because they represented a relatively small proportion of the literature and preceded the sustained growth of Mathematics Education as a research field. Consequently, the study focused on publications published between **2000 and 2026**, resulting in a final corpus of **53,130 scientific publications**. Approximately **3,000 records published before 2000** were excluded from the analyses.
-
-The metadata associated with the retrieved publications were subsequently downloaded using the Scopus API and merged into a single dataset for preprocessing and analysis.
 
 The retrieved metadata included:
 
@@ -52,176 +50,171 @@ The retrieved metadata included:
 - Affiliations
 - Document type
 
-These metadata were cleaned, standardized, and merged into a single dataset that served as the input for the LLM-based keyword extraction stage. Specifically, six fields were concatenated into a single text unit per record, in the following order and separated by " • ": authors, title, publication year, source title, abstract, and the original author- and index-assigned keywords. This concatenated text is the `insumo` consumed by `1. LLMS.ipynb`.
+These metadata were cleaned, standardized, and merged into a single dataset that served as the input for the LLM-based keyword extraction stage. Specifically, six fields were concatenated into a single text unit per record, in the following order and separated by " • ": authors, title, publication year, source title, abstract, and the original author- and index-assigned keywords. This concatenated text is the `insumo` consumed by `1. LLMS.ipynb`; the text inserted into the prompt is cut at 3,000 characters.
 
 ## Data Availability
 
 The original Scopus metadata are subject to Elsevier's licensing terms and therefore cannot be redistributed through this repository.
 
-To facilitate reproducibility while complying with Scopus data licensing restrictions, this repository provides the file **EID_KEYWORDS.xlsx**, which contains:
+**Public inputs (in this repository):**
 
-- the Scopus EID of each publication included in the corpus; and
-- the five normalized semantic keywords generated by the Large Language Model.
+| File | Content |
+|---|---|
+| `EID_KEYWORDS.xlsx` | Scopus EID of each publication and the five normalized keywords generated by LLaMA 3.1 8B-instruct (52,947 rows) |
+| `dataset_inspec.csv` | Inspec keyphrase-extraction benchmark (Hulth, 2003), 2,000 abstracts with gold keyphrases |
+| `inspec_llama-3.1-8b-EN.csv` | Our extraction pipeline applied to Inspec with LLaMA 3.1 8B-instruct |
+| `human_eval_M1_8b.csv` | 891 keyword-level expert judgements of the human evaluation (179 articles) |
+| `data/keywords_llm_llama-3.1-8b-EN.csv` | LLaMA 3.1 8B outputs for the 182 articles of the validation sample |
+| `data/inspec_llama-3.3-70b-EN.csv` | Our extraction pipeline applied to Inspec with LLaMA 3.3 70B-instruct |
+| `data/keywords_llm_llama-3.3-70b-EN.csv` | LLaMA 3.3 70B outputs for the validation sample |
+| `data/insumo_row_to_eid.csv` | Index linking each line of the private record file to the Scopus EID of the published output (see `scripts/build_alignment.py` and `data/insumo_row_to_eid.build.json`) |
 
-Researchers with institutional access to Scopus can reconstruct the complete corpus by executing the search query described above and retrieving the corresponding records through the Scopus API.
+**Document counts used throughout.** 53,130 records were retrieved and sent to the model. 52,947 of them have a published output in `EID_KEYWORDS.xlsx` (183 rows of the run were discarded because their Scopus identifier was duplicated or their output was not retained; the single record dated 1996 is among them). One published row carries an empty keyword list, so the graph stage and every structural analysis work on 52,946 documents; the LDA comparison uses the 52,922 of these that could be matched to the bibliographic export.
 
-The repository intentionally distributes only the semantic representation of the corpus (Scopus EIDs and the corresponding LLM-generated keywords), allowing the computational workflow to be reproduced without redistributing copyrighted Scopus metadata.
+**Private inputs (not redistributed):** the 53,130 `insumo` records (`corpus_insumo_DEFINITIVO.csv`). Notebooks that need them read the directory given by the environment variable `FTTS_PRIVATE_DIR` (default: the parent directory of the repository) and never copy record text into their outputs; their result files contain only aggregates and per-document scores keyed by EID. Researchers with institutional access to Scopus can reconstruct the corpus by executing the search query above and retrieving the records through the Scopus API.
+
+---
 
 # Repository Structure
 
 ```
 .
-├── 1. LLMS.ipynb
-├── 2. CRS.ipynb
-├── 3. w_THRESHOLDS.ipynb
-├── 4. METRICS.ipynb
-├── 5. Tau_SENSITIVITY.ipynb
-├── 6. GROUND_TRUTH_INSPEC.ipynb
-├── 7. HUMAN_EVAL_M1.ipynb
-├── EID_KEYWORDS.xlsx
-├── dataset_inspec.csv
-├── inspec_llama-3.1-8b-EN.csv
-├── human_eval_M1_8b.csv
+├── 1. LLMS.ipynb                          LLM keyword extraction (OpenRouter, LLaMA 3.1 8B-instruct)
+├── 2. CRS.ipynb                           Conceptual Rhizomatic Space (tau = 0.40)
+├── 3. w_THRESHOLDS.ipynb                  Backbone threshold sweep
+├── 4. METRICS.ipynb                       Structural metrics of the backbone (w >= 20)
+├── 5. Tau_SENSITIVITY.ipynb               Sensitivity to the semantic threshold
+├── 6. GROUND_TRUTH_INSPEC.ipynb           External benchmark (Inspec), LLaMA 3.1 8B
+├── 7. HUMAN_EVAL_M1.ipynb                 Human evaluation of semantic adequacy
+├── 8. CORPUS_PROFILE.ipynb                Corpus profile: years, sources, languages         (Section III-A)
+├── 9. BASELINES_INSPEC.ipynb              TF-IDF, YAKE and KeyBERT vs the LLM on Inspec     (Section IV-A3, Table 4)
+├── 10. MODEL_COMPARISON_8B_70B.ipynb      LLaMA 3.1 8B vs LLaMA 3.3 70B                     (Section IV-A4)
+├── 11. GROUNDING_AUDIT.ipynb              Grounding of every generated keyword in its record (Section IV-A5, Table 5)
+├── 12. SEMANTIC_FILTER_ABLATION.ipynb     Co-word network vs tau = 0.40; threshold sweep    (Sections III-C, III-D, IV-C2; Tables 6, 7; Figure 3)
+├── 13. CORPUS_SIZE_SCALABILITY.ipynb      Graph stage on samples of 500 to 25,000 documents (Section IV-D2, Table 8; Appendix A-D)
+├── 14. LDA_COMPARISON.ipynb               LDA topics vs CRS communities                     (Section IV-D3, Table 9)
+├── 15. EXTRACTION_COST.ipynb              Token usage and inference cost reconstruction     (Appendix A-D)
+├── data/                                  Public inputs added in the revision (see table above)
+├── results/                               Outputs of notebooks 8 to 15, one folder per experiment
+├── scripts/                               Library modules imported by the notebooks
+│   ├── common.py                          Paths, constants, loaders, graph helpers, Louvain, partition agreement
+│   ├── crs_reference.py                   Reference CRS constructor (verbatim logic of notebooks 2, 3 and 5)
+│   ├── inspec_evaluation.py               Reference Inspec metrics (verbatim logic of notebook 6)
+│   ├── e3_scalability.py, e3_runtime.py   Corpus sampling, measurement and runtime helpers for notebooks 13 and 14
+│   ├── build_alignment.py                 Builds data/insumo_row_to_eid.csv from the private record file
+│   └── test_*.py                          Unit tests of the reference modules
+├── aditional_experiments/                 Analyses NOT reported in the manuscript (own README)
+├── EID_KEYWORDS.xlsx, dataset_inspec.csv, inspec_llama-3.1-8b-EN.csv, human_eval_M1_8b.csv
+├── requirements.txt
 ├── LICENSE
 └── README.md
 ```
+
+Every folder in `results/` follows the same convention: `summary.json` (all numbers the notebook reports), `validation.json` (the reproduction gate and its outcome), `metadata.json` (platform, package versions, SHA-256 of every input, timings) and the tables or figures listed in the notebook's first cell. `results/e3_scalability/paper_run_macos/` and `results/e8_topic_modeling/paper_run_macos/` preserve the two runs made on the co-author's 8-core Apple silicon laptop (CPU only) whose values the manuscript reports: the hardware-dependent timings of the corpus-size study, and the platform-dependent LDA topic solutions. The corresponding notebooks compare their own runs with those folders.
 
 ---
 
 # Workflow
 
-## 1. LLMS.ipynb
+## Pipeline
 
-Uses an LLM through the OpenRouter API to extract exactly five semantic keywords for each publication. The workflow was developed using the OpenRouter API with the meta-llama/llama-3.1-8b-instruct model.
+### 1. LLMS.ipynb
 
-The model receives the concatenated `insumo` text described above (authors, title, publication year, source title, abstract, and original author- and index-assigned keywords) and returns
+Uses an LLM through the OpenRouter API to extract exactly five semantic keywords for each publication (`meta-llama/llama-3.1-8b-instruct`, greedy decoding, `max_tokens` 700). The model receives the concatenated `insumo` text and returns a JSON list of five keywords. Validation procedures: JSON validation, retry mechanism, keyword normalization, duplicate removal, language normalization, checkpoint saving. Output: `EID_KEYWORDS.xlsx`.
 
-```json
-{
-  "keywords": [
-      "...",
-      "...",
-      "...",
-      "...",
-      "..."
-  ]
-}
-```
+### 2. CRS.ipynb
 
-Several validation procedures are implemented:
+Builds the global Conceptual Rhizomatic Space: keyword embeddings (`paraphrase-multilingual-MiniLM-L12-v2`), document-level semantic filtering of co-occurring pairs (cosine >= 0.40), aggregation into a weighted global graph (edge weight = number of supporting documents).
 
-- JSON validation
-- retry mechanism
-- keyword normalization
-- duplicate removal
-- language normalization
-- checkpoint saving
+### 3. w_THRESHOLDS.ipynb
 
-Output:
+Evaluates backbone thresholds by progressively removing weak edges, reporting nodes, edges, density, connected components and the giant component.
 
-```
-EID_KEYWORDS.xlsx
-```
+### 4. METRICS.ipynb
 
----
+Structural properties of the selected backbone (w >= 20): degree distribution, shortest paths, diameter, articulation points, bridges, centrality measures, connected components, k-core, Louvain communities.
 
-## 2. CRS.ipynb
+### 5. Tau_SENSITIVITY.ipynb
 
-Builds the global Concept Relationship Structure (CRS).
+Reconstructs the CRS for several values of the semantic threshold and compares their structural properties.
 
-Main steps
+## Evaluation of the extraction step
 
-- semantic similarity computation
-- local semantic filtering
-- graph aggregation
-- weighted edge construction
+### 6. GROUND_TRUTH_INSPEC.ipynb
 
-Output
+Applies the extraction pipeline to the Inspec benchmark and computes lexical (Jaccard) and semantic (soft precision, recall and F1 at cosine 0.70, Soft Mean Max, global similarity) agreement with the gold keyphrases. Inputs: `dataset_inspec.csv`, `inspec_llama-3.1-8b-EN.csv`.
 
-```
-Weighted semantic network
-```
+### 7. HUMAN_EVAL_M1.ipynb
 
----
+Reproduces the pooled and per-article expert-adequacy rates of the human evaluation (79.12% pooled; n = 179 articles, 891 keywords). Input: `human_eval_M1_8b.csv`. The two document-similarity rows of the same table need the article titles and abstracts (private).
 
-## 3. w_THRESHOLDS.ipynb
+### 8. CORPUS_PROFILE.ipynb
 
-Evaluates different backbone thresholds by progressively removing weak edges.
+Profile of the 52,947 documents of the corpus (the 183 rows of the extraction run without a published output are excluded): publication years, most frequent sources, language of titles and abstracts (`langdetect`, seeded), number of original keywords per record, and an audit of non-English residue in the generated keywords. Private input: the record file. Output: `results/e6_corpus_profile/`.
 
-The notebook reports the evolution of
+### 9. BASELINES_INSPEC.ipynb
 
-- nodes
-- edges
-- density
-- connected components
-- giant component
+TF-IDF, YAKE and KeyBERT, each returning five phrases per Inspec abstract with no tuning against the gold labels, evaluated with the metrics of notebook 6 and compared with the LLM. The notebook first reproduces the published LLM scores (gate, tolerance 5e-5). Public inputs only. Output: `results/e1_baselines/`.
 
-to identify an appropriate backbone.
+### 10. MODEL_COMPARISON_8B_70B.ipynb
+
+The same prompt, decoding settings and truncation applied with LLaMA 3.3 70B-instruct to the 2,000 Inspec abstracts and to the validation sample: agreement between the two models (identical sets, lexical Jaccard, soft F1, Soft Mean Max, global similarity) and both models against the Inspec gold keyphrases with the paired per-document difference and its 95% confidence interval. Public inputs (`data/`). Output: `results/e2_model_agreement/`.
+
+### 11. GROUNDING_AUDIT.ipynb
+
+Every generated keyword is compared with the record the model actually saw (the `insumo` cut at 3,000 characters): exact copy of a visible author or index keyword, verbatim presence in title or abstract, presence only in metadata, semantic paraphrase (cosine >= 0.70) of a record keyword or of a sentence, or no identified anchor. Includes the 2x2 attribution table, the visibility strata created by the truncation (records whose keyword field was hidden), and the prompt-adherence audit. Private input: the record file; public: `EID_KEYWORDS.xlsx`, `data/insumo_row_to_eid.csv`. Output: `results/e5_grounding_leakage/`.
+
+## Structural robustness and comparisons
+
+### 12. SEMANTIC_FILTER_ABLATION.ipynb
+
+Rebuilds the network from the same keyword sets with the semantic constraint removed (pure co-word network) and with tau = 0.40, using the reference constructor, the same backbone rule and the same Louvain seed. Reports the cosine distribution of all co-occurring pairs, the edges the constraint discards, the agreement between the two backbone partitions (NMI, ARI), and the backbone threshold sweep with modularity, number of communities and agreement between consecutive partitions. Gate: exact reproduction of the published tau = 0.40 graph and backbone. Public inputs only. Output: `results/e9_semantic_filter_ablation/`.
+
+### 13. CORPUS_SIZE_SCALABILITY.ipynb
+
+Runs the graph stage on random samples of 500, 1,000, 5,000, 10,000 and 25,000 documents (ten samples per size, fixed seeds) and on the full corpus, measuring runtime, peak memory and normalized structural quantities. Runtimes are hardware dependent: the manuscript reports the run preserved in `results/e3_scalability/paper_run_macos/`. Public inputs only. Output: `results/e3_scalability/`.
+
+### 14. LDA_COMPARISON.ipynb
+
+Exports the CRS backbone partition and the document-level community assignments, fits LDA (scikit-learn, batch, K in {5, 10, 15, 20, 30, 40, 50}, seed 42) on title and abstract of the matched documents with no keyword field in the input, selects K by mean topic NPMI, and measures the agreement between dominant LDA topics and CRS communities (NMI, ARI). Also lists the explicit inter-community edges of the backbone with their document support. Private input: the record file. Output: `results/e8_topic_modeling/` (fitted models are not versioned). The LDA stage is seeded but platform dependent: the same document-term matrix converges to a different local optimum on a different BLAS or CPU architecture, so NPMI, NMI and ARI move in the second decimal between machines. The run reported in the manuscript (macOS, Apple silicon) is preserved in `results/e8_topic_modeling/paper_run_macos/`; the notebook compares its own run with it. The CRS side of the comparison is deterministic and identical on every platform.
+
+### 15. EXTRACTION_COST.ipynb
+
+Rebuilds the exact chat prompt of notebook 1 for each of the 52,947 documents of the corpus and tokenises it with the Llama 3.1 tokenizer (chat-template control tokens included); reconstructs the output tokens from the saved keyword lists and checks token-exact reconstruction on the saved raw responses; prices the run at the provider's list price and reports a wall-clock lower bound. Private input: the record file. Output: `results/e7_extraction_cost/`.
 
 ---
 
-## 4. METRICS.ipynb
+# Additional experiments (not reported in the manuscript)
 
-Computes structural properties of the selected backbone, including
+`aditional_experiments/` contains two analyses that were run during the revision and are provided for completeness; their numbers do not appear in the manuscript:
 
-- degree distribution
-- shortest paths
-- diameter
-- articulation points
-- bridges
-- centrality measures
-- connected components
-- k-core
-- Louvain communities
+- `A1. SCOPUS_KEYWORD_BASELINE.ipynb`: the same CRS constructor applied to the author and index keywords that Scopus already provides for the same records (all keywords, first five, and the unconstrained co-word variant), compared with the LLM-keyword CRS.
+- `A2. K_SENSITIVITY.ipynb` and `e4_k_sensitivity/run_extraction.py`: sensitivity of the graph to the number of keywords per document; the k = 5 arm and the dry run are included, the k = 10 extraction requires an OpenRouter key.
 
----
-
-## 5. Tau_SENSITIVITY.ipynb
-
-Evaluates the robustness of the network with respect to the semantic similarity threshold (τ).
-
-The notebook reconstructs the CRS for multiple τ values and compares their structural properties.
-
----
-
-# Evaluation Notebooks (Human Validation and External Benchmark)
-
-Notebooks 6 and 7 reproduce the two validation components reported in the manuscript (Section 3.1) that fall outside the core graph-construction pipeline above. Both use the same LLaMA 3.1 8B-instruct extraction and the same multilingual embedding model (`paraphrase-multilingual-MiniLM-L12-v2`) used elsewhere in this repository.
-
-## 6. GROUND_TRUTH_INSPEC.ipynb
-
-Applies the extraction pipeline to the Inspec keyphrase-extraction benchmark (Hulth, 2003) as a domain-independent check, and computes lexical (Jaccard) and semantic (soft precision/recall/F1, soft mean-max, global concatenated similarity) agreement against Inspec's gold keyphrases.
-
-Inputs: `dataset_inspec.csv`, `inspec_llama-3.1-8b-EN.csv`.
-
-## 7. HUMAN_EVAL_M1.ipynb
-
-Reproduces the pooled and per-article expert-adequacy rates reported in Table 2 of the manuscript (79.12% pooled; 78.78% ± 21.23 mean per-article; 80.00% median; n = 179 articles, 891 keywords).
-
-Input: `human_eval_M1_8b.csv`.
-
-This notebook reproduces the acceptance-rate metric (M1) only. Reproducing the two "global semantic similarity" rows in Table 2 (human/model keywords vs. document text) additionally requires the title and abstract of the sampled articles. Those fields are original Scopus metadata and, consistent with the corpus-level policy above, are not redistributed here.
+See `aditional_experiments/README.md`.
 
 ---
 
 # Reproducibility
 
-Researchers wishing to reproduce the complete pipeline should
+## Environment
 
-1. Retrieve the publications from Scopus using the search query described above.
-2. Export the metadata.
-3. Rebuild the input dataset.
-4. Execute the notebooks in the following order:
-
-```
-1. LLMS.ipynb
-2. CRS.ipynb
-3. w_THRESHOLDS.ipynb
-4. METRICS.ipynb
-5. Tau_SENSITIVITY.ipynb
+```sh
+python3 -m venv .venv
+.venv/bin/python -m pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+.venv/bin/python -m pip install -r requirements.txt
+export FTTS_PRIVATE_DIR=/path/to/private/records      # only for notebooks 8, 11, 14, 15 and the extraction scripts
 ```
 
-Notebooks 6 (`GROUND_TRUTH_INSPEC.ipynb`) and 7 (`HUMAN_EVAL_M1.ipynb`) are independent of this sequence and of each other; each can be run on its own using the input files listed in its section above.
+The embedding model is `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` (revision `e8f8c211226b894fcb81acc59f3b34ba3efd5f42`), downloaded once by `sentence-transformers`. Notebook 15 uses the ungated copy of the Llama 3.1 tokenizer `unsloth/Meta-Llama-3.1-8B-Instruct`. All notebooks run on CPU with fixed seeds (Python, NumPy, Torch, Louvain). Each notebook was executed from the repository root, for example:
+
+```sh
+.venv/bin/jupyter nbconvert --to notebook --execute --inplace "12. SEMANTIC_FILTER_ABLATION.ipynb"
+```
+
+## Order
+
+Notebooks 1 to 5 form the pipeline and must run in order (notebook 1 requires an OpenRouter key and the private records; its output `EID_KEYWORDS.xlsx` is provided). Notebooks 6 to 15 are independent of each other and start from the public files (and, where stated, the private records); each one begins by reproducing a published result before computing new numbers, and ends with a cell that compares its results with the values printed in the manuscript.
 
 ---
 
@@ -230,11 +223,11 @@ Notebooks 6 (`GROUND_TRUTH_INSPEC.ipynb`) and 7 (`HUMAN_EVAL_M1.ipynb`) are inde
 If you use this repository, please cite the accompanying article.
 
 ```
-Vargas, J. & Greco, M. (2026). From Text to Structure: A Scalable Pipeline for Bibliographic Information Extraction and Connectivity Pathways Mapping Using Large Language Models. 
+Vargas, J. & Greco, M. (2026). From Text to Structure: A Scalable Pipeline for Bibliographic Information Extraction and Connectivity Pathways Mapping Using Large Language Models. IEEE Access.
 ```
 
 ---
 
 # License
 
-The source code and computational workflow (all notebooks in this repository) are distributed under the MIT License; see `LICENSE`. The original Scopus metadata remain the property of Elsevier and are not redistributed through this repository. The Inspec dataset (`dataset_inspec.csv`) is distributed under its own original terms (Hulth, 2003); only the outputs of applying our own extraction pipeline to it (`inspec_llama-3.1-8b-EN.csv`) are original to this repository.
+The source code and computational workflow (all notebooks and scripts in this repository) are distributed under the MIT License; see `LICENSE`. The original Scopus metadata remain the property of Elsevier and are not redistributed through this repository. The Inspec dataset (`dataset_inspec.csv`) is distributed under its own original terms (Hulth, 2003); only the outputs of applying our own extraction pipeline to it (`inspec_llama-3.1-8b-EN.csv`, `data/inspec_llama-3.3-70b-EN.csv`) are original to this repository.

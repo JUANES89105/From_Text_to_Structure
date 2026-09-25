@@ -1,5 +1,5 @@
 method,extraction_seconds,evaluation_seconds,extraction_source,evaluation_source
-llama_3.1_8b,,168.0240787500079,historical; unavailable,independent local reproduction
-tfidf,1.6968762500036974,174.50462379200326,measured locally,measured locally
-yake,12.73816891599563,177.4438366250106,measured locally,measured locally
-keybert,669.784056000004,223.94073308398947,measured locally,measured locally
+llama_3.1_8b,,2142.2970755920105,historical; unavailable,independent local reproduction
+tfidf,4.3562121860159095,721.0689287670248,measured locally,measured locally
+yake,25.03570005702204,333.09178372399765,measured locally,measured locally
+keybert,1510.2826028850104,226.51137021699105,measured locally,measured locally

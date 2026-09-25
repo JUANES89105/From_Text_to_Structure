@@ -1,0 +1,7 @@
+# LDA run reported in the manuscript (macOS, arm64)
+
+These files are the LDA-dependent outputs of the run whose values appear in Table 9 and Section IV-D3 of the manuscript. They were produced on an 8-core Apple silicon laptop (macOS, Python 3.13.5, scikit-learn 1.9.0, CPU only) and are kept unchanged here because scikit-learn's batch variational inference, although seeded (random_state 42), converges to a different local optimum when the same document-term matrix is processed with a different BLAS/platform.
+
+`14. LDA_COMPARISON.ipynb` re-executed on Linux x86_64 reproduces the CRS side exactly (same 52,922 matched documents, same 408 concepts and seven communities, same 608 backbone edges, same document-to-community assignments and the same 39,456 / 9,016 / 4,450 split) and the same selected K (50), but obtains a different topic solution for every K: per-topic top-term sets are not the same, mean NPMI differs by up to 0.020, NMI between dominant LDA topic and CRS community by up to 0.014 (range 0.099 to 0.144 vs 0.095 to 0.134 here) and ARI by up to 0.022 (range 0.027 to 0.094 vs 0.023 to 0.116 here). The conclusion of the section, low agreement between the two partitions at every K, holds on both platforms.
+
+Files: `lda_config.json`, `lda_model_selection.csv`, `lda_crs_comparison.csv`, `lda_topics_all_k.csv`, `crs_lda50_*.csv` (community x topic tables at the selected K) and `crs_document_assignments.csv` (per-document CRS community and dominant LDA topic for every K). The CRS-only tables in the parent directory are identical between the two runs.

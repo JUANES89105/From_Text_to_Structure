@@ -1,4 +1,4 @@
-# E3 — CRS structure and computational cost by corpus size
+# E3: CRS structure and computational cost by corpus size
 
 This experiment uses existing extracted keywords only. It does not invoke an LLM, use a paid API, change any original notebook/dataset, or implement E2/E4–E8. Consult `metadata.json` and `validation.json` for execution status; results must not be interpreted unless the full-corpus reproduction gate passes.
 
@@ -55,13 +55,14 @@ Memory is approximate process RSS sampled every 50ms, with per-run baseline, pea
 
 ## Reproduction and outputs
 
+This experiment is notebook `13. CORPUS_SIZE_SCALABILITY.ipynb` in the repository root (executed with its outputs visible); the sampling, measurement and reference functions it uses live in `scripts/e3_scalability.py` and `scripts/crs_reference.py`, tested with:
+
 ```sh
-.venv/bin/python -B -m unittest discover -s scripts -p 'test_e3_*.py' -v
-.venv/bin/python -B -u scripts/e3_scalability.py
+cd scripts && ../.venv/bin/python -m unittest test_e3_scalability
 ```
 
-Optional `--reference-only` runs just the required full-corpus gate. `--resume` continues completed, checksummed runs only with identical code, configuration, protected inputs, and package versions. Do not launch two concurrent E3 processes into the same results directory.
+The notebook runs the full-corpus reproduction gate first and once, then the fifty subsample runs. Do not launch two executions into the same results directory. The run whose hardware and timings are reported in the manuscript (8-core Apple silicon laptop, macOS, CPU only) is preserved unchanged in `paper_run_macos/`; the notebook compares the structural quantities of its own run with that folder (they agree exactly) and prints both sets of timings, which are hardware dependent.
 
-Required outputs: `runs.csv`, `summary.csv`, `configuration.json`, `metadata.json`, `validation.json`, and this README. Additional outputs: `corpus_audit.csv`, `samples/*.csv`, `runtime_summary.csv`, and five separate PNG/PDF figure pairs under `figures/` (runtime, full nodes/edges, LCC fractions, backbone modularity, and backbone nodes/edges). Figures show mean ± one sample SD for replicated sizes; the complete corpus has a single point without an SD bar.
+Required outputs: `runs.csv`, `summary.csv`, `configuration.json`, `metadata.json`, `validation.json`, this README and `paper_run_macos/`. Additional outputs: `corpus_audit.csv`, `samples/*.csv`, `runtime_summary.csv`, and five separate PNG/PDF figure pairs under `figures/` (runtime, full nodes/edges, LCC fractions, backbone modularity, and backbone nodes/edges). Figures show mean ± one sample SD for replicated sizes; the complete corpus has a single point without an SD bar.
 
 Interpret computational cost separately from structural stability. A high LCC fraction in a tiny surviving backbone does not mean the full corpus is structurally represented. Changes in community count/modularity do not establish identical community membership. Neither completion of the script nor within-corpus subsampling demonstrates generalization to other corpora.

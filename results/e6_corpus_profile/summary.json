@@ -1,0 +1,204 @@
+{
+  "documents": 52947,
+  "records_with_6_fields": 52759,
+  "records_with_more_than_6_fields": 188,
+  "year": {
+    "min": 2000,
+    "max": 2026,
+    "median": 2019.0,
+    "share_2016_or_later": 0.6715772376149735,
+    "missing": 0
+  },
+  "abstract": {
+    "missing_or_under_50_chars": 464,
+    "mean_chars": 1298.7934916048123,
+    "median_chars": 1224.0
+  },
+  "original_keywords": {
+    "documents_without_original_keywords": 0,
+    "mean_per_document": 9.99522163673107,
+    "median_per_document": 6.0
+  },
+  "sources": {
+    "unique_sources": 4807,
+    "top10_share": 0.31478648459780534
+  },
+  "language_title": {
+    "en": 0.9372,
+    "es": 0.021,
+    "de": 0.01067,
+    "pt": 0.00952,
+    "too_short": 0.00484,
+    "fr": 0.00325,
+    "tr": 0.00236,
+    "it": 0.00153,
+    "ru": 0.00145,
+    "nl": 0.00091
+  },
+  "language_abstract": {
+    "en": 0.99671,
+    "too_short": 0.00093,
+    "es": 0.00068,
+    "de": 0.00062,
+    "fr": 0.00043,
+    "pt": 0.00017,
+    "it": 0.00013,
+    "af": 8e-05,
+    "ca": 6e-05,
+    "ro": 6e-05
+  },
+  "share_abstract_english": 0.9967136948269024,
+  "share_title_english": 0.9372013522956919,
+  "generated_keyword_language_audit": {
+    "keywords_total": 264586,
+    "keywords_with_non_ascii_characters": 38,
+    "share_non_ascii": 0.00014362059972938856,
+    "examples_non_ascii": [
+      [
+        "möbius strip",
+        2
+      ],
+      [
+        "fröbel",
+        2
+      ],
+      [
+        "typed λ-calculus",
+        1
+      ],
+      [
+        "hermann graßmann",
+        1
+      ],
+      [
+        "kaupapa māori methodology",
+        1
+      ],
+      [
+        "möbius transformations",
+        1
+      ],
+      [
+        "gröbner basis",
+        1
+      ],
+      [
+        "hückel theory",
+        1
+      ],
+      [
+        "gödel's incompleteness theorem",
+        1
+      ],
+      [
+        "post–high school students",
+        1
+      ],
+      [
+        "empathizing–systemizing theory",
+        1
+      ],
+      [
+        "caregiver–child interaction",
+        1
+      ],
+      [
+        "cyberformação",
+        1
+      ],
+      [
+        "conexões",
+        1
+      ],
+      [
+        "k–12 stem",
+        1
+      ]
+    ],
+    "keywords_with_spanish_function_words": 24,
+    "share_spanish_function_words": 9.070774719750856e-05,
+    "examples_spanish_function_words": [
+      [
+        "augustus de morgan",
+        2
+      ],
+      [
+        "rio de janeiro",
+        2
+      ],
+      [
+        "accademia del cimento",
+        1
+      ],
+      [
+        "generation y",
+        1
+      ],
+      [
+        "universidad politecnica de valencia",
+        1
+      ],
+      [
+        "south central los angeles",
+        1
+      ],
+      [
+        "g del s incompleteness theorem",
+        1
+      ],
+      [
+        "el hi textbooks",
+        1
+      ],
+      [
+        "de facto standards",
+        1
+      ],
+      [
+        "las vegas",
+        1
+      ],
+      [
+        "de colonization",
+        1
+      ],
+      [
+        "de morgan",
+        1
+      ],
+      [
+        "olympic para alpine skiers",
+        1
+      ],
+      [
+        "para athletes",
+        1
+      ],
+      [
+        "de marginalization",
+        1
+      ],
+      [
+        "de bruijn graph",
+        1
+      ],
+      [
+        "un sustainable development goals",
+        1
+      ],
+      [
+        "de ritualization",
+        1
+      ],
+      [
+        "chevalier de mere problem",
+        1
+      ],
+      [
+        "de moivre s theorem",
+        1
+      ]
+    ]
+  },
+  "search_query_note": "Records retrieved from Scopus with the query reported in the repository README; the prompt forces English output, so the CRS vocabulary is English regardless of the source language."
+}

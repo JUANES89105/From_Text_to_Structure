@@ -2,6 +2,6 @@
   "method": "yake",
   "documents_checked": 2000,
   "ordered_phrase_and_score_mismatches": [],
-  "seconds": 18.144815833002212,
+  "seconds": 16.449862259003567,
   "purpose": "independent-process determinism check; predictions and evaluation results unchanged"
 }

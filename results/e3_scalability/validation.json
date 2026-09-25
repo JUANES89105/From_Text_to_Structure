@@ -97,14 +97,14 @@
       {
         "metric": "backbone_lcc_fraction_nodes",
         "expected": 0.9950980392156863,
-        "actual": 0.9950980392156864,
+        "actual": 0.9950980392156863,
         "absolute_tolerance": 1e-10,
         "passed": true
       },
       {
         "metric": "backbone_density",
         "expected": 0.0073228308522426165,
-        "actual": 0.0073228308522426,
+        "actual": 0.0073228308522426165,
         "absolute_tolerance": 1e-10,
         "passed": true
       },

@@ -1,0 +1,37 @@
+{
+  "documents": 52922,
+  "text_input": "Title + Abstract; Abstract only if Title missing",
+  "author_keywords_used": false,
+  "index_keywords_used": false,
+  "llm_keywords_used_as_lda_input": false,
+  "K_values": [
+    5,
+    10,
+    15,
+    20,
+    30,
+    40,
+    50
+  ],
+  "selection_primary": "mean topic NPMI",
+  "perplexity_role": "secondary diagnostic",
+  "max_features": 30000,
+  "min_df": 10,
+  "max_df": 0.8,
+  "ngram_range": [
+    1,
+    2
+  ],
+  "stop_words": "english",
+  "max_iter": 50,
+  "learning_method": "batch",
+  "random_state": 42,
+  "top_words_for_npmi": 10,
+  "vocabulary_size": 30000,
+  "document_term_matrix_shape": [
+    52922,
+    30000
+  ],
+  "vectorization_seconds": 16.806891582993558,
+  "selected_K": 50
+}

@@ -1,47 +1,33 @@
-"""E3: independent corpus-size replicates, gated by full-corpus reproduction.
+"""E3 library: corpus loading, sampling, graph metrics and the reproduction gate of the
+corpus-size experiment (Section IV-D2 and Table 8 of the manuscript).
 
-Run: .venv/bin/python -B -u scripts/e3_scalability.py
-Use --reference-only to stop after the full-corpus gate, or --resume to reuse
-checksummed completed runs with identical code/configuration/inputs/versions.
-No network/model downloads, LLM calls, or original-file writes are performed.
+Functions only. The experiment driver is inlined in ``13. CORPUS_SIZE_SCALABILITY.ipynb``;
+``14. LDA_COMPARISON.ipynb`` reuses ``load_corpus``, ``metrics`` and ``full_reference_gate``
+to rebuild the CRS before exporting its backbone partition. Graph construction, backbone
+filtering and keyword parsing are imported from ``crs_reference`` (verbatim copies of
+notebooks 2, 3 and 5); ``reference_audit`` compares their syntax trees with the notebooks.
+No network access, model download, LLM call or write to an original file happens here.
 """
 from __future__ import annotations
 
-import argparse
 import ast
-from datetime import datetime, timezone
 import gc
 import hashlib
-import importlib.metadata
 import inspect
 import json
-import os
 from pathlib import Path
-import platform
-import random
-import re
-import subprocess
 import threading
 import time
-
-ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results/e3_scalability"
-os.environ["HF_HUB_OFFLINE"] = "1"
-os.environ["TRANSFORMERS_OFFLINE"] = "1"
-os.environ["TOKENIZERS_PARALLELISM"] = "false"
-os.environ["MPLCONFIGDIR"] = str(OUT / ".matplotlib")
-
-from e3_runtime import activate
-RUNTIME_ISOLATION = activate()
 
 import numpy as np
 import pandas as pd
 import networkx as nx
 import community as community_louvain
 import psutil
-import torch
-from sentence_transformers import SentenceTransformer
 import crs_reference as ref
+
+ROOT = Path(__file__).resolve().parents[1]
+OUT = ROOT / "results/e3_scalability"
 
 MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 REVISION = "e8f8c211226b894fcb81acc59f3b34ba3efd5f42"
@@ -53,20 +39,22 @@ SIZES = [500, 1000, 5000, 10000, 25000]
 
 
 def digest(path):
-    return hashlib.sha256(path.read_bytes()).hexdigest()
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
 
 def json_write(path, value):
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False) + "\n")
+    Path(path).write_text(json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False) + "\n")
 
 
 def protected():
+    """SHA-256 of the original notebooks and public inputs that the experiment must not alter."""
     paths = list(ROOT.glob("[1-7]. *.ipynb")) + [ROOT / name for name in
              ["EID_KEYWORDS.xlsx", "dataset_inspec.csv", "inspec_llama-3.1-8b-EN.csv", "human_eval_M1_8b.csv"]]
     return {p.name: digest(p) for p in sorted(paths)}
 
 
 def reference_audit():
+    """Check that the functions of crs_reference are AST-identical to the notebook cells they copy."""
     checks = {}
     for filename, function in [("2. CRS.ipynb", "parse_keywords"),
                                ("3. w_THRESHOLDS.ipynb", "build_backbone"),
@@ -81,6 +69,7 @@ def reference_audit():
 
 
 def load_corpus():
+    """Analysed corpus of notebook 2 (documents with a non-empty parsed keyword list) and a row audit."""
     raw = pd.read_excel(ROOT / "EID_KEYWORDS.xlsx")
     assert raw.columns.tolist() == ["EID_o_identificador", "palabras_clave"]
     assert raw.EID_o_identificador.notna().all() and raw.EID_o_identificador.is_unique
@@ -168,6 +157,7 @@ def metrics(graph):
 
 
 def execute_run(corpus, positions, replicate, seed, model):
+    """One timed run: vocabulary, embeddings, CRS, backbone and metrics on the given corpus positions."""
     sample = corpus.iloc[positions]
     n = len(positions)
     assert sample.source_row_abs.is_unique and sample.EID_o_identificador.is_unique
@@ -182,7 +172,7 @@ def execute_run(corpus, positions, replicate, seed, model):
         embedding_matrix = model.encode(vocab, batch_size=32, normalize_embeddings=True,
                                         show_progress_bar=False, convert_to_numpy=True)
         embedding_seconds = time.perf_counter() - before_embedding
-        print(f"{label}: {len(vocab)} embeddings en {embedding_seconds:.2f}s", flush=True)
+        print(f"{label}: {len(vocab)} embeddings in {embedding_seconds:.2f}s", flush=True)
         before_graph = time.perf_counter()
         embeddings = {kw: embedding_matrix[i] for i, kw in enumerate(vocab)}
         graph = ref.build_crs_for_tau(docs, embeddings, TAU)
@@ -232,6 +222,7 @@ def full_reference_gate(result):
 
 
 def summarize(runs):
+    """Long-form summary (mean, sample SD, min, max, CV per size and metric); writes summary.csv and runtime_summary.csv."""
     excluded = {"n_documents", "replicate", "seed", "tau", "backbone_threshold", "louvain_seed"}
     numeric = [c for c in runs.select_dtypes(include=["number", "bool"]).columns if c not in excluded]
     rows = []
@@ -301,122 +292,3 @@ def figures(summary):
         for extension in ("png", "pdf"):
             fig.savefig(OUT / "figures" / f"{filename}.{extension}", dpi=200, bbox_inches="tight")
         plt.close(fig)
-
-
-def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--reference-only", action="store_true")
-    parser.add_argument("--resume", action="store_true")
-    args = parser.parse_args()
-    branch = subprocess.check_output(["git", "branch", "--show-current"], cwd=ROOT, text=True).strip()
-    if branch != "ieee-revision-experiments":
-        raise RuntimeError(f"Rama inesperada: {branch}; no se cambia automáticamente")
-    hashes = protected()
-    source_hashes = {str(p.relative_to(ROOT)): digest(p) for p in [Path(__file__), ROOT / "scripts/crs_reference.py", ROOT / "scripts/e3_runtime.py"]}
-    reference_checks = reference_audit()
-    print("Leyendo corpus original...", flush=True)
-    before_setup = time.perf_counter()
-    corpus, corpus_audit = load_corpus()
-    print(f"Filas originales={len(corpus_audit)}, N_total analizable={len(corpus)}", flush=True)
-    assert all(n < len(corpus) for n in SIZES)
-    OUT.mkdir(parents=True, exist_ok=True)
-    (OUT / "samples").mkdir(exist_ok=True)
-    corpus_audit.to_csv(OUT / "corpus_audit.csv", index=False)
-    versions = {name: importlib.metadata.version(name) for name in
-                ["numpy", "pandas", "scipy", "scikit-learn", "networkx", "python-louvain", "torch",
-                 "sentence-transformers", "transformers", "huggingface-hub", "openpyxl", "matplotlib", "psutil"]}
-    configuration = {"model": MODEL, "model_revision": REVISION, "tau": TAU, "backbone_threshold": BACKBONE,
-                     "louvain_seed": LOUVAIN_SEED, "louvain_weight": "weight", "louvain_resolution": 1.0,
-                     "sizes": SIZES + [len(corpus)], "replicate_seeds": SEEDS, "full_corpus_runs": 1,
-                     "sampling": "default_rng(SeedSequence([seed,n])).choice(N,n,replace=False); sort original row order",
-                     "sampling_nested": False, "embedding_batch_size": 32, "normalize_embeddings": True,
-                     "embedding_reuse_between_runs": False, "embedding_strategy": "unique sorted vocabulary once per run, as notebook 5",
-                     "device": "cpu", "torch_threads": 4, "random_seed": 42,
-                     "modularity_and_n_communities_scope": "backbone, exactly as notebooks 4/5",
-                     "mean_degree_and_mean_weighted_degree_scope": "full graph; same degree formulas, additional scope",
-                     "clustering_coefficient": "additional descriptive nx.average_clustering(full_graph,weight=None,count_zeros=True); not in original notebooks",
-                     "empty_backbone": "retain zero counts/fraction; modularity and mean degrees undefined (NaN), no lowered threshold",
-                     "edgeless_lcc_convention": "0 nodes/edges/fraction, as notebook 5",
-                     "runtime_scope": "per-run vocabulary, embedding, graph aggregation, backbone and metrics; shared loading and sample CSV I/O excluded",
-                     "sd_ddof": 1, "singleton_sd": None, "peak_memory": "RSS sampled every 50ms; includes shared loaded model; not isolated allocation peak"}
-    metadata = {"started_utc": datetime.now(timezone.utc).isoformat(), "branch": branch,
-                "python": platform.python_version(), "platform": platform.platform(), "cpu_count": os.cpu_count(),
-                "packages": versions, "raw_excel_rows": len(corpus_audit), "analyzed_corpus_rows": len(corpus),
-                "excluded_empty_parsed_lists": int((~corpus_audit.included_in_reference_corpus).sum()),
-                "protected_sha256": hashes, "source_sha256": source_hashes,
-                "runtime_isolation": RUNTIME_ISOLATION,
-                "llm_calls": 0, "paid_api_calls": 0, "model_downloads": 0, "status": "running"}
-    completed = []
-    if (OUT / "runs.csv").exists():
-        if not args.resume:
-            raise RuntimeError("Ya existe runs.csv; usar --resume para reanudar validando integridad")
-        previous = json.loads((OUT / "metadata.json").read_text())
-        assert previous["protected_sha256"] == hashes and previous["source_sha256"] == source_hashes
-        assert previous["packages"] == versions
-        assert json.loads((OUT / "configuration.json").read_text()) == configuration
-        completed = pd.read_csv(OUT / "runs.csv").to_dict("records")
-        validate_samples(pd.DataFrame(completed), corpus, full_required=False)
-        if not full_reference_gate(completed[0])["passed"]:
-            raise RuntimeError("La ejecución completa guardada no supera la referencia; diagnosticar antes de reanudar")
-        metadata["resumed_from_started_utc"] = previous["started_utc"]
-    json_write(OUT / "configuration.json", configuration)
-    json_write(OUT / "metadata.json", metadata)
-    random.seed(42)
-    np.random.seed(42)
-    torch.manual_seed(42)
-    torch.set_num_threads(4)
-    torch.use_deterministic_algorithms(True)
-    try:
-        model = SentenceTransformer(MODEL, revision=REVISION, device="cpu", local_files_only=True)
-    except Exception as exc:
-        raise RuntimeError(f"No se pudo cargar el modelo local {MODEL}@{REVISION}; no se descargará automáticamente: {exc}") from exc
-    metadata["shared_setup_seconds"] = time.perf_counter() - before_setup
-    metadata["model_max_seq_length"] = model.max_seq_length
-    json_write(OUT / "metadata.json", metadata)
-    schedule = [(len(corpus), 1, 42)] + [(n, i + 1, seed) for n in SIZES for i, seed in enumerate(SEEDS)]
-    for n, replicate, seed in schedule:
-        if args.reference_only and n != len(corpus):
-            break
-        if any(r["n_documents"] == n and r["replicate"] == replicate for r in completed):
-            continue
-        positions = np.arange(len(corpus)) if n == len(corpus) else sampled_positions(len(corpus), n, seed)
-        assert len(positions) == n and len(np.unique(positions)) == n
-        print(f"Ejecutando n={n}, réplica={replicate}, seed={seed}", flush=True)
-        result = execute_run(corpus, positions, replicate, seed, model)
-        completed.append(result)
-        runs = pd.DataFrame(completed)
-        runs.to_csv(OUT / "runs.csv", index=False)
-        gate = full_reference_gate(completed[0])
-        validation = {"full_corpus_reference": gate, "reference_functions": reference_checks,
-                      "protected_artifacts_unchanged": protected() == hashes,
-                      "completed_runs": len(completed), "tau_exact": True, "backbone_threshold_exact": True}
-        json_write(OUT / "validation.json", validation)
-        assert validation["protected_artifacts_unchanged"]
-        if not gate["passed"]:
-            metadata["status"] = "stopped_reference_mismatch"
-            json_write(OUT / "metadata.json", metadata)
-            print(json.dumps(gate, indent=2), flush=True)
-            raise RuntimeError("DETENIDO: CRS completo no reproduce referencia; no se ejecutan réplicas ni se interpreta E3")
-    runs = pd.DataFrame(completed)
-    sample_checks = validate_samples(runs, corpus, full_required=not args.reference_only)
-    summary = summarize(runs)
-    validation = {"passed": True, "full_corpus_reference": full_reference_gate(completed[0]),
-                  "reference_functions": reference_checks, "sample_checks": sample_checks,
-                  "protected_artifacts_unchanged": protected() == hashes, "tau_exact": bool((runs.tau == 0.4).all()),
-                  "backbone_threshold_exact": bool((runs.backbone_threshold == 20).all()),
-                  "completed_runs": len(runs), "expected_runs": 51,
-                  "experiment_complete": len(runs) == 51,
-                  "empty_backbone_runs": int(runs.backbone_empty.sum()),
-                  "undefined_modularity_runs": int(runs.modularity.isna().sum())}
-    assert validation["protected_artifacts_unchanged"]
-    json_write(OUT / "validation.json", validation)
-    metadata["status"] = "complete" if len(runs) == 51 else "reference_validated"
-    metadata["completed_utc"] = datetime.now(timezone.utc).isoformat()
-    json_write(OUT / "metadata.json", metadata)
-    if not args.reference_only:
-        figures(summary)
-    print(f"Finalizado: {metadata['status']}, {len(runs)} ejecuciones", flush=True)
-
-
-if __name__ == "__main__":
-    main()
